@@ -66,5 +66,19 @@ Table 1 summarises the characteristics of You Build It You Run It and Ops Run It
 Figure 5 shows relative cost estimates for deployment throughput, service reliability, and learning culture in Ops Run It and You Build It You Run It. These estimates are based on our shared experiences of working with on-call product teams and central operations teams, in many different organisations. Detailed analyses are available in [What is Ops Run It](https://you-build-it-you-run-it.playbook.ee/what-is-ops-run-it) and [What is You Build It You Run It](https://you-build-it-you-run-it.playbook.ee/what-is-you-build-it-you-run-it). We believe Ops Run It has much higher opportunity costs, whereas You Build It You Run It has higher setup costs, and the running costs are similar. 
 
 ![Operating models - relative costs comparison](../.gitbook/assets/introduction/operating-models-relative-costs-comparison.png)
-**Figure 3: You Build It You Run It - service reliability**
+**Figure 5: Operating models - relative costs comparison**
+
+**Who is this playbook for**
+
+We’ve written this playbook for CxOs, product managers, delivery managers, and operations managers. We’re looking to help people answer questions such as:
+
+* Why is it so difficult to accomplish weekly deployments and/or 99.9% availability with a central operations team?
+* What are the key characteristics of on-call product teams, in terms of deployment workflow, availability restoration, and learning from failures?
+* How can the cost effectiveness of on-call product teams be measured, and compared with a central operations team?
+* What are the advantages and disadvantages of on-call product teams, compared to a central operations team?
+* What mistakes can be made when starting out with on-call product teams, and how can we avoid them? 
+
+* We’ve answered these questions in a way that will benefit a majority of readers, while recognising that context always matters. 
+
+Readers will notice us favouring Continuous Delivery and Operability over DevOps and Site Reliability Engineering (SRE). For example, we believe the need for an SRE on-call team is rare, and invoked only when 99.99% availability is truly required. See [The value of operability](https://www.equalexperts.com/blog/our-thinking/value-operability/) by Dan Mitchell, and [What you should (and probably shouldn’t) try from SRE](https://www.equalexperts.com/blog/our-thinking/what-you-should-and-probably-shouldnt-try-from-sre/) by Steve Smith and Ali Lotia.
 
