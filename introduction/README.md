@@ -39,7 +39,7 @@ Deployment throughput is the production output for a service. It is expressed in
   
 Service reliability is the ability of a service to function without failure. This is a narrow definition that omits functional correctness and customer experience. Service reliability can be expressed as an availability level, and time to restore availability. Improving the operability of a service increases its availability, by creating sources of adaptive capacity. See [*On adaptive capacity in incident response*](https://increment.com/reliability/adaptive-capacity-incident-response/) by John Allspaw et al. 
 
-A learning culture is how people acquire new knowledge and skills, within the shared, implicit assumptions underpinning their social behaviours. It’s a cycle of never-ending improvement, based on generating insights and implementing improvements from deployment and availability problems. A strong learning culture empowers people to experiment, make more informed decisions, and collaborate on shared organisational goals. See [Continuous learning as a tool for adaptation](https://www.infoq.com/articles/series-enhancing-resilience-5) by Nora Jones.
+A learning culture is how people acquire new knowledge and skills, within the shared, implicit assumptions underpinning their social behaviours. It's a cycle of never-ending improvement, based on generating insights and implementing improvements from deployment and availability problems. A strong learning culture empowers people to experiment, make more informed decisions, and collaborate on shared organisational goals. See [Continuous learning as a tool for adaptation](https://www.infoq.com/articles/series-enhancing-resilience-5) by Nora Jones.
 
 Table 1 summarises the characteristics of You Build It You Run It and Ops Run It. 
 
@@ -61,4 +61,10 @@ Table 1 summarises the characteristics of You Build It You Run It and Ops Run It
 |Total cost of ownership %|Low|Medium|
 |**Standards**| | |
 |Supported standards|ITIL v3<br>ITIL v4<br>PCI-DSS<br>SOX|COBIT<br>ITIL v3<br>ITIL v4<br>PCI-DSS<br>SOX|
+**Table 1- Operating model comparison table**
+
+Figure 5 shows relative cost estimates for deployment throughput, service reliability, and learning culture in Ops Run It and You Build It You Run It. These estimates are based on our shared experiences of working with on-call product teams and central operations teams, in many different organisations. Detailed analyses are available in [What is Ops Run It](https://you-build-it-you-run-it.playbook.ee/what-is-ops-run-it) and [What is You Build It You Run It](https://you-build-it-you-run-it.playbook.ee/what-is-you-build-it-you-run-it). We believe Ops Run It has much higher opportunity costs, whereas You Build It You Run It has higher setup costs, and the running costs are similar. 
+
+![Operating models - relative costs comparison](../.gitbook/assets/introduction/operating-models-relative-costs-comparison.png)
+**Figure 3: You Build It You Run It - service reliability**
 
