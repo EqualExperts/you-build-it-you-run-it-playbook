@@ -18,13 +18,13 @@ Many of our customers use the traditional operating model, of one or more operat
 
 We recommend You Build It You Run It for higher demand digital services. Adopting You Build It You Run It means comprehensive changes for people, processes, and technology. It requires the creation of cross-functional teams who are responsible for development, testing, and production support of digital services. It means redefining roles, streamlining service management processes, and building a fully automated toolchain from deployment pipeline to incident management. 
 
-![You Build It You Run It - deployment throughput](.gitbook/assets/what-is-you-build-it-you-run-it/you-build-it-you-run-it-deployment-throughput.png)
+![You Build It You Run It - deployment throughput](../.gitbook/assets/what-is-you-build-it-you-run-it/you-build-it-you-run-it-deployment-throughput.png)
 **Figure 2: You Build It You Run It - deployment throughput**
 
-![You Build It You Run It - service reliability](.gitbook/assets/what-is-you-build-it-you-run-it/you-build-it-you-run-it-service-reliability.png)
+![You Build It You Run It - service reliability](../.gitbook/assets/what-is-you-build-it-you-run-it/you-build-it-you-run-it-service-reliability.png)
 **Figure 3: You Build It You Run It - service reliability**
 
-![You Build It You Run It - learning culture](.gitbook/assets/what-is-you-build-it-you-run-it/you-build-it-you-run-it-learning-culture.png)
+![You Build It You Run It - learning culture](../.gitbook/assets/what-is-you-build-it-you-run-it/you-build-it-you-run-it-learning-culture.png)
 **Figure 4: You Build It You Run It - learning culture**
 
 We still advise using Ops Run It for lower demand COTS and foundational systems. A central operations team remains a cost-effective option where product feature demand is lower. This includes COTS, custom back office services, on-premise DNS and firewall management, etc. 
