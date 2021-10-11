@@ -24,3 +24,5 @@ Ops Run It deployment throughput costs are listed in Table 2. We’ve attributed
 |Cost Type|Frequency|Description|Impact|TCO %|
 |---|---|---|---|---|
 |Setup cost|One-off|Launch costs incurred in<br><br>- Change management team time for setup<br>- Application support team time for deployment setup|Capex cost|Medium|
+|Opportunity cost|Per feature|Can be measured as the cost of delay between product feature readiness and its launch. Potential revneue loss, missed customer opportunities due to<br><br>- Delay waiting for CAB meeting<br>- Delay waiting for production deployment and launch|Lost revenue, capex or opex cost increase|High|
+|Running cost|Per deployment|Deployment costs incurred in<br><br>- Time to produce change documentation for change management team<br>- Time to product handover documentation for application support team<br>- Change management team time for CAB<br>- Change reporting licenses<br>- Time for performing deployments, and rolling back failed deployments|Opex cost|Medium to high|
