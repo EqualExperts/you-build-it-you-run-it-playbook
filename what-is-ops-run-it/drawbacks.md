@@ -24,4 +24,59 @@ These drawbacks add up to high opportunity costs, with potential revenue lost du
 
 ## Service reliability
 
+We usually see an overwhelmed application support team. They have to support complex, fragile, poorly-documented digital services, produce miraculous fixes to tough problems, and cope with a high number of L2 callouts. 
+
+### Availability protection
+
+* *Uninformative telemetry*. Alerts, logs, metrics, dashboards, and alerts are based on low-level events, which cannot illuminate operating conditions. An operations team can't change monitorable events without digital service changes prioritised by a product manager.
+* *Poor documentation*. Architecture diagrams, alert threshold guides, configuration settings, and runbooks sourced from delivery teams are either outdated or do not exist. 
+* *On-call dissatisfaction*. Delivery team developers on best efforts on-call out of hours are not compensated for the inconvenience, and disruption to their lives outside of work.
+* *Fragile architecture*. Services have a large blast radius, an inability to gracefully degrade on failure, and an exposure to severe outages. An operations team can't limit blast radius without digital service changes prioritised by a product manager.
+
+### Availability restoration
+
+* *Slow alert acknowledgement*. An alert takes up to 20 minutes to be acknowledged. The on-call operations bridge analyst needs to classify the alert, look up the correct application support analyst in the on-call schedule, successfully contact that analyst, and handover the alert for acknowledgement.
+* *Slow incident resolution*. An incident takes hours or days to be resolved: 
+  * An outsourced application support team can be slow to pick up an L2 incident, if their contractual response time is hours or days.
+  * An application support team can be slow to pick up an L2 incident, if they are dealing with planned work or another incident.
+  * An application support analyst can bounce an L2 incident back to the operations bridge team, if they need more details or don't believe they are the best-placed responder.
+  * An application support analyst can be unable to implement a workaround for an L2 incident, if they lack the permissions to modify service configuration. 
+  * A delivery team can no longer exist to pick up an L3 incident, if they were disbanded and moved onto new project work after their service was launched. 
+  * A delivery team can be slow to pick up an L3 incident in office hours, if they are already dealing with planned product features for a deadline.
+  * A delivery team developer can be slow to pick up an L3 incident out of hours, if their on-call is best efforts and there is no compensation for on-call inconveniences.
+  * A delivery team developer can bounce an L3 incident back to the application support team, if they need more details or don't believe they are the best-placed responder.
+  * A delivery team developer can be slow to understand an L3 incident, if they lack prior knowledge of abnormal operating conditions for their digital services.
+  * A delivery team developer and application support analyst can find it hard to collaborate on an L3 incident, if their ways of working and tools are different
+  * A delivery team developer can be unable to access telemetry data for an L3 incident, if they lack the permissions to use live telemetry tools.
+  * An incident manager, DBA, or network admin can be slow to pick up an L2 or L3 incident, if they are dealing with planned work or another incident. 
+* *High volume of L2 callouts*. Incidents can require more L2 escalations than expected. Failure modes are rarely straightforward or repeatable. They may require diagnosis by the application support team, to confirm if a resolution by the operations bridge team is possible. The operations bridge team can only have scripts and runbooks for anticipated failure scenarios.
+
+We've seen these reliability drawbacks add up to substantial financial losses incurred during production incidents, particularly during key trading periods. The most common countermeasures are: 
+
+* *L1 delivery team for key periods*. Delivery teams can provide [hypercare and peak support](https://you-build-it-you-run-it.playbooks.ee/what-is-ops-run-it/service-reliability) during service launch and/or busy trading periods, to flatten the time to resolve any incidents. This incurs additional running costs if the delivery teams are compensated, plus opportunity costs due to the lack of feature development.
+* *L1.5 application support team*. Digital service alerts can be routed to the application support team as well as the operations bridge team. This speeds up alert acknowledgement and incident resolution. It inevitably increases the workload on the application support team, and calls into question the purpose of the operations bridge team for digital services.
+
 ## Reactive culture
+
+These drawbacks are specific to root cause analysis, as it is the most common means of collaborative learning in Ops Run It. 
+
+* *Low quality insights*. Root cause analysis sessions produce a few insights of limited value.
+  * Attendees lack sufficient time pre-session and in-session to consider events and their consequences during an incident.
+  * Attendees are implicitly steered towards identifying a single human or technical error as the sole cause of failure.
+  * Attendees can be publicly blamed for causing an incident, if human error is believed to be the sole cause of failure.  
+  * Attendees can withhold information about their participation in incident response, if they fear blame attribution and ramifications for acknowledging mistakes.
+* *Poor insight dissemination*. Problem managers lack the incentives and/or organisational contacts to share a root cause analysis across an organisation. Delivery teams may be entirely unaware when their digital services are involved in production incidents. Knowledge is trapped in silos. 
+* *Slow time to improve*. A fix action can take days, weeks, or months to be completed. We've seen fix actions stuck in support backlogs for long periods. We've even seen the same action appear multiple times in the same backlog, because multiple incidents for the same digital service have yielded the same unimplemented action.
+  * An application support team can be slow to pick up an action, if they are dealing with planned work or another incident.
+  * An application support analyst can bounce an action back to the problem manager, if they need more details or don't believe they are the best-placed responder.
+  * A delivery team can no longer exist to implement an action, if they were disbanded and moved onto new project work after their service was launched. 
+  * A delivery team can be slow to pick up an action, if they are already dealing with planned product features for a deadline. 
+  * A delivery team developer can bounce an action back to the problem manager, if they need more details or don't believe they are the best-placed responder.
+
+Our customers are often aware of the high coordination costs of root cause analysis sessions, and long lead times for fix actions. We usually see these countermeasures:
+
+* *Root cause analysis for major incidents only*. Root cause analysis sessions are only held if an incident is deemed to be high priority. This limits learning opportunities for operations and delivery teams, and ensures weak signals of latent faults within live digital services go unseen. 
+* *Fix delivery team*. This is sometimes known as a small works team. A fix delivery team implements code fixes for backlog actions, based on analysis from the application support team. This is no guarantee of faster lead times, as the fix delivery team does not own any digital services itself. The affected delivery teams can take days or weeks to accept proposed code changes, and incorporate them into their own deliverables. 
+
+We believe these drawbacks are tied to the Ops Run It predisposition of rush to fix. When a production incident happens, identifying fix actions is prioritised over in-depth investigation. Operations and delivery teams have a fixed mindset in which flaws and mistakes are shameful, and concealed from others. This creates a vicious circle, in which root cause analysis sessions are completed as quickly as possible, nobody has the time to acquire meaningful knowledge about their digital services, and the production incidents continue. 
+
