@@ -42,3 +42,23 @@ Service reliability is the ability of a service to function without failure. Thi
 A learning culture is how people acquire new knowledge and skills, within the shared, implicit assumptions underpinning their social behaviours. It’s a cycle of never-ending improvement, based on generating insights and implementing improvements from deployment and availability problems. A strong learning culture empowers people to experiment, make more informed decisions, and collaborate on shared organisational goals. See [Continuous learning as a tool for adaptation](https://www.infoq.com/articles/series-enhancing-resilience-5) by Nora Jones.
 
 Table 1 summarises the characteristics of You Build It You Run It and Ops Run It. 
+
+| | You Build It You Run It | Ops Run It |
+|---|---|---|
+|**Deployment throughput**| | |
+|Deployment frequency|Daily+ to weekly|Fortnightly to monthly|
+|Deployment lead time|Minutes to days|Days to months|
+|Total cost of ownership %|Low|High|
+|**Service reliability**| | |
+|Developer operability incentives|Strong|Weak|
+|Availability level|95.0% to 99.99%|95.0% to 99.99%|
+|Time to restore availability|Minutes to hours|Hours to days|
+|Total cost of ownership %|Low to medium|Medium to high|
+|**Learning culture**| | | 
+|Learning predisposition|Act on insights|Rush to fix|
+|Time to generate insights|Hours to days|Hours to days|
+|Time to implement actions|Hours to days|Weeks to months|
+|Total cost of ownership %|Low|Medium|
+|**Standards**| | |
+|Supported standards|ITIL v3<br>ITIL v4<br>PCI-DSS<br>SOX|COBIT<br>ITIL v3<br>ITIL v4<br>PCI-DSS<br>SOX|
+
