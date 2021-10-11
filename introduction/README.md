@@ -70,7 +70,7 @@ Figure 5 shows relative cost estimates for deployment throughput, service reliab
 
 **Who is this playbook for**
 
-We’ve written this playbook for CxOs, product managers, delivery managers, and operations managers. We’re looking to help people answer questions such as:
+We've written this playbook for CxOs, product managers, delivery managers, and operations managers. We're looking to help people answer questions such as:
 
 * Why is it so difficult to accomplish weekly deployments and/or 99.9% availability with a central operations team?
 * What are the key characteristics of on-call product teams, in terms of deployment workflow, availability restoration, and learning from failures?
@@ -78,7 +78,7 @@ We’ve written this playbook for CxOs, product managers, delivery managers, and
 * What are the advantages and disadvantages of on-call product teams, compared to a central operations team?
 * What mistakes can be made when starting out with on-call product teams, and how can we avoid them? 
 
-* We’ve answered these questions in a way that will benefit a majority of readers, while recognising that context always matters. 
+* We've answered these questions in a way that will benefit a majority of readers, while recognising that context always matters. 
 
-Readers will notice us favouring Continuous Delivery and Operability over DevOps and Site Reliability Engineering (SRE). For example, we believe the need for an SRE on-call team is rare, and invoked only when 99.99% availability is truly required. See [The value of operability](https://www.equalexperts.com/blog/our-thinking/value-operability/) by Dan Mitchell, and [What you should (and probably shouldn’t) try from SRE](https://www.equalexperts.com/blog/our-thinking/what-you-should-and-probably-shouldnt-try-from-sre/) by Steve Smith and Ali Lotia.
+Readers will notice us favouring Continuous Delivery and Operability over DevOps and Site Reliability Engineering (SRE). For example, we believe the need for an SRE on-call team is rare, and invoked only when 99.99% availability is truly required. See [The value of operability](https://www.equalexperts.com/blog/our-thinking/value-operability/) by Dan Mitchell, and [What you should (and probably shouldn't) try from SRE](https://www.equalexperts.com/blog/our-thinking/what-you-should-and-probably-shouldnt-try-from-sre/) by Steve Smith and Ali Lotia.
 
