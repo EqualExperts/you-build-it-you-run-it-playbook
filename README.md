@@ -10,7 +10,7 @@ The authors of this playbook are:
 |  |  |
 | --- | --- |
 | ![Bethan Timmins](.gitbook/assets/overview/bethan-timmins.jpg)  | [Bethan Timmins](https://www.linkedin.com/in/bethan-timmins-3089369/) <br>Managing Director<br>EE A&NZ |
-| ![Steve Smith](.gitbook/assets/overview/steve-smith.jpg)  | [Steve Smith](https://www.linkedin.com/in/stevesmithtech/) <br>Principal Consultant<br>EE UK |
+|![Steve Smith](.gitbook/assets/overview/steve-smith.jpg)|[Steve Smith](https://www.linkedin.com/in/stevesmithtech/)<br>Principal Consultant<br>EE UK|
 
 Equal Experts has worked with hundreds of organisations. Our customers often ask us for advice on how to improve their deployment throughput, service reliability, and learning culture. You Build It You Run It is a cost-effective way to achieve those goals, as follows:
 
