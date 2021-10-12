@@ -1,6 +1,7 @@
 # Deployment throughput in Ops Run It
 
 ![Deployment throughput in Ops Run It](../.gitbook/assets/what-is-ops-run-it/ops-run-it-deployment-throughput.png)
+
 **Figure 6: Ops Run It - deployment throughput**
 
 Ops Run It teams vary between organisations. Your application support team could be called application operations. Your change management and application support teams could be augmented by a service introduction team, who assess operational readiness prior to live launch. 
@@ -26,9 +27,11 @@ Ops Run It deployment throughput costs are listed in Table 2. We’ve attributed
 |Setup cost|One-off|Launch costs incurred in<ul><li>Change management team time for setup</li><li>Application support team time for deployment setup</li></ul>|Capex cost|Medium|
 |Opportunity cost|Per feature|Can be measured as the cost of delay between product feature readiness and its launch. Potential revenue loss, missed customer opportunities due to<ul><li>Delay waiting for CAB meeting</li><li>Delay waiting for production deployment and launch|Lost revenue, capex or opex cost increase</li></ul>|High|
 |Running cost|Per deployment|Deployment costs incurred in<ul><li>Time to produce change documentation for change management team</li><li>Time to product handover documentation for application support team</li><li>Change management team time for CAB</li><li>Change reporting licenses</li><li>Time for performing deployments, and rolling back failed deployments</li></ul>|Opex cost|Medium to high|
+
 **Table 2: Ops Run It - deployment throughput costs**
 
 ![Deployment throughput costs in Ops Run It](../.gitbook/assets/what-is-ops-run-it/ops-run-it-deployment-throughput-costs.png)
+
 **Figure 7: Ops Run It - deployment throughput costs**
 
 

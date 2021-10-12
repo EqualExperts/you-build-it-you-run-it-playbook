@@ -1,6 +1,7 @@
 # Reactive culture in Ops Run It
 
 ![Reactive culture in Ops Run It](../.gitbook/assets/what-is-ops-run-it/ops-run-it-reactive-culture.png)
+
 **Figure 10: Ops Run It - reactive culture**
 
 We refer to the Ops Run It reactive culture as predisposed to ‘rush to fix’. When there is an incident of consequence, such as a failed deployment or a loss of service availability, the priority is to fix the underlying problem and return to the prior state. In ITIL v3, this is considered part of problem management, and overseen by a problem manager. 
@@ -34,9 +35,11 @@ Ops Run It reactive culture costs are listed in the table below. They’re incur
 |Setup cost|One-off|Launch costs incurred in<ul><li>Application support team training for root cause analysis</li></ul>|Opex cost|Low to medium|
 |Insight opportunity cost|Per insight|Can be measured as the cost of delay between generating an insight and implementing the related actions. Potential revenue lost and/or costs incurred due to service unavailability, missed opportunities with customers, and delays in feature development|Lost revenue, capex or reactive cost|High|
 |Insight implementation cost|Per insight|Costs incurred in implementing an action linked to an insight. Could include adding infrastructure capacity, code fixes, documentation, etc.|Capex or opex cost|Low to medium|
+
 **Table 4: Ops Run It - reactive culture costs**
 
 ![Deployment throughput costs in Ops Run It](../.gitbook/assets/what-is-ops-run-it/ops-run-it-reactive-culture-costs.png)
+
 **Figure 11: Ops Run It - reactive culture costs**
 
 
