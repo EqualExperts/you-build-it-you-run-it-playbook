@@ -50,4 +50,4 @@ Reliability costs are below.
 If an IT department has segregated Delivery and Operations functions, on-call funding can be either capex or opex. You Build It You Run It is most effective when [Delivery owns the on-call budget](https://you-build-it-you-run-it.playbooks.ee/practices/governance), with the senior manager accountable for on-call funding as capex spend. However, a frequent pitfall in large organisations is [on-call budget stuck in Operations](https://you-build-it-you-run-it.playbooks.ee/pitfalls), leaving the senior Operations manager accountable for on-call funding as opex spend. 
 
 ![Service reliability costs in You Build It You Run It](../.gitbook/assets/what-is-you-build-it-you-run-it/you-build-it-you-run-it-service-reliability-costs.png)
-**Figure 3: You Build It You Run It - service reliability costs**
+**Figure 4: You Build It You Run It - service reliability costs**
