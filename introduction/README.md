@@ -46,7 +46,7 @@ A learning culture is how people acquire new knowledge and skills, within the sh
 
 Table 1 summarises the characteristics of You Build It You Run It and Ops Run It. 
 
-| | You Build It You Run It | Ops Run It |
+| |You Build It You Run It|Ops Run It |
 |---|---|---|
 |**Deployment throughput**| | |
 |Deployment frequency|Daily+ to weekly|Fortnightly to monthly|
