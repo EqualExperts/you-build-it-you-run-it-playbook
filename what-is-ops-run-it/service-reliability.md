@@ -1,6 +1,6 @@
 # Service reliability in Ops Run It
 
-![Service reliability in Ops Run It](../.gitbook/assets/what-is-ops-run-it/ops-run-it-deployment-throughput.png)
+![](../.gitbook/assets/what-is-ops-run-it/ops-run-it-deployment-throughput.png)
 
 **Figure 8: Ops Run It - Service reliability**
 
@@ -70,7 +70,7 @@ In Ops Run It, we often observe operations managers under pressure to reduce the
 
 These countermeasures have trade-offs, and they contribute to [Ops Run It drawbacks](https://you-build-it-you-run-it-playbooks.ee/what-is-ops-run-it/drawbacks) as well.  
 
-![Service reliability costs in Ops Run It](../.gitbook/assets/what-is-ops-run-it/ops-run-it-deployment-throughput-costs.png)
+![](../.gitbook/assets/what-is-ops-run-it/ops-run-it-deployment-throughput-costs.png)
 
 **Figure 9: Ops Run It - service reliability costs**
 

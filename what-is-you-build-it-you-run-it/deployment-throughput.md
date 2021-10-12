@@ -1,6 +1,6 @@
 # Deployment throughput in You Build It You Run It
 
-![Deployment throughput in You Build It You Run It](../.gitbook/assets/what-is-you-build-it-you-run-it/you-build-it-you-run-it-deployment-throughput.png)
+![](../.gitbook/assets/what-is-you-build-it-you-run-it/you-build-it-you-run-it-deployment-throughput.png)
 
 **Figure 1: You Build It You Run It - deployment throughput**
 
@@ -24,6 +24,6 @@ You Build It You Run It deployment throughput costs are below. We’ve attribute
 
 Deployment costs are incurred as capex, as they are performed by on-call product teams themselves. 
 
-![Deployment throughput costs in You Build It You Run It](../.gitbook/assets/what-is-you-build-it-you-run-it/you-build-it-you-run-it-deployment-throughput-costs.png)
+![](../.gitbook/assets/what-is-you-build-it-you-run-it/you-build-it-you-run-it-deployment-throughput-costs.png)
 
 **Figure 2: You Build It You Run It - deployment throughput costs**

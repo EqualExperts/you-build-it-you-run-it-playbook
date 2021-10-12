@@ -1,6 +1,6 @@
 # Deployment throughput in Ops Run It
 
-![Deployment throughput in Ops Run It](../.gitbook/assets/what-is-ops-run-it/ops-run-it-deployment-throughput.png)
+![](../.gitbook/assets/what-is-ops-run-it/ops-run-it-deployment-throughput.png)
 
 **Figure 6: Ops Run It - deployment throughput**
 
@@ -30,7 +30,7 @@ Ops Run It deployment throughput costs are listed in Table 2. We’ve attributed
 
 **Table 2: Ops Run It - deployment throughput costs**
 
-![Deployment throughput costs in Ops Run It](../.gitbook/assets/what-is-ops-run-it/ops-run-it-deployment-throughput-costs.png)
+![](../.gitbook/assets/what-is-ops-run-it/ops-run-it-deployment-throughput-costs.png)
 
 **Figure 7: Ops Run It - deployment throughput costs**
 

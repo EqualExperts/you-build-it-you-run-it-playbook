@@ -1,6 +1,6 @@
 # Reactive culture in Ops Run It
 
-![Reactive culture in Ops Run It](../.gitbook/assets/what-is-ops-run-it/ops-run-it-reactive-culture.png)
+![](../.gitbook/assets/what-is-ops-run-it/ops-run-it-reactive-culture.png)
 
 **Figure 10: Ops Run It - reactive culture**
 
@@ -38,7 +38,7 @@ Ops Run It reactive culture costs are listed in the table below. They’re incur
 
 **Table 4: Ops Run It - reactive culture costs**
 
-![Deployment throughput costs in Ops Run It](../.gitbook/assets/what-is-ops-run-it/ops-run-it-reactive-culture-costs.png)
+![](../.gitbook/assets/what-is-ops-run-it/ops-run-it-reactive-culture-costs.png)
 
 **Figure 11: Ops Run It - reactive culture costs**
 

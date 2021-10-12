@@ -18,15 +18,15 @@ Many of our customers use the traditional operating model, of one or more operat
 
 We recommend You Build It You Run It for higher demand digital services. Adopting You Build It You Run It means comprehensive changes for people, processes, and technology. It requires the creation of cross-functional teams who are responsible for development, testing, and production support of digital services. It means redefining roles, streamlining service management processes, and building a fully automated toolchain from deployment pipeline to incident management. 
 
-![You Build It You Run It - deployment throughput](../.gitbook/assets/what-is-you-build-it-you-run-it/you-build-it-you-run-it-deployment-throughput.png)
+![](../.gitbook/assets/what-is-you-build-it-you-run-it/you-build-it-you-run-it-deployment-throughput.png)
 
 **Figure 2: You Build It You Run It - deployment throughput**
 
-![You Build It You Run It - service reliability](../.gitbook/assets/what-is-you-build-it-you-run-it/you-build-it-you-run-it-service-reliability.png)
+![](../.gitbook/assets/what-is-you-build-it-you-run-it/you-build-it-you-run-it-service-reliability.png)
 
 **Figure 3: You Build It You Run It - service reliability**
 
-![You Build It You Run It - learning culture](../.gitbook/assets/what-is-you-build-it-you-run-it/you-build-it-you-run-it-learning-culture.png)
+![](../.gitbook/assets/what-is-you-build-it-you-run-it/you-build-it-you-run-it-learning-culture.png)
 
 **Figure 4: You Build It You Run It - learning culture**
 
@@ -69,7 +69,7 @@ Table 1 summarises the characteristics of You Build It You Run It and Ops Run It
 
 Figure 5 shows relative cost estimates for deployment throughput, service reliability, and learning culture in Ops Run It and You Build It You Run It. These estimates are based on our shared experiences of working with on-call product teams and central operations teams, in many different organisations. Detailed analyses are available in [What is Ops Run It](https://you-build-it-you-run-it.playbook.ee/what-is-ops-run-it) and [What is You Build It You Run It](https://you-build-it-you-run-it.playbook.ee/what-is-you-build-it-you-run-it). We believe Ops Run It has much higher opportunity costs, whereas You Build It You Run It has higher setup costs, and the running costs are similar. 
 
-![Operating models - relative costs comparison](../.gitbook/assets/introduction/operating-models-relative-costs-comparison.png)
+![](../.gitbook/assets/introduction/operating-models-relative-costs-comparison.png)
 
 **Figure 5: Operating models - relative costs comparison**
 

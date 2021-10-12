@@ -1,6 +1,6 @@
 # Learning culture in You Build It You Run It
 
-![Learning culture in You Build It You Run It](../.gitbook/assets/what-is-you-build-it-you-run-it/you-build-it-you-run-it-learning-culture.png)
+![](../.gitbook/assets/what-is-you-build-it-you-run-it/you-build-it-you-run-it-learning-culture.png)
 
 **Figure 5: You Build It You Run It - learning culture**
 
@@ -39,6 +39,6 @@ Culture costs for You Build It You Run It are below.
 
 Culture costs are capex, as they are incurred by on-call product teams themselves.
 
-![Learning culture costs in You Build It You Run It](../.gitbook/assets/what-is-you-build-it-you-run-it/you-build-it-you-run-it-learning-culture-costs.png)
+![](../.gitbook/assets/what-is-you-build-it-you-run-it/you-build-it-you-run-it-learning-culture-costs.png)
 
 **Figure 6: You Build It You Run It - learning culture costs**
