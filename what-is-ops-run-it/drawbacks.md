@@ -80,3 +80,6 @@ Our customers are often aware of the high coordination costs of root cause analy
 
 We believe these drawbacks are tied to the Ops Run It predisposition of rush to fix. When a production incident happens, identifying fix actions is prioritised over in-depth investigation. Operations and delivery teams have a fixed mindset in which flaws and mistakes are shameful, and concealed from others. This creates a vicious circle, in which root cause analysis sessions are completed as quickly as possible, nobody has the time to acquire meaningful knowledge about their digital services, and the production incidents continue. 
 
+![](../.gitbook/assets/what-is-ops-run-it/ops-run-it-reactive-culture-cycle.png)
+
+**Figure 12: Ops Run It - reactive culture vicious circle**
