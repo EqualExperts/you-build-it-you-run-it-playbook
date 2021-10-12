@@ -85,5 +85,5 @@ We've written this playbook for CxOs, product managers, delivery managers, and o
 
 * We've answered these questions in a way that will benefit a majority of readers, while recognising that context always matters. 
 
-Readers will notice us favouring Continuous Delivery and Operability over DevOps and Site Reliability Engineering (SRE). For example, we believe the need for an SRE on-call team is rare, and invoked only when 99.99% availability is truly required. See [The value of operability](https://www.equalexperts.com/blog/our-thinking/value-operability/) by Dan Mitchell, and [What you should (and probably shouldn't) try from SRE](https://www.equalexperts.com/blog/our-thinking/what-you-should-and-probably-shouldnt-try-from-sre/) by Steve Smith and Ali Lotia.
+Readers will notice us favouring Continuous Delivery and Operability over DevOps and Site Reliability Engineering (SRE). See [The value of operability](https://www.equalexperts.com/blog/our-thinking/value-operability/) by Dan Mitchell, and [What you should (and probably shouldn't) try from SRE](https://www.equalexperts.com/blog/our-thinking/what-you-should-and-probably-shouldnt-try-from-sre/) by Steve Smith and Ali Lotia.
 
