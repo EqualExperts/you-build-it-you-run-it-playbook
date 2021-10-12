@@ -15,9 +15,9 @@ You Build It You Run It deployment throughput costs are below. We’ve attribute
 
 |Cost Type|Frequency|Description|Impact|TCO %|
 |---|---|---|---|---|
-|Setup cost|One-off|Launch costs incurred in<br><br>- Deployment pipeline setup<br>- Change management team time for setup|Capex cost|High|
-|Opportunity cost|Per feature|Can be measured jas the cost of delay between product feature readiness and launch. Potential revenue lost, missed customer opportunities due to<br><br>- Delay waiting for a CAB meeting (irregular, high risk deployments only)|Lost revenue|Low|
-|Running cost|Per deployment|Deployment costs incurred in completing a deployment<br><br>- Time for performing deployments, and rolling back deployments minimised due to no handovers|Low|
+|Setup cost|One-off|Launch costs incurred in<ul><li>Deployment pipeline setup</li><li>Change management team time for setup</li></ul>|Capex cost|High|
+|Opportunity cost|Per feature|Can be measured jas the cost of delay between product feature readiness and launch. Potential revenue lost, missed customer opportunities due to<ul><li>Delay waiting for a CAB meeting (irregular, high risk deployments only)</li></ul>|Lost revenue|Low|
+|Running cost|Per deployment|Deployment costs incurred in completing a deployment<ul><li>Time for performing deployments, and rolling back deployments minimised due to no handovers</li></ul>|Low|
 **Table 1: You Build It You Run It - deployment throughput costs**
 
 Deployment costs are incurred as capex, as they are performed by on-call product teams themselves. 

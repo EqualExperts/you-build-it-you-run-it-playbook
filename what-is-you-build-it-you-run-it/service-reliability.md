@@ -40,10 +40,10 @@ Reliability costs are below.
 
 |Cost Type|Frequency|Description|Impact|TCO %|
 |---|---|---|---|---|
-|Setup cost|One-off|Launch costs incurred in<br><br>- License purchases<br>- Product team time for telemetry install<br>- Product team time for on-call schedule agreement<br>-Product team time to setup live access<br>Product team time for any operational training necessary|Capex cost|Medium|
-|Transition cost|One-off|Launch costs incurred in<br><br>- Product team time for runbooks|Capex cost|Low|
-|Running cost|Ongoing|Regular costs incurred in product team time for<br><br>- Deploying code changes<br>- Applying data fixes<br>- Adding infrastructure capacity<br>- Monitoring operating conditions<br>- Performing rollbacks<br>- Updating telemetry tools<br>- Doing on-call standby out of hours|Capex cost|Medium|
-|Incident cost|Per incident|Incident response costs incurred in product team time for<br><br>- Investigating and diagnosing problems<br>- Identifying and agreeing on solutions including code changes, configuration updates, adding infrastructure capacity<br>- On-call callout out of hours|Capex cost|Low to medium|
+|Setup cost|One-off|Launch costs incurred in<ul><li>License purchases</li><li>Product team time for telemetry install</li><li>Product team time for on-call schedule agreement</li><li>Product team time to setup live access<br>Product team time for any operational training necessary</li></ul>|Capex cost|Medium|
+|Transition cost|One-off|Launch costs incurred in<ul><li>Product team time for runbooks|Capex cost</li></ul>|Low|
+|Running cost|Ongoing|Regular costs incurred in product team time for<ul><li>Deploying code changes</li><li>Applying data fixes</li><li>Adding infrastructure capacity</li><li>Monitoring operating conditions</li><li>Performing rollbacks</li><li>Updating telemetry tools</li><li>Doing on-call standby out of hours</li></ul>|Capex cost|Medium|
+|Incident cost|Per incident|Incident response costs incurred in product team time for<ul><li>>Investigating and diagnosing problems</li><li>Identifying and agreeing on solutions including code changes</li><li>configuration updates, adding infrastructure capacity</li><li>On-call callout out of hours</li></ul>|Capex cost|Low to medium|
 |Opportunity cost|Per incident|Can be measured as the cost of delay between incident start and incident finish. Caused by service unavailability, missed opportunities with customers, and delays in further feature development|Revenue loss and costs incurred|Low|
 **Table 2: You Build It You Run It - service reliability costs**
 

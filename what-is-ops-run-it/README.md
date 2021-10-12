@@ -8,3 +8,7 @@ Ops Run It has been a de facto operating model for decades, and was codified by 
 Ops Run It creates a hard divide between Delivery and Operations, powered by radically different incentives. Delivery teams are short-lived, and project-based. They're told to move fast and achieve their deliverables. Operations teams are long-lived, and told to move carefully and provide reliability. 
 
 It's important to remember that every organisation is different, and every Ops Run It implementation is different. 
+
+| | |
+|---|---|
+|![Bethan Timmins](.gitbook/assets/overview/bethan-timmins.jpg)|**Recognising the problem**<br><br>TODO<ul><li>Hi</li></ul>|

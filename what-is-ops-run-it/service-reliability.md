@@ -54,10 +54,10 @@ Ops Run It reliability costs are listed in the below table. We’re assuming on-
 
 |Cost Type|Frequency|Description|Impact|TCO %|
 |---|---|---|---|---|
-|Setup cost|One-off|Launch costs incurred in<br><br>- License purchases<br>- Application support team time for telemetry install<br>- Application support team time for schedule agreement|Capex cost|Low to medium|
-|Transition cost|One-off|Launch costs incurred in<br><br>- Application support team time for handover plan agreement<br>- Delivery team time for implementation operational acceptance criteria|Capex cost|High|
-|Running cost|Ongoing|Regular costs incurred in application support team time for<br><br>- Applying data fixes<br>- Making configuration changes<br>- Adding infrastructure capacity<br>- Performing rollbacks<br>- Updating telemetry tools<br>- On-call standby out of hours|Opex cost|Low to medium|
-|Incident cost|Per incident|Incident response costs incurred in application support team time for<br><br>- Applying data fixes<br>- Making configuration changes<br>- Adding infrastructure capacity<br>- Performing rollbacks<br>- Updating telemetry tools<br>- On-call callout out of hours|Opex cost|Medium to high|
+|Setup cost|One-off|Launch costs incurred in<ul><li>License purchases</li><li>Application support team time for telemetry install</li><li>Application support team time for schedule agreement</li></ul>|Capex cost|Low to medium|
+|Transition cost|One-off|Launch costs incurred in<ul><li>Application support team time for handover plan agreement</li><li>Delivery team time for implementation operational acceptance criteria</li></ul>|Capex cost|High|
+|Running cost|Ongoing|Regular costs incurred in application support team time for<ul><li>Applying data fixes</li><li>Making configuration changes</li><li>>Adding infrastructure capacity</li><li>Performing rollbacks</li><li>Updating telemetry tools</li><li>On-call standby out of hours</li></ul>|Opex cost|Low to medium|
+|Incident cost|Per incident|Incident response costs incurred in application support team time for<ul><li>Applying data fixes</li><li>Making configuration changes</li><li>Adding infrastructure capacity</li><li>Performing rollbacks</li><li>Updating telemetry tools</li><li>On-call callout out of hours</li></ul>|Opex cost|Medium to high|
 |Opportunity cost|Per incident|Can be measured as the cost of delay between incident start and finish. Caused by service unavailability, missed opportunities with customers, and delays in further feature development|Revenue loss and costs incurred|Medium to high|
 **Table 3: Ops Run It - service reliability costs**
 
