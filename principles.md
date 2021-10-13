@@ -41,7 +41,7 @@ Creating feedback loops within and between teams ensures that newly acquired kno
 |We started to work with a major UK retailer shortly before the COVID-19 pandemic hit the UK. The company had ambitions to modernise its technology estate to offer new services to customers. We built a digital platform to scale delivery up to many teams, and implemented new digital capabilities for customers. We all saw You Build It You Run It as a key part of our technology strategy.
 
 We publicly launched new digital services at a time when uncertainty was at its highest for society. In the early days post-launch, the retailer’s high street shops were closed, people weren’t commuting into towns, and uptake of the new services was very low. There weren’t many opportunities to learn from customers. 
- 
+
 As a result, product teams scheduled to go on-call became demotivated. It wasn’t easy to experiment and gain insights into customer behaviours, as business was down. Some teams successfully lobbied to delay on-call support until business started to pick up again, which thankfully has happened since then.
- 
+
 In times of low customer uptake, we learned it’s really important to plan which experiments are most important for learning, what data is needed for those experiments, and when to pivot. It would have helped us to understand how to differentiate between different levels of on-call support, and therefore the team shapes and sizes needed for You Build It You Run It.<br><br>![Ann Yong](../.gitbook/assets/principles/ann-yong.png)<br><br>[Ann Yong](https://www.linkedin.com/in/ann-yong-a2378724/)<br>Delivery Lead<br>EE UK|
