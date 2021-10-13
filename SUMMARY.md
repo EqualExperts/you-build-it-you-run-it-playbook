@@ -25,6 +25,7 @@
   * [Scale](practices/scale.md)
 * [Pitfalls](pitfalls.md)
 * [Examples](examples/README.md)
+  * [HMRC](examples/hmrc.md)
   * [John Lewis & Partners](examples/john-lewis-and-partners.md)
 * [Further Reading](further-reading/README.md)
   * [Videos](further-reading/videos.md)
