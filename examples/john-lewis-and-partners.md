@@ -6,7 +6,7 @@ Equal Experts has partnered with John Lewis & Partners on the John Lewis & Partn
 
 ## Case Studies
 
-* [How to do digital transformation like John Lewis & Partners](https://www.equalexperts.com/case-study/how-to-do-digital-transformation-like-john-lewis-partners/)
+{% embed url="https://www.equalexperts.com/case-study/how-to-do-digital-transformation-like-john-lewis-partners/" caption="" %}
 
 ## Videos
 
