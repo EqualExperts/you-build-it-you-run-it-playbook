@@ -11,13 +11,13 @@ The authors of this playbook are:
 |---|---|
 |![Bethan Timmins](.gitbook/assets/overview/bethan-timmins.jpg)<br><br>[Bethan Timmins](https://www.linkedin.com/in/bethan-timmins-3089369/) <br>Managing Director<br>EE A&NZ|![Steve Smith](.gitbook/assets/overview/steve-smith.jpg)<br><br>[Steve Smith](https://www.linkedin.com/in/stevesmithtech/)<br>Principal Consultant<br>EE UK|
 
-Equal Experts has worked with hundreds of organisations. Our customers often ask us for advice on how to improve their deployment throughput, service reliability, and learning culture. You Build It You Run It is a cost-effective way to achieve those goals, as follows:
+Equal Experts has worked with hundreds of organisations. Our customers often ask us for advice on how to improve their deployment throughput, service reliability, and learning culture. You Build It You Run It is a cost-effective way to achieve those goals together:
 
 * *Higher deployment throughput*. Weekly deployments, or more frequent.
 * *Greater service reliability*. 99.9% availability, or higher.
 * *Continuous learning culture*. Constantly generating insights and implementing improvements.
 
-This playbook contains the principles, practices, and pitfalls we associate with You Build It You Run It for digital services. The first part describes the traditional operating model of a central operations team, which we call Ops Run It. It also explains why using on-call product teams doesn't mean the end of a central operations team. A central operations team isn't the right choice for digital services, yet it remains the right choice for foundational systems (COTS and custom integrations), which have lower deployment throughput and service reliability needs.
+This playbook contains the principles, practices, and pitfalls we associate with You Build It You Run It for digital services. The first part describes the traditional operating model of a central operations team, which we call Ops Run It. It also explains why using on-call product teams doesn't mean the end of a central operations team. A central operations team isn't the right choice for digital services, yet it remains the right choice for self-hosted foundational systems (COTS and custom integrations), which have lower deployment throughput and service reliability needs.
 
 ![](.gitbook/assets/overview/operating-model-selector.png)
 

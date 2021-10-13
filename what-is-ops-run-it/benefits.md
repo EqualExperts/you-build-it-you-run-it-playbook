@@ -15,7 +15,7 @@ We don't usually see any deployment throughput benefits. For a majority of organ
 We see some benefits, related to cost management and governance: 
 
 * *Low setup costs*. Ops Run It has a [low implementation cost](https://you-build-it-you-run-it.playbooks.ee/what-is-ops-run-it/service-reliability), as it's so well-established in the IT industry. There's plenty of training courses, online reading materials, and vendor tools that are compatible with multi-level production support. 
-* *Low running costs*. Ops Run It has [low running costs](https://you-build-it-you-run-it.playbooks.ee/what-is-ops-run-it/service-reliability). The help desk, operations bridge, and application teams can centrally manage the availability of tens of digital services, self-hosted COTS applications, and self-hosted integrations as necessary.
+* *Low running costs*. Ops Run It has [low running costs](https://you-build-it-you-run-it.playbooks.ee/what-is-ops-run-it/service-reliability). The help desk, operations bridge, and application teams can centrally manage the availability of tens of digital services, plus self-hosted COTS applications and custom integrations.
 * *Running cost reduction options*. Running costs can be [lowered by outsourcing](https://you-build-it-you-run-it.playbooks.ee/what-is-ops-run-it/service-reliability), as the general skills and technical expertise for help desk, operations bridge, and application support teams are in a worldwide abundance. 
 * *Straightforward governance*. Accountability, responsibilities, and visibility are all easy to understand. The senior manager in the Operations function is accountable for all aspects of reliability. 
 
