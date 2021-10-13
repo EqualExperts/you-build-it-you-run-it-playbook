@@ -10,7 +10,7 @@ As explained by Jez Humble et al in [Lean Enterprise](https://www.amazon.co.uk/L
 
 There’s no divide between Delivery and Operations functions in You Build It You Run It. There are no short-lived delivery teams. There are long-lived on-call product teams, who own their digital services from inception to live traffic and potentially through to decommission. They are incentivised to move fast, and provide reliability.
 
-Operations teams are likely to exist alongside You Build It You Run It. They will manage COTS applications and foundational systems. They also remain responsible for lower-level operational capabilities, such as on-premise Domain Name System (DNS) and firewall management.
+Operations teams are likely to exist alongside You Build It You Run It. They will manage self-hosted foundational systems, such as COTS applications and custom integrations. They also remain responsible for lower-level operational capabilities, such as on-premise Domain Name System (DNS) and firewall management.
 
 Every organisation is different, and every You Build It You Run It implementation is different. See our [operating model examples](https://you-build-it-you-run-it.playbooks.ee/examples) from our customers. 
 
