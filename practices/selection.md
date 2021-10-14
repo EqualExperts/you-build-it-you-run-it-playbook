@@ -126,15 +126,63 @@ Each software service is matched to a deployment target by its service demand. F
 
 ## Select You Build It You Run It for 99.99% availability
 
-Coming soon
+Adopt You Build It You Run It for any foundational system or digital service, when you require extreme reliability:
+
+* 99.99% availability protection.
+* 1 minute of tolerable unavailability per week.
+
+It's rare for our customers to truly require 99.99% availability. The engineering effort involved is enormous.
+
+![](../.gitbook/assets/practices/operating-model-selector-9999.png)
+
+**Figure 4: operating model selector for 99.99% availability**
 
 ## Select You Build It You Run It for digital services
 
-Coming soon
+Adopt You Build It You Run It for your digital services, when you have these desired outcomes:
+
+* Weekly, daily, or more frequent deployments.
+* 95.0% to 99.9% availability protection. 
+* 9 hours to 10 minutes of tolerable unavailability per week.
+
+![](../.gitbook/assets/practices/operating-model-selector-digital-services.png)
+
+**Figure 5: operating model selector for digital services**
+
+For the furniture retailer, the appointments and bedroom frontends match with You Build It You Run It.
+
+|Software service|Availability target|Deployment target|Operating model|
+|---|---|---|---|
+|appointments|95.0%|Weekly|You Build It You Run It|
+|bedroom|99.0%|Daily+|You Build It You Run It|
+
+**Table 8: digital services with You Build It You Run It**
+
+In the private sector, it's possible to have digital services with a low level of revenue exposure, and high feature demand. For example, a medical publishing company with a per-institution subscription model could have customers clamouring for new features, but a website failure would not incur direct revenue loss as customer dissatisfaction is not linked to subscription renewal. Operational costs and indirect revenue loss would need to be factored into the availability target calculation.
+
+We'd urge caution if you believe a low availability target and a low deployment target apply to your digital services. Low financial exposure on failure and low product feature demand could signify you're building the wrong thing for your customers. 
 
 ## Select Ops Run It for foundational systems
 
-Coming soon
+Select Ops Run It for your self-hosted COTS applications and custom integrations, when your desired outcomes are:
+
+* Monthly to fortnightly deployments.
+* 95.0% to 99.0% availability protection.
+* 9 hours to 10 minutes of tolerable unavailability per week.
+
+Foundational systems usually require infrequent code changes after launch. 
+
+![](../.gitbook/assets/practices/operating-model-selector-foundational-systems.png)
+
+**Figure 6: operating model selector for foundational systems**
+
+For the furniture retailer, the ecommerce-platform COTS application matches with Ops Run It at a higher availability target. 
+
+|Software service|Availability target|Deployment target|Operating model|
+|---|---|---|---|
+|ecommerce-platform|99.9%|Monthly|Ops Run It|
+
+**Table 9: foundational systems with Ops Run It**
 
 |Traffic lights You Build It You Run It in retail|
 |---|
