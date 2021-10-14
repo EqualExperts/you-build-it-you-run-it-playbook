@@ -42,7 +42,7 @@ If on-call funding for digital services stays with a senior operations manager, 
 
 ## Ensure fair remuneration for on-call developers
 
-Offer a level of pay to on-call developers for 24x7 support that recognises the inconvenience of out of hours support. We recommend choosing one of these payment models:
+Offer a level of pay to on-call developers for 24x7 support that recognises the inconvenience of out of hours support. We recommend choosing one of these payment models, based on your own organisational context:
 
 |Name|Remuneration|Comments|
 |---|---|---|
