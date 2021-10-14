@@ -6,7 +6,7 @@ Equal Experts has worked with HMRC on the Multichannel Digital Tax Platform \(MD
 
 ## Case Studies
 
-{% embed url="https://www.equalexperts.com/case-study/how-hmrc-supported-the-economy-in-four-short-weeks/" caption="A case of pandemic agility" %}
+{% embed url="https://www.equalexperts.com/case-study/supporting-hmrc-to-save-millions-in-operational-costs-in-minutes-not-months/" caption="Supporting HMRC to save millions in operational costs in minutes not months" %}
 
 ## Videos
 
