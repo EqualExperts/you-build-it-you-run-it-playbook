@@ -4,7 +4,7 @@
 
 **Figure 10: Ops Run It - reactive culture**
 
-We refer to the Ops Run It reactive culture as predisposed to ‘rush to fix’. When there is an incident of consequence, such as a failed deployment or a loss of service availability, the priority is to fix the underlying problem and return to the prior state. In ITIL v3, this is considered part of problem management, and overseen by a problem manager. 
+We refer to the Ops Run It reactive culture as predisposed to rush to fix. When there is an incident of consequence, such as a failed deployment or a loss of service availability, the priority is to fix the underlying problem and return to the prior state. In ITIL v3, this is considered part of problem management, and overseen by a problem manager. 
 
 ## Find the root cause
 

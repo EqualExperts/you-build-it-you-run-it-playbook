@@ -30,7 +30,7 @@ For governance, the senior operations manager is accountable for all aspects of 
 
 ## Availability protection in Ops Run It
 
-The operations bridge team proactively monitors service telemetry for abnormalities. This is sometimes known as ‘eyes on glass’. They observe service health checks, logs, and metrics plumbed into different dashboards, in telemetry tools such as [AppDynamics](https://www.appdynamics.com/) or [New Relic](https://newrelic.com/). Their  dashboards are dependent on monitorable events, which are pre-defined by delivery teams within the services. Changes to the monitorable events are rare. 
+The operations bridge team proactively monitors service telemetry for abnormalities. This is sometimes known as eyes on glass. They observe service health checks, logs, and metrics plumbed into different dashboards, in telemetry tools such as [AppDynamics](https://www.appdynamics.com/) or [New Relic](https://newrelic.com/). Their  dashboards are dependent on monitorable events, which are pre-defined by delivery teams within the services. Changes to the monitorable events are rare. 
 
 The application support team proactively updates digital services and their runtime environments, using tools like [Red Hat Satellite](https://www.redhat.com/en/technologies/management/satellite). They add infrastructure capacity, make configuration changes, apply data fixes, and update dashboards, to reduce drift and prevent abnormal conditions. This is labour intensive toil, and the workload can increase dramatically for a peak business event. 
 
