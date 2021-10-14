@@ -1,5 +1,43 @@
 # Selection
 
+These practices refer to the initial selection of an operating model. We believe a hybrid operating model is essential, because we agree with Martin Fowler’s statement that a software service is either a [strategic differentiator or a utility](https://martinfowler.com/bliki/UtilityVsStrategicDichotomy.html). We consider a digital service to be a strategic differentiator, and a foundational system to be a utility. 
+
+Our operating model selector is below. Once you understand your failure tolerances and different levels of feature demand, you can map out which operating model is right for you. 
+
+![](../.gitbook/assets/practices/operating-model-selector.png)
+
+**Figure 2: operating model selector**
+
+To help understand which operating model is best for your software service, you can follow these selection practices. 
+
+![](../.gitbook/assets/practices/selection-practices.png)
+
+**Figure 2: selection practices**
+
+These practices are linked to our principles of operating models are [insurance for business outcomes](https://you-build-it-you-run-it.playbook.ee/principles#operating-models-are-insurance-for-business-outcomes), and [operating models are selected on financial exposure and product feature demand](https://you-build-it-you-run-it.playbook.ee/principles#operating-models-are-selected-on-financial-exposure-and-product-feature-demand).
+
+## Select an availability target on financial exposure
+
+Coming soon
+
+## Select deployment target on feature demand
+
+Coming soon
+
+## Select a higher availability target for peak exposure
+
+Coming soon
+
+## Select You Build It You Run It for 99.99% availability
+
+Coming soon
+
+## Select You Build It You Run It for digital services
+
+Coming soon
+
+## Select Ops Run It for foundational systems
+
 Coming soon
 
 |Traffic lights You Build It You Run It in retail|
