@@ -31,14 +31,39 @@ Calculate an availability target for a software service via this process:
     1. Automatically link a service exposure onto the availability target for a particular exposure band. We ask “what’s the availability target for the financial exposure band that covers this service exposure?”
 1. *Periodically reflect on financial exposure and availability*. This is for all software services. Compare recent incident losses with our availability target calculator, on at least a quarterly basis. We ask “do we have any new financial data that warrants an update to our financial exposure bands, our availability levels, or the availability targets for our software services?”
 
-Assume a furniture retailer has a self-hosted COTS ecommerce platform, a custom bedroom frontend, and a custom appointments frontend. In step 1, financial losses from prior incidents for multiple software services are examined. Their different traffic profiles and different incident losses allow for financial exposure bands to be grouped arbitrarily into $0, $7K, $100K, and $800K loss in one hour. 
+Assume a furniture retailer has a self-hosted COTS ecommerce platform, a custom bedroom frontend, and a custom appointments frontend. Financial losses from prior incidents for multiple software services are examined. Their different traffic profiles and different incident losses allow for financial exposure bands to be grouped arbitrarily into $0, $7K, $250K, and $800K loss in one hour. 
 
 |Maximum financial exposure in an hour|
 |---|
-|$0|
 |$7,000|
-|$100,000|
-|$800.000|
+|$250,000|
+|$800,000|
+
+**Table 1 - financial exposure bands**
+
+In step 2, the furniture retailer examines its appetite for unavailability at its different exposure bands, and commits to 95.0%, 99.0%, and 99.9% as its availability levels. For example, for the $800K exposure band 99.9% of a week is 167 hours 49 mins 55 secs, so the tolerable unavailability in one week of 0.01% is 10 mins 5 secs.
+
+|Maximum financial exposure in an hour|Availability level|Tolerable unavailability in a week|
+|---|---|---|
+|$7,000|95.0%|8h 24m 0s|
+|£250,000|99.0%|1h 40m 48s|
+|£800,000|99.9%|0h 10m 5s|
+
+**Table 2 - financial exposure bands with availability targets**
+
+Product managers then use their service forecasts to estimate a maximum financial exposure of $810K in an hour for the ecommerce platform, plus $6K and $350K for appointments and bedroom frontends. 
+
+Each software service is matched to an availability target via its service exposure. For example, the bedroom service is assigned to 99.5% availability, as its service exposure of $200K in an hour falls under the 99.5% exposure band of $250K. 
+
+|Software service|Maximum financial exposure in an hour|Availability target|
+|---|---|---|
+|ecommerce-platform|$810,000|99.9%|
+|appointments|$6,000|95.0%|
+|bedroom|$200,000|99.0%|
+
+The furniture retailer values its financial exposure bands once a quarter. Financial losses from prior incidents are reviewed, and if necessary the financial exposure bands are recalculated. This ensures the risk of financial exposure is revalidated as the business changes.
+
+Indirect financial losses caused by reputational damage also need to be considered. In the private sector this includes customer credits and subscription cancellations. In the public sector, it’s employee time spent on manual, paper-based fallbacks. Reputational damage needs to be tied into core business metrics such as customer lifetime value and customer satisfaction, and it can be tracked using [Net Promoter Score](https://en.wikipedia.org/wiki/Net_promoter_score).
 
 ## Select deployment target on feature demand
 
