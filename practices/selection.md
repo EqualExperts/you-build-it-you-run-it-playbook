@@ -83,14 +83,46 @@ A deployment target is a required level of deployment frequency. An increase in 
 
 Calculate a deployment target using this process:
 
-* *Estimate feature demand bands for all software services*. We estimate product feature demand based on organisation-wide financial forecasts, customer research, and live analytics. We ask "how much demand is there in a month for product features?"
-* *Match deployment frequency levels to feature demand bands*. We match a feature demand band with a deployment frequency. We ask "for this feature demand band, how often do we need to deploy product features to satisfy demand?"
-* *Estimate feature demand for a software service*. A product manager estimates their feature demand based on customer research and analytics. We ask "what's the feature demand we'll see from customers, for this software service?"
-* *Calculate the feature demand band for a software service*. We automatically link service demand with the feature demand band it fits into. We ask "which of our feature demand bands covers this service demand?"
-* *Calculate the deployment target for a software service*. We automatically link service demand onto the deployment target for a particular feature demand band. We ask "what's the deployment target for the feature demand band that covers this service demand?"
-* *Periodically reflect on feature demand bands and deployment targets*. We compare recent analytics with our deployment target calculator, on at least a quarterly basis. We ask "do we have any new data that suggests an update to our feature demand bands, or our deployment frequency levels?" 
+1. *Estimate feature demand bands for all software services*. We estimate product feature demand based on organisation-wide financial forecasts, customer research, and live analytics. We ask "how much demand is there in a month for product features?"
+1. *Match deployment frequency levels to feature demand bands*. We match a feature demand band with a deployment frequency. We ask "for this feature demand band, how often do we need to deploy product features to satisfy demand?"
+1. *Estimate feature demand for a software service*. A product manager estimates their feature demand based on customer research and analytics. We ask "what's the feature demand we'll see from customers, for this software service?"
+1. *Calculate the feature demand band for a software service*. We automatically link service demand with the feature demand band it fits into. We ask "which of our feature demand bands covers this service demand?"
+1. *Calculate the deployment target for a software service*. We automatically link service demand onto the deployment target for a particular feature demand band. We ask "what's the deployment target for the feature demand band that covers this service demand?"
+1. *Periodically reflect on feature demand bands and deployment targets*. We compare recent analytics with our deployment target calculator, on at least a quarterly basis. We ask "do we have any new data that suggests an update to our feature demand bands, or our deployment frequency levels?" 
 
 The furniture retailer defines relative feature demand bands, from low to very high. The deployment frequency of one software service relative to another is recognised as the most important property. Relative feature bands allow the unique characteristics of different furniture domains to be taken into account.
+
+|Maximum feature demand in a month|
+|---|
+|Low|
+|Medium|
+|High|
+|Very high|
+
+**Table 4 - feature bands**
+
+The furniture retailer identifies monthly, fortnightly, weekly, and daily deployments as its deployment frequency levels, and ties them to feature demand bands. 
+
+|Maximum feature demand in a month|Deployment frequency|
+|---|---|
+|Low|Monthly|
+|Medium|Fortnightly|
+|High|Weekly|
+|Very high|Daily+|
+
+**Table 5 - feature bands with deployment frequency levels**
+
+Product managers estimate low demand for the ecommerce platform, high demand for the appointments frontend, and very high demand for the bedroom frontend. 
+
+Each software service is matched to a deployment target by its service demand. For example, the bedroom service is assigned to daily deployments, as its service demand is believed to be very high. 
+
+|Software service|Maximum feature demand in a month|Deployment target|
+|---|---|---|
+|ecommerce-platform|Low|Monthly|
+|appointments|High|Weekly|
+|bedroom|Very high|Daily+|
+
+**Table 6 - software services with deployment targets**
 
 ## Select You Build It You Run It for 99.99% availability
 
