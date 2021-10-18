@@ -8,7 +8,7 @@ Our operating model selector is below. Once you understand your failure toleranc
 
 **Figure 2: operating model selector**
 
-To help understand which operating model is best for your software service, you can follow these selection practices. 
+To help understand which operating model is best for your software service, follow these selection practices. 
 
 ![](../.gitbook/assets/practices/selection-practices.png)
 
