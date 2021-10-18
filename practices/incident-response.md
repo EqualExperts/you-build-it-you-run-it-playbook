@@ -2,6 +2,10 @@
 
 Coming soon
 
+![](../.gitbook/assets/practices/incident-response-practices.png)
+
+**Figure 12 - incident response practices**
+
 ## Prepare for on-call from day one
 
 Coming soon

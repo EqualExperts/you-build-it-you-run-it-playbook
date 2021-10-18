@@ -2,6 +2,10 @@
 
 Coming soon
 
+![](../.gitbook/assets/practices/operational-enabler-practices.png)
+
+**Figure 9 - operational enabler practices**
+
 ## Create one-click change approvals
 
 Coming soon
@@ -10,11 +14,23 @@ Coming soon
 
 Coming soon
 
+![](../.gitbook/assets/practices/integrating-into-incident-management-as-is.png)
+
+**Figure 10 - integrating into incident management as is**
+
+Coming soon
+
 ## Implement compliance as code
 
 Coming soon
 
 ## Establish specialists as a service
+
+Coming soon
+
+![](../.gitbook/assets/practices/dba-specialists-as-a-service.png)
+
+**Figure 11 - DBA specialists as a service**
 
 Coming soon
 

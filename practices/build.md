@@ -2,6 +2,11 @@
 
 Coming soon
 
+
+![](../.gitbook/assets/practices/build-practices.png)
+
+**Figure 8 - build practices**
+
 ## Upskill application support analysts as product team developers
 
 Coming soon

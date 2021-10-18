@@ -2,6 +2,10 @@
 
 Coming soon
 
+![](../.gitbook/assets/practices/measurement-practices.png)
+
+**Figure 13 - measurement practices**
+
 ## Measure deployment throughput
 
 Coming soon
