@@ -28,14 +28,17 @@ Coming soon
 
 ![](../.gitbook/assets/practices/operating-model-selector-at-scale-low-availability-digital-services.png)
 
+**Figure 17 - Operating model selector for low availability digital services It at scale**
+
 Coming soon
 
 ## Select group out of hours on-call for medium availability targets
 
-
 Coming soon
 
 ![](../.gitbook/assets/practices/operating-model-selector-at-scale-medium-availability-digital-services.png)
+
+**Figure 18 - Operating model selector for medium availability digital services It at scale**
 
 Coming soon
 
@@ -44,6 +47,8 @@ Coming soon
 Coming soon
 
 ![](../.gitbook/assets/practices/operating-model-selector-at-scale-high-availability-digital-services.png)
+
+**Figure 19 - Operating model selector for high availability digital services It at scale**
 
 Coming soon
 
