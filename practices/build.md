@@ -41,7 +41,15 @@ Pressure to create faster, better, cheaper digital services actively undermines 
 
 ## Be prepared to deploy at any time
 
-Coming soon
+Ensure a digital service is always deployable. This means a monolith or a set of microservices are always passing their automated functional tests, always ready to be signed off in exploratory testing, and always prepared to go through a deployment process into production. This includes:
+
+* *XP development practices*. Gradually introduce pair-programming, test-driven development, Trunk Based Development, and Continuous Integration into product teams.
+* *Deployment pipelines*. Create fully automated deployment pipelines for all activities between code commit and production deployment.   
+* *Parallelised functional tests*. Use dynamic test data and prime test runners to run suites of functional tests in parallel.
+* *Zero downtime deployments*. Establish blue-green deployments, canary deployments, and/or dark launching to put new product features in front of customers in the day time,  without any availability loss.  
+* *Fast revert on failure*. Allow a failed build, test suite, or deployment to be immediately reverted within seconds of failure detection.  
+
+The ability to deploy at any time enables a rapid incident response. As usual, we recommend a product team experiments with different approaches until the right fit is found. It’s possible you won’t need all of these in your organisation.
 
 ## Automate a telemetry toolchain
 
