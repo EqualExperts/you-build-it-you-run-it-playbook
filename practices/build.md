@@ -1,7 +1,6 @@
 # Build
 
-Coming soon
-
+These practices design and build operability into digital services. Building a digital service that is easy to operate in production creates new sources of adaptive capacity, which can be utilised in abnormal operating conditions. You might not need to implement all of these, but without a majority of them you’ll suffer from the [excessive BAU pitfall](). 
 
 ![](../.gitbook/assets/practices/build-practices.png)
 
@@ -23,7 +22,7 @@ Coming soon
 
 Coming soon
 
-## Radiate teams and services in an information portal
+## Maximise discoverability of teams and services
 
 Coming soon
 
