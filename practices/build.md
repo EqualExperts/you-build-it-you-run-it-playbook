@@ -53,7 +53,15 @@ The ability to deploy at any time enables a rapid incident response. As usual, w
 
 ## Automate a telemetry toolchain
 
-Coming soon
+Encourage on-call product teams to fully automate a telemetry pipeline, and continually refine their loggable, monitorable, and alertable events. Complex digital services can interact in unexpected and surprising ways. It’s vital that on-call product team members can quickly identify, and diagnose abnormal operating conditions. This includes:
+
+* *Logging*. Implement a logging stack like [Elastic](https://www.elastic.co/) + [Fluentd](https://www.fluentd.org/) + [Kibana](https://www.elastic.co/kibana/) (EFK) to process logs, and visualise events in dashboards.
+* *Monitoring*. Install a monitoring stack like [Victoria Metrics](https://victoriametrics.com/) + [Grafana](https://grafana.com/) to process metrics, and visualise business and technical events in dashboards. Commercial tools like Appdynamics and [New Relic](https://newrelic.com/) are also available. See [Scaling to trillions of metric data points](https://engineering.razorpay.com/scaling-to-trillions-of-metric-data-points-f569a5b654f2) by Venkat Vaidhyanathan _et al_.
+* *Alerting*. Use an alerting stack like [vmalert](https://docs.victoriametrics.com/vmalert.html) + [Alertmanager](https://www.prometheus.io/docs/alerting/latest/alertmanager/) to fire alerts from logs or metrics, based on configurable alert definitions defined as code. 
+* *Incident response*. Use an incident response platform like [PagerDuty](https://www.pagerduty.com/) or [VictorOps](https://www.splunk.com/en_us/investor-relations/acquisitions/splunk-on-call.html) to consume alerts in order to notify on-call product team members, and register incidents in a ticketing workflow system like [ServiceNow](https://www.servicenow.co.uk/).
+* *Incident collaboration*. Use a collaboration platform like [Slack](https://slack.com/intl/en-gb/) for product team members to effectively communicate during production incidents. 
+
+We recommend a telemetry pipeline is built just like any other automated deployment pipeline. The goal is for dashboard updates, out of hours callouts, and incident ticketing to happen automatically without any human intervention. 
 
 ## Maximise discoverability of teams and services
 
