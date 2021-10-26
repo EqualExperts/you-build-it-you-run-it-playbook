@@ -65,7 +65,11 @@ We recommend a telemetry pipeline is built just like any other automated deploym
 
 ## Maximise discoverability of teams and services
 
-Coming soon
+Visualise all your product teams and their digital services, in an information portal that any authenticated person can access. This creates a centralised source of truth for key characteristics of digital services, such as which team owns which service and measures of success. 
+
+An information portal is the backbone of alert routing, progress reporting, and urgent information lookups during production incidents. It’s essential at scale, and in that scenario we build a service catalogue as part of a digital platform. See our [Digital platform playbook](https://digital-platform.playbook.ee/introduction/capabilities-of-a-digital-platform#services-catalogue) by Adam Hansrod _et al_. 
+
+We’re sometimes asked by our customers if there’s an open-source or COTS information portal out there. We recommend a portal be built from scratch, as it’s incredibly valuable to constantly curate information for an entire organisation on business metrics, reliability measures, and acquired operational knowledge. 
 
 |Securing You Build It You Run It in retail|
 |---|
