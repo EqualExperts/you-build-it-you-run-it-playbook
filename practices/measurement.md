@@ -39,6 +39,24 @@ Measure the reliability of digital services as:
 
 Financial loss protection effectiveness is a measure we’ve used with customers to gauge the cost effectiveness of You Build It You Run It at scale. It’s a check of projected financial loss per incident that is unrealised, because the actual time to restore is faster than the projected time to restore. It’s a comparison that can be made between digital services, product teams, and even operating models.  
 
+In the [earlier furniture retailer example](https://you-build-it-you-run-it.playbook.ee/practices/selection), there was a furniture retailer example with a bedroom digital service. It had a maximum financial exposure of $200K per hour, and a [99.0% availability target](https://you-build-it-you-run-it.playbook.ee/practices/selection#select-an-availability-target-on-financial-exposure). 
+
+|Software Service|Maximum Financial Exposure In An Hour|Availability Target|Tolerable Unavailability In A Week|
+|---|---|---|---|
+|bedroom|$200K|99.0%|1:40:48|
+
+**Table 14: tolerable availability loss**
+
+Assume the bedroom service is unavailable for 30 mins, and the incident financial loss is calculated as $100K. The tolerable unavailability per week for 99.0% is 1 hour 41 mins, which would have produced a $336K incident financial loss. Financial loss protection can therefore be calculated as 70% of a projected incident financial loss was unrealised, as $236K of a theoretical $336K was protected by a faster than expected time to restore.
+
+|Software Service|Incident Duration|Incident Financial Loss|Incident Financial Loss At Tolerable Unavailability Per Week|Incident Financial Loss Protection|Incident Financial Loss Protection Effectiveness %|
+|---|---|---|---|---|---|
+|bedroom|0:30:00|$100K|£336K|£236K|70%|
+
+**Table 15: an actual availability loss with revenue protection**
+
+For more on measuring financial loss protection effectiveness, see our case study on [How to do digital transformation at John Lewis & Partners](https://www.equalexperts.com/case-study/how-to-do-digital-transformation-like-john-lewis-partners/#section-05).
+
 ## Measure learning culture
 
 Coming soon
