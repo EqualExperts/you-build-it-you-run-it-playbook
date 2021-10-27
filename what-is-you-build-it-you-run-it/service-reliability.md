@@ -6,14 +6,14 @@
 
 An on-call product team offers 24/7 production support, and they can modify all aspects of a digital service:
 
-* Alert definitions.
-* Code.
-* Configuration.
-* Data.
-* Deployments. 
-* Infrastructure as code.
-* Logging.
-* Monitoring dashboards.
+* Alert definitions
+* Code
+* Configuration
+* Data
+* Deployments
+* Infrastructure definitions
+* Logging
+* Monitoring dashboards
 
 You Build It You Run It co-exists in a hybrid operating model with [Ops Run It](https://you-build-it-you-run-it.playbooks.ee/what-is-ops-run-it), and it’s important to have specialist operational teams as well as generalist, cross-functional product teams. The same operational enablers offer their scarce, deep expertise to on-call product teams for digital services, and to the application support team for foundational systems. For example, a shared DBA team can assist with database provisioning, performance, and operations. 
 
