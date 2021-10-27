@@ -6,9 +6,9 @@ An ever-increasing number of organisations have an IT department that includes o
 > 
 > *Werner Vogels, Chief Technology Officer at Amazon*
 
-As explained by Jez Humble et al in [Lean Enterprise](https://www.amazon.co.uk/Lean-Enterprise-Performance-Organizations-Innovate/dp/1449368425), it’s a myth that IT governance standards require segregation of duties. You Build It You Run It is compatible with IT Service Management (ITSM), IT Infrastructure Library (ITIL) v3 Service Transition, ITIL v3 Service Operations, [PCI-DSS](https://www.pcisecuritystandards.org/pci_security/) for credit card payments, and [SOX](https://en.wikipedia.org/wiki/Sarbanes%E2%80%93Oxley_Act) for USA federal securities. 
+As explained by Jez Humble et al in [Lean Enterprise](https://www.amazon.co.uk/Lean-Enterprise-Performance-Organizations-Innovate/dp/1449368425), it's a myth that IT governance standards require segregation of duties. You Build It You Run It is compatible with IT Service Management (ITSM), IT Infrastructure Library (ITIL) v3 Service Transition, ITIL v3 Service Operations, [PCI-DSS](https://www.pcisecuritystandards.org/pci_security/) for credit card payments, and [SOX](https://en.wikipedia.org/wiki/Sarbanes%E2%80%93Oxley_Act) for USA federal securities. 
 
-There’s no divide between Delivery and Operations functions in You Build It You Run It. There are no short-lived delivery teams. There are long-lived on-call product teams, who own their digital services from inception to live traffic and potentially through to decommission. They are incentivised to move fast, and provide reliability.
+There's no divide between Delivery and Operations functions in You Build It You Run It. There are no short-lived delivery teams. There are long-lived on-call product teams, who own their digital services from inception to live traffic and potentially through to decommission. They are incentivised to move fast, and provide reliability.
 
 Operations teams are likely to exist alongside You Build It You Run It. They will manage self-hosted foundational systems, such as COTS applications and custom integrations. They also remain responsible for lower-level operational capabilities, such as on-premise Domain Name System (DNS) and firewall management.
 

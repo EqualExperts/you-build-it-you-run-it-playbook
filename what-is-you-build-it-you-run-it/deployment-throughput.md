@@ -12,7 +12,7 @@ An on-call product team performs a production deployment when they have successf
 
 ## Deployment throughput costs in You Build It You Run It
 
-You Build It You Run It deployment throughput costs are below. We’ve attributed estimates of how much they contribute to the total cost of ownership for a digital service. 
+You Build It You Run It deployment throughput costs are below. We've attributed estimates of how much they contribute to the total cost of ownership for a digital service. 
 
 |Cost Type|Frequency|Description|Impact|TCO %|
 |---|---|---|---|---|

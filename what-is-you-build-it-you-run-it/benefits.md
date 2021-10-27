@@ -1,6 +1,6 @@
 # Benefits of You Build It You Run It
 
-You Build It You Run It benefits come from team empowerment, and clear operability incentives. There’s no hard divide between siloed delivery and operations teams. There are no time-consuming handoffs, nor any diffusion of responsibility. A product manager is incentivised to constantly balance the prioritisation of operational features alongside product features, because they’re accountable for service reliability. A product team is incentivised to build operability into their digital services, because they’re on-call out of hours for their own work.
+You Build It You Run It benefits come from team empowerment, and clear operability incentives. There's no hard divide between siloed delivery and operations teams. There are no time-consuming handoffs, nor any diffusion of responsibility. A product manager is incentivised to constantly balance the prioritisation of operational features alongside product features, because they're accountable for service reliability. A product team is incentivised to build operability into their digital services, because they're on-call out of hours for their own work.
 
 ## Deployment throughput
 
@@ -41,7 +41,7 @@ These restoration benefits produce a low opportunity cost per incident. Potentia
 * *Broad insight dissemination*. On-call product teams are incentivised to collaborate on sharing incident findings between teams, so current and future team members can benefit from the newly acquired knowledge.
 * *Fast time to improve*. An improvement action takes hours or days to be implemented. Actions are added to the product backlog, and prioritised by the product manager like all planned work. On-call product teams have every reason to improve feature delivery and customer experience as quickly as possible, as they are liable for further out of hours callouts. This includes both high and low priority actions.  
 * *Nurture a learning organisation*. Encouraging a growth mindset allows a learning organisation to slowly develop. Leaders who understand what it means to create a learning organisation are in a strong position to foster strong collaboration in turbulent markets and future crises. 
-* *Low running costs*. The time taken to implement improvement actions is low. It’s possible for a good idea in a post-incident review to be implemented that very same day, without any time-consuming handoffs to other teams. 
+* *Low running costs*. The time taken to implement improvement actions is low. It's possible for a good idea in a post-incident review to be implemented that very same day, without any time-consuming handoffs to other teams. 
 
 We see these benefits as outcomes from the You Build It You Run It predisposition of acting on insights. On-call product teams have a growth mindset, in which flaws and mistakes are learning opportunities to be publicly shared across the organisation. This creates a virtuous circle, as shown below.
 

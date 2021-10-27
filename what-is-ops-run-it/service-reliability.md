@@ -51,7 +51,7 @@ Delivery teams receive notifications of service unavailability from the applicat
 
 ## Service reliability costs in Ops Run It
 
-Ops Run It reliability costs are listed in the below table. We’re assuming on-call standby costs and on-call callout are both present, although organisations can have very different remuneration models.
+Ops Run It reliability costs are listed in the below table. We're assuming on-call standby costs and on-call callout are both present, although organisations can have very different remuneration models.
 
 |Cost Type|Frequency|Description|Impact|TCO %|
 |---|---|---|---|---|

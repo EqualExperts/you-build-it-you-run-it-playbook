@@ -13,7 +13,7 @@ Product teams have the incentives and technical skills to automate integration t
 
 **Figure 9 - operational enabler practices**
 
-These practices are based on our principle of [operating models are selected on financial exposure and product feature demand](https://you-build-it-you-run-it.playbook.ee/principles#operating-models-are-selected-on-financial-exposure-and-product-feature-demand). If you’re unable to establish them, you’ll suffer from the [Operations treacle pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls#operations-treacle).
+These practices are based on our principle of [operating models are selected on financial exposure and product feature demand](https://you-build-it-you-run-it.playbook.ee/principles#operating-models-are-selected-on-financial-exposure-and-product-feature-demand). If you're unable to establish them, you'll suffer from the [Operations treacle pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls#operations-treacle).
 
 ## Pre-approve low risk, repeatable changes
 
@@ -50,7 +50,7 @@ We recommend paying for a SaaS incident response platform such as [PagerDuty](ht
 
 **Figure 10 - integrating into incident management as is**
 
-It takes time to integrate You Build It You Run It into the same incident management process as Ops Run It, and we’ve seen it pay off multiple times. We’ve witnessed dramatic reductions in time to acknowledge and time to resolve an incident, and improvements in ways of working between different teams.
+It takes time to integrate You Build It You Run It into the same incident management process as Ops Run It, and we've seen it pay off multiple times. We've witnessed dramatic reductions in time to acknowledge and time to resolve an incident, and improvements in ways of working between different teams.
 
 ## Automate change auditing
 
@@ -79,7 +79,7 @@ This is one way to implement compliance as code. Work with your change managers 
 
 Turn the skill sets of specialised operations teams into consumable services. This creates a balance between breadth of cross-functional product teams and depth of specialist expertise in operational areas. 
 
-Some operations teams possess scarce and highly valued engineering capabilities. The usual example we see is a few database administrators managing an on-premise relational database, for multiple product teams operating digital services in a cloud provider. The answer isn’t to cross-train developers, or hire more database administrators. It’s to eliminate repeatable work by migrating databases into your cloud provider, and by creating self-service deployment pipelines for your product teams. 
+Some operations teams possess scarce and highly valued engineering capabilities. The usual example we see is a few database administrators managing an on-premise relational database, for multiple product teams operating digital services in a cloud provider. The answer isn't to cross-train developers, or hire more database administrators. It's to eliminate repeatable work by migrating databases into your cloud provider, and by creating self-service deployment pipelines for your product teams. 
 
 Offloading and automating database tasks frees up your database administrators to provide high value expertise on demand, such as troubleshooting live performance problems. For more on this, see [A guide to Specialists as a Service](https://www.equalexperts.com/blog/our-thinking/a-guide-to-specialists-as-a-service) by Bethan Timmins.
 

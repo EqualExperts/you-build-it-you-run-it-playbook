@@ -28,7 +28,7 @@ After the session, the problem manager records the root cause as a problem in th
  
 ## Reactive culture costs in Ops Run It
 
-Ops Run It reactive culture costs are listed in the table below. They’re incurred each time someone has an idea on how to improve a digital service.
+Ops Run It reactive culture costs are listed in the table below. They're incurred each time someone has an idea on how to improve a digital service.
 
 |Cost Type|Frequency|Description|Impact|TCO %|
 |---|---|---|---|---|

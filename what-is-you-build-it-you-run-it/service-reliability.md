@@ -15,7 +15,7 @@ An on-call product team offers 24/7 production support, and they can modify all 
 * Logging
 * Monitoring dashboards
 
-You Build It You Run It co-exists in a hybrid operating model with [Ops Run It](https://you-build-it-you-run-it.playbooks.ee/what-is-ops-run-it), and it’s important to have specialist operational teams as well as generalist, cross-functional product teams. The same operational enablers offer their scarce, deep expertise to on-call product teams for digital services, and to the application support team for foundational systems. For example, a shared DBA team can assist with database provisioning, performance, and operations. 
+You Build It You Run It co-exists in a hybrid operating model with [Ops Run It](https://you-build-it-you-run-it.playbooks.ee/what-is-ops-run-it), and it's important to have specialist operational teams as well as generalist, cross-functional product teams. The same operational enablers offer their scarce, deep expertise to on-call product teams for digital services, and to the application support team for foundational systems. For example, a shared DBA team can assist with database provisioning, performance, and operations. 
 
 For governance, the senior manager for the on-call product teams is accountable for all aspects of digital service reliability. The product teams are responsible for day-to-day work in availability protection and availability restoration. They track their costs on a team-by-team basis, and make them visible for senior leaders. 
 

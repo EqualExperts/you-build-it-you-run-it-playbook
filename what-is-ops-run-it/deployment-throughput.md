@@ -14,13 +14,13 @@ A delivery team performs automated functional testing and exploratory testing. W
 1. Application support team performs deployment. When the application support team picks up the ticket, they use a tool such as [Jenkins](https://www.jenkins.io/) or [GitLab CI](https://docs.gitlab.com/ee/ci/) to orchestrate the deployment. A deployment can happen out of hours, if downtime is required. 
 1. Delivery team performs post-deployment validation. The delivery team does some post-deployment smoke testing, before the application support team accepts ownership of the new live service.
 
-We’ve occasionally seen a deployment throughput variant of Ops Run It, in which delivery teams can perform some classes of deployments themselves. It requires a high degree of automated functional testing, and a fully automated deployment pipeline including change management approvals and production deployments. Change requests are pre-approved for small, regular changes. Large, irregular changes still require a CAB meeting and deployment by the application support team. In ITIL v3, this is the difference between standard and normal change requests.
+We've occasionally seen a deployment throughput variant of Ops Run It, in which delivery teams can perform some classes of deployments themselves. It requires a high degree of automated functional testing, and a fully automated deployment pipeline including change management approvals and production deployments. Change requests are pre-approved for small, regular changes. Large, irregular changes still require a CAB meeting and deployment by the application support team. In ITIL v3, this is the difference between standard and normal change requests.
 
-This variant depends on a high trust environment, with a strong culture of collaboration. It’s heavily dependent on senior leaders in Delivery and Operations functions sharing a sense of urgency, and teams working hard to recognise their similarities rather than their differences. We’ve only seen this work in a few mid-sized organisations, and we’ve not seen it scale to many teams.
+This variant depends on a high trust environment, with a strong culture of collaboration. It's heavily dependent on senior leaders in Delivery and Operations functions sharing a sense of urgency, and teams working hard to recognise their similarities rather than their differences. We've only seen this work in a few mid-sized organisations, and we've not seen it scale to many teams.
  
 ## Deployment throughput costs in Ops Run It
 
-Ops Run It deployment throughput costs are listed in Table 2. We’ve attributed to each an estimate of how much they usually contribute to the total cost of ownership. Per deployment costs are charged to operational expenditure (opex) rather than capital expenditure (capex), as the operations teams are centralised and distinct from any particular service.
+Ops Run It deployment throughput costs are listed in Table 2. We've attributed to each an estimate of how much they usually contribute to the total cost of ownership. Per deployment costs are charged to operational expenditure (opex) rather than capital expenditure (capex), as the operations teams are centralised and distinct from any particular service.
 
 |Cost Type|Frequency|Description|Impact|TCO %|
 |---|---|---|---|---|
