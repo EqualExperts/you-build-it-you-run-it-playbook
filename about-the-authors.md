@@ -12,7 +12,7 @@ Bethan has played key roles in multiple digital transformation programmes global
 
 ![Bethan Timmins](.gitbook/assets/overview/bethan-timmins.jpg) 
 
-**Bethan** 
+**Bethan Timmins** 
  
 Steve is a Principal Consultant and Practice Lead at Equal Experts, who advises clients worldwide on Continuous Delivery, operating models, and reliability.  
 
@@ -20,4 +20,4 @@ Steve has played key roles in multiple digital transformation programmes. He was
  
 ![Steve Smith](.gitbook/assets/overview/steve-smith.jpg)
 
-**Steve**
+**Steve Smith**
