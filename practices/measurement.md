@@ -59,7 +59,19 @@ For more on measuring financial loss protection effectiveness, see our case stud
 
 ## Measure learning culture
 
-Coming soon
+Measure the progress of a learning culture as:
+
+|Measure|Type|Description|Suggested Implementation|
+|---|---|---|---|
+|Post-Incident Review Readers|Leading|How many readers does a post-incident review for a digital service have|Instrument post-incident reviews. Calculate how many unique visitors each review receives|
+|Chaos Days Frequency|Leading|How often are Chaos Days run for a digital service|Instrument Chaos Day reviews. Calculate rate of review publication|
+|Improvement Action Lead Time|Trailing|How long does an improvement action from a post-incident review for a digital service take to be implemented|Instrument post-incident reviews. Calculate days from improvement action definition to completion|
+|Improvement Action Frequency|Trailing|How often are improvement actions implemented for a digital service|Instrument post-incident reviews. Calculate days between implementation of improvement actions|
+
+**Table 16: learning culture measures**
+
+Trends in post-incident reviews are of particular interest. Usage in training materials and citations in internal company documents could also be included. See [Markers of progress in incident analysis](https://www.adaptivecapacitylabs.com/blog/2019/11/20/markers-of-progress-incident-analysis/) by John Allspaw.
+
 
 |You Build It You Run It on the Xinja banking platform|
 |---|
