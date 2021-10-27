@@ -12,7 +12,91 @@ These practices are linked to our principles of [operating models are insurance 
 
 ## Measure deployment throughput
 
-Coming soon
+Measure the deployment throughput of digital services as:
+
+|Measure|Type|Description|Suggested Implementation|
+|---|---|---|---|
+|Loose Coupling|Leading|Is a product team able to change a digital service without orchestrating simultaneous changes with other digital services|Inspect deployment history. Calculate how many deployments of different digital services occurred in lockstep|
+|Pre-Approved Changes|Leading|Does a product team have permission to pre-approve its own change requests for low risk, repeatable changes|Inspect ticketing system. Calculate how many digital services have pre-approved change request templates|
+|Deployment Lead Time|Trailing|How long does a release candidate for a digital service take to reach deployment|Instrument deployment pipeline. Calculate days from production deployment back to build date|
+|Deployment Frequency|Trailing|How often are digital services deployed to customers|Instrument deployment pipeline. Calculate rate of production deployments|
+
+**Table 12: deployment throughput measures**
+
+
+### Measure service reliability
+
+Measure the reliability of digital services as:
+
+
+<table>
+  <tr>
+   <td><strong>Measure</strong>
+   </td>
+   <td><strong>Type</strong>
+   </td>
+   <td><strong>Description</strong>
+   </td>
+   <td><strong>Suggested Implementation</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>Failure Design
+   </td>
+   <td>Leading
+   </td>
+   <td>Does a digital service include bulkheads, caches, circuit breakers
+   </td>
+   <td>Survey product teams. Are they confident they can cope with downstream failures
+   </td>
+  </tr>
+  <tr>
+   <td>Service Telemetry
+   </td>
+   <td>Leading
+   </td>
+   <td>Does a digital service have custom logging, monitoring, and alerts
+   </td>
+   <td>Survey product teams. Are they confident they can quickly diagnose abnormal operating conditions
+   </td>
+  </tr>
+  <tr>
+   <td>Availability
+   </td>
+   <td>Trailing
+   </td>
+   <td>What is the availability rate of a digital service, as a Nines Of Availability e.g. 99.9%
+   </td>
+   <td>Instrument digital services. Calculate percentage of requests that are fully or partially successful
+   </td>
+  </tr>
+  <tr>
+   <td>Time To Restore Availability 
+   </td>
+   <td>Trailing
+   </td>
+   <td>How long does it take to re-attain an availability target once it has been lost
+   </td>
+   <td>Instrument digital services. Calculate minutes from loss of availability target to re-attainment of availability target
+   </td>
+  </tr>
+  <tr>
+   <td>Financial Loss Protection Effectiveness
+   </td>
+   <td>Trailing
+   </td>
+   <td>What amount of expected financial loss per incident is protected by a faster than expected Time To Restore Availability
+   </td>
+   <td>Instrument digital services and incident financial losses. Calculate maximum incident financial loss, up to time to restore allotted by availability target. Calculate percentage of maximum incident financial loss protected by a time to restore faster than allotted by availability target
+   </td>
+  </tr>
+</table>
+
+
+**Table 13 - service reliability measures**
+
+Financial loss protection effectiveness is a measure we’ve used with customers to gauge the cost effectiveness of You Build It You Run It at scale. It’s a check of projected financial loss per incident that is unrealised, because the actual time to restore is faster than the projected time to restore. It’s a comparison that can be made between digital services, product teams, and even operating models.  
+
 
 ## Measure service reliability
 
