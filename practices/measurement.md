@@ -1,10 +1,14 @@
 # Measurement 
 
-Coming soon
+These practices measure an operating model to decide if it’s worthy of further investment. The cost effectiveness of business outcome protection is an informative, actionable measure of an operating model. 
+
+Leading and trailing measures can be used to gauge progress in deployment throughput, service reliability, and learning culture. It’s important to select measures that are holistic, actionable, and do not create the wrong incentives. See [*Measuring Continuous Delivery*](https://www.amazon.co.uk/dp/B08LYZDPMK) by Steve Smith.
 
 ![](../.gitbook/assets/practices/measurement-practices.png)
 
 **Figure 13 - measurement practices**
+
+These practices are linked to our principles of [operating models are insurance for business outcomes](https://you-build-it-you-run-it.playbook.ee/principles#operating-models-are-insurance-for-business-outcomes) and [operating models are powered by feedback](https://you-build-it-you-run-it.playbook.ee/principles#operating-models-are-powered-by-feedback).
 
 ## Measure deployment throughput
 
