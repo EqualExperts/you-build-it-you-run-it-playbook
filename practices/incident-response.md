@@ -65,7 +65,18 @@ This is always contextual, and dependent on examples. What constitutes a high fi
 
 ## Broadcast incident insights
 
-Coming soon
+Share incident insights and new discoveries with your entire organisation. Ensure on-call product teams respond to future incidents with the full knowledge of your organisation at their disposal. 
+
+You Build It You Run It encourages a growth mindset. Digital services are inherently imperfect, and a production failure implies a set of circumstances that were unanticipated or poorly understood. The only way for product teams to understand and improve what’s not understood and needs improvement is to create more learning experiences.
+
+Distribute the insights from a post-incident review to your entire organisation, as follows:
+
+* Publish the incident report on an internal incident reporting site, and announce it on your collaboration platform e.g. Slack. 
+* Link out to the incident report from the incident ticket in your incident response platform, your ticketing system, and in your [information portal](https://you-build-it-you-run-it.playbook.ee/practices/build#maximise-discoverability-of-teams-and-services).
+* Host one or more internal brown bag sessions for product teams to walk through the incident as it unfolded, and discuss incident insights.
+* Ensure senior leaders encourage thorough post-incident reviews, and spread knowledge themselves throughout the organisation to benefit different product teams. 
+
+Broadcasting incident insights means scarce, proprietary knowledge can reach those who need it most. The more information you share between product teams, the more collaboration and trust you’ll foster.
 
 |You Build It You Run It in PCI payments|
 |---|
