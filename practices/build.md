@@ -1,12 +1,12 @@
 # Build
 
-These practices design and build operability into digital services. Building a digital service that is easy to operate in production creates new sources of adaptive capacity, which can be utilised in abnormal operating conditions. You might not need to implement all of these, but without a majority of them you’ll suffer from the [excessive BAU pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls#excessive-bau). 
+These practices design and build operability into digital services. Building a digital service that is easy to operate in production creates new sources of adaptive capacity, which can be utilised in abnormal operating conditions.
 
 ![](../.gitbook/assets/practices/build-practices.png)
 
 **Figure 8 - build practices**
 
-These practices link back to our principle of [operating models are most effective when rapid restoration comes first](These practices link back to our principle of operating models are effective when rapid restoration comes first. ). 
+These practices link back to our principle of [operating models are most effective when rapid restoration comes first](These practices link back to our principle of operating models are effective when rapid restoration comes first. ). You might not need to implement all of these, but without a majority of them you’ll suffer from the [excessive BAU pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls#excessive-bau).  
 
 ## Upskill application support analysts as product team developers
 
