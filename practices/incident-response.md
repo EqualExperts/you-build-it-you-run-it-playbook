@@ -43,10 +43,25 @@ Run day-long events that introduce failures into your digital services. Encourag
 
 To find out more about running Chaos Days in large enterprise organisations, see our [Chaos Day playbook](https://chaos-day.playbook.ee/) by Lyndsay Prewer. 
 
-
 ## Calculate in-incident financial losses
 
-Coming soon
+Estimate the costs incurred and revenue lost during a production incident, and prioritise incident response based on that financial loss. Ensure product teams understand what is, and isn’t, a major incident that requires swarming and an urgent resolution.
+
+You Build It You Run It is based on an understanding of the financial exposure attached to a digital service. We’ve worked with many customers where incident financial loss is only calculated for the post-incident review, if at all. As a result, an entirely subjective incident priority is used to guide the incident response process, and there’s a lot of uncertainty over what is and isn’t a major incident. 
+
+Shifting that financial loss calculation left to the start of an incident clarifies how to approach incident response. It’s a simple categorisation method, which avoids people wasting incident response time debating if an incident is a P1, a P2, or a P3. 
+
+We recommend calculating incident loss at the start of an incident, when costs incurred and/or revenue loss are first understood. Revise the calculation as and when new information on losses is available. That financial loss estimate can then be used to select an incident response method:
+
+|Incident Financial Loss|Incident Examples|Incident Type|Incident Response Method|
+|---|---|---|---|
+|High|<ul><li>Users cannot complete a user journey</li><li>Users affected by a security incident</li></ul>|Major|Restore availability immediately|
+|Medium|<ul><li>Users can complete a degraded user journey</li><li>Users affected by degraded performance</li></ul>|Minor|Restore availability by next working day|
+|Low|<ul><li>Users can complete a user journey</li><li>Users partially affected by degraded performance</li></ul>|Minor|Restore availability when possible, add ticket to backlog|
+
+**Table 11: incident response methods**
+
+This is always contextual, and dependent on examples. What constitutes a high financial loss per incident varies from one organisation to another. 
 
 ## Broadcast incident insights
 
