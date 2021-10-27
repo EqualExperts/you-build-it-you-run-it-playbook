@@ -32,27 +32,60 @@ This facilitates a high proportion of low risk changes for a digital service, an
 
 ## Integrate into incident management as is
 
-Coming soon
+Automate incident management touchpoints into your ticketing system. This allows an on-call product team to manage their own incidents with minimal friction, and demonstrates a long-term commitment to collaborating with major incident managers.
+
+Integrate into these incident management actions:
+
+Notify an on-call product team member when an alert is fired.
+Create an incident in the ticketing system when an alert is fired.
+Acknowledge an incident in the ticketing system when an on-call product developer is available.
+Reassign an incident to a different digital service, COTS application, or foundational system when necessary.
+Notify an incident manager when an incident is declared as a major incident.
+Update an incident in the ticketing system when in-progress notes are available.
+Resolve an incident in the ticketing system when an alert is resolved.
+
+We recommend paying for a SaaS incident response platform such as [PagerDuty](http://www.pagerduty.com/) or [VictorOps](http://www.victorops.com). An incident response platform orchestrates alert notifications for on-call product teams, which means an on-call product developer can be notified of an alert in under a minute. It can manage an out of hours schedule for incident managers as well as product teams, which means an on-call developer can quickly contact someone for advice during a major incident. It can also offer bi-directional updates between its own alerts and incidents in your ticketing system. This removes hours of manual efforts on tickets, and ensures high quality records are preserved.
 
 ![](../.gitbook/assets/practices/integrating-into-incident-management-as-is.png)
 
 **Figure 10 - integrating into incident management as is**
 
-Coming soon
+It takes time to integrate You Build It You Run It into the same incident management process as Ops Run It, and we’ve seen it pay off multiple times. We’ve witnessed dramatic reductions in time to acknowledge and time to resolve an incident, and improvements in ways of working between different teams.
 
-## Implement compliance as code
+## Automate change auditing
 
-Coming soon
+Build each deployment pipeline as a fully automated compliance tool for change management. Accelerate change feedback loops from weeks or months into minutes.
+
+Use a version control system such as [GitHub](https://github.com/) to store all updates to:
+
+* Alert definitions
+* Code
+* Configuration 
+* Infrastructure definitions
+* Logging dashboards
+* Monitoring dashboards
+* Reference data
+
+Audit in every deployment pipeline:  
+
+* The versions of your digital services currently deployed in which environments
+* The updates in your version control system that can be traced back from different versions of your digital services
+* The deployment timestamps, deployer names, and approved change requests for production deployments
+* The deployment lead time and deployment frequency for production deployments 
+
+This is one way to implement compliance as code. Work with your change managers to understand the reports they need to satisfy internal compliance requirements. Free them up to tackle higher value work, such as orchestrating production deployments of foundational systems. 
 
 ## Establish specialists as a service
 
-Coming soon
+Turn the skill sets of specialised operations teams into consumable services. This creates a balance between breadth of cross-functional product teams and depth of specialist expertise in operational areas. 
+
+Some operations teams possess scarce and highly valued engineering capabilities. The usual example we see is a few database administrators managing an on-premise relational database, for multiple product teams operating digital services in a cloud provider. The answer isn’t to cross-train developers, or hire more database administrators. It’s to eliminate repeatable work by migrating databases into your cloud provider, and by creating self-service deployment pipelines for your product teams. 
+
+Offloading and automating database tasks frees up your database administrators to provide high value expertise on demand, such as troubleshooting live performance problems. For more on this, see [A guide to Specialists as a Service](https://www.equalexperts.com/blog/our-thinking/a-guide-to-specialists-as-a-service) by Bethan Timmins.
 
 ![](../.gitbook/assets/practices/dba-specialists-as-a-service.png)
 
 **Figure 11 - DBA specialists as a service**
-
-Coming soon
 
 |The support toolchain for You Build It You Run It at a payments provider|
 |---|
