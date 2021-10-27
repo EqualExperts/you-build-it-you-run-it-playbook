@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Overview](README.md)
+* [About the Authors](about-the-authors.md)
 * [Introduction](introduction/README.md)
 * [What is Ops Run It](what-is-ops-run-it/README.md)
   * [Deployment throughput in Ops Run It](what-is-ops-run-it/deployment-throughput.md)
@@ -24,12 +25,12 @@
   * [Measurement](practices/measurement.md)
   * [Scale](practices/scale.md)
 * [Pitfalls](pitfalls.md)
-* [By Our Customers](by-our-customers/README.md)
+* [By our Customers](by-our-customers/README.md)
   * [John Lewis & Partners](by-our-customers/john-lewis-and-partners.md)
   * [HMRC](by-our-customers/hmrc.md)
-  * [Utility Company](by-our-customers/utility-company.md)
+  * [Utility company](by-our-customers/utility-company.md)
 * [By Equal Experts](by-equal-experts/README.md)
 * [Contribute](contribute/README.md)
   * [Contributors](contribute/contributors.md)
-  * [How to contribute](contribute/how-to-contribute.md)
+  * [How to Contribute](contribute/how-to-contribute.md)
 * [About Equal Experts](about-equal-experts.md)
