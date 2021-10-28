@@ -1,4 +1,4 @@
-# About the Authors
+# Authors
 
 The authors of this playbook are [**Bethan Timmins**](https://www.linkedin.com/in/bethan-timmins-3089369/) and [**Steve Smith**](https://www.linkedin.com/in/stevesmithtech/).
 
