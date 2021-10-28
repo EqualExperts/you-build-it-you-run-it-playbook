@@ -13,7 +13,7 @@ Product teams have the incentives and technical skills to automate integration t
 
 **Figure 9 - operational enabler practices**
 
-These practices are based on our principle of [operating models are selected on financial exposure and product feature demand](https://you-build-it-you-run-it.playbook.ee/principles#operating-models-are-selected-on-financial-exposure-and-product-feature-demand). If you're unable to establish them, you'll suffer from the [Operations treacle pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls#operations-treacle).
+These practices are based on our principle of [operating models are selected on financial exposure and product feature demand](https://you-build-it-you-run-it.playbook.ee/principles#operating-models-are-selected-on-financial-exposure-and-product-feature-demand). 
 
 ## Pre-approve low risk, repeatable changes
 
@@ -28,7 +28,7 @@ Integrate into these change management actions:
 * Automatically check prior to a production deployment that an approved change request exists, and do not permit a deployment if none is found.
 * Automatically close the change request when the production deployment is completed.
 
-This facilitates a high proportion of low risk changes for a digital service, and a regular cadence of successful production deployments. 
+This facilitates a high proportion of low risk changes for a digital service, and a regular cadence of successful production deployments. Without it, you'll suffer from the [Change management treacle pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls#change-management-treacle).
 
 ## Integrate into incident management as is
 
@@ -36,13 +36,13 @@ Automate incident management touchpoints into your ticketing system. This allows
 
 Integrate into these incident management actions:
 
-Notify an on-call product team member when an alert is fired.
-Create an incident in the ticketing system when an alert is fired.
-Acknowledge an incident in the ticketing system when an on-call product developer is available.
-Reassign an incident to a different digital service, COTS application, or foundational system when necessary.
-Notify an incident manager when an incident is declared as a major incident.
-Update an incident in the ticketing system when in-progress notes are available.
-Resolve an incident in the ticketing system when an alert is resolved.
+* Notify an on-call product team member when an alert is fired.
+* Create an incident in the ticketing system when an alert is fired.
+* Acknowledge an incident in the ticketing system when an on-call product developer is available.
+* Reassign an incident to a different digital service, COTS application, or foundational system when necessary.
+* Notify an incident manager when an incident is declared as a major incident.
+* Update an incident in the ticketing system when in-progress notes are available.
+* Resolve an incident in the ticketing system when an alert is resolved.
 
 We recommend paying for a SaaS incident response platform such as [PagerDuty](http://www.pagerduty.com/) or [VictorOps](http://www.victorops.com). An incident response platform orchestrates alert notifications for on-call product teams, which means an on-call product developer can be notified of an alert in under a minute. It can manage an out of hours schedule for incident managers as well as product teams, which means an on-call developer can quickly contact someone for advice during a major incident. It can also offer bi-directional updates between its own alerts and incidents in your ticketing system. This removes hours of manual efforts on tickets, and ensures high quality records are preserved.
 
@@ -50,7 +50,7 @@ We recommend paying for a SaaS incident response platform such as [PagerDuty](ht
 
 **Figure 10 - integrating into incident management as is**
 
-It takes time to integrate You Build It You Run It into the same incident management process as Ops Run It, and we've seen it pay off multiple times. We've witnessed dramatic reductions in time to acknowledge and time to resolve an incident, and improvements in ways of working between different teams.
+It takes time to integrate You Build It You Run It into the same incident management process as Ops Run It, and we've seen it pay off multiple times. We've witnessed dramatic reductions in time to acknowledge and time to resolve an incident, and improvements in ways of working between different teams. If you don’t do this, you’ll fall into the [No major incident management pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls#no-major-incident-management).
 
 ## Automate change auditing
 
@@ -73,7 +73,7 @@ Audit in every deployment pipeline:
 * The deployment timestamps, deployer names, and approved change requests for production deployments
 * The deployment lead time and deployment frequency for production deployments 
 
-This is one way to implement compliance as code. Work with your change managers to understand the reports they need to satisfy internal compliance requirements. Free them up to tackle higher value work, such as orchestrating production deployments of foundational systems. 
+This is one way to implement compliance as code. Work with your change managers to understand the reports they need to satisfy internal compliance requirements. Free them up to tackle higher value work, such as orchestrating production deployments of foundational systems. Without this, you'll suffer from the [Change management treacle pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls#change-management-treacle). 
 
 ## Establish specialists as a service
 
@@ -86,6 +86,8 @@ Offloading and automating database tasks frees up your database administrators t
 ![](../.gitbook/assets/practices/dba-specialists-as-a-service.png)
 
 **Figure 11 - DBA specialists as a service**
+
+If you don’t implement specialists as a service, you’ll endure time-consuming interactions with operational teams, and eventually fall into the [specialist in every product team pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls#a-specialist-for-every-product-team).
 
 |The support toolchain for You Build It You Run It at a payments provider|
 |---|
