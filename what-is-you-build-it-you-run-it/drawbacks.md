@@ -23,16 +23,14 @@ The countermeasure here is for product teams to solve problems for the change ma
   * Procuring licenses for an incident response platform such as PagerDuty takes weeks, and can become expensive at scale. 
   * Enabling production access rights for telemetry tools, deployment servers, and incident management for on-call product teams takes weeks.
   * Establishing out of hours schedules and operational training for on-call product teams takes weeks. 
-* *Risk of high running costs*. Remuneration for multiple product team developers on call for multiple digital services can be higher than a single application support team analyst on call for all digital services.
+* *Risk of high run cost*. Remuneration for multiple product team developers on call for multiple digital services can be higher than a single application support team analyst on call for all digital services.
 
-In our experience, organisations underestimate the high setup cost and overestimate the risk of high running costs of on-call product teams in You Build It You Run It. The setup cost can be reduced by collaborating with your incident management team on:
+In our experience, organisations underestimate the high setup cost and overestimate the risk of a high run cost with You Build It You Run It. The setup cost can be reduced by collaborating with your incident management team on:
 
 * An incident management process that on-call product teams will consistently follow.
 * A set of automated integrations for incidents into the central workflow system.
 * A standing invite to all product planning meetings and Chaos Days.
 * A per-team license setup for telemetry tools and incident response tools, where possible.
-
-People are often concerned about running costs for on-call product teams, particularly if Ops Run It includes outsourced L1/L2 operations teams and unpaid L3 support from delivery teams. In this situation, we explain to our customers that it's a false comparison between You Build It You Run It and Ops Run It. The two operating models are [different insurance policies for different business outcomes](https://you-build-it-you-run-it.playbook.ee/principles), at different premiums. It's important developers are compensated for the inconvenience of being on-call outside of work, and the key variable in running costs is the growth rate of on-call product teams. We've established some [scaling practices](https://you-build-it-you-run-it.playbook.ee/practices/scale) that harmonise operability incentives with out of hours remuneration at scale. 
 
 ## Learning culture
 

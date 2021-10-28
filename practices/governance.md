@@ -25,7 +25,7 @@ Operability incentives are maximised when a budget holder for a product team is 
 
 Pay for 24x7 support for a digital service from the product team budget. This means the product manager or delivery lead acting as the product team budget holder pays for:
 
-* On-call standby costs. Compensation for one or more product team members making themselves available in case of an out of hours incident. This is an ongoing running cost.
+* On-call standby costs. Compensation for one or more product team members making themselves available in case of an out of hours incident. This is part of the ongoing run cost.
 * On-call callout costs. Compensation for one or more product team members responding to an out of hours incident. This is a per-incident cost.
 
 If the on-call opex budget is owned by a senior operations manager, transfer their budget line item for digital services into an on-call capex budget allocated to the senior manager for the product teams.  
@@ -33,7 +33,7 @@ If the on-call opex budget is owned by a senior operations manager, transfer the
 The senior manager for the product teams splits the on-call capex budget into a line item per digital service, and then transfers each line item into the corresponding product team budget. This maximises incentives for each product team budget holder to:
 
 * Establish desired business outcomes prior to any development efforts.
-* Choose an appropriate availability target that balances business outcomes insurance with running cost estimates.
+* Choose an appropriate availability target that balances business outcomes insurance with a run cost estimates.
 * Prioritise the protection of live product functionality alongside the delivery of new product features.
 * Lend their credibility to organisational changes that improve on-call experience, such as product teams automating their own telemetry toolchains. 
 * Incorporate graceful degradation and adaptability into the customer experience.

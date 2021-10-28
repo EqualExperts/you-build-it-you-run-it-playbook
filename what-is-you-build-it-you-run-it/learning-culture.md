@@ -33,7 +33,7 @@ Culture costs for You Build It You Run It are below.
 |---|---|---|---|---|
 |Setup cost|One-off|Launch costs incurred in<ul><li>Product team time for incident analysis training</li><li>Product team time for incident review training</li><li>Product team time to setup cross-team playbacks, walkthroughs, knowledge sharing</li></ul>|Capex cost|High|
 |Opportunity cost|Ongoing|Can be measured jas the cost of delay between an improvement as an idea and in practice. Potential revenue lost, missed customer opportunities due to delays in improvements|Lost revenue and capex cost|Low|
-|Running cost|Ongoing|Costs incurred putting an improvement idea into practice|Low|
+|Run cost|Ongoing|Costs incurred putting an improvement idea into practice|Low|
 
 **Table 3: You Build It You Run It - learning culture costs**
 

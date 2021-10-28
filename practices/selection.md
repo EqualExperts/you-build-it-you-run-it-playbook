@@ -73,7 +73,7 @@ Calculate a different availability target for a software service during a peak b
 
 This involves a product manager calculating peak and non-peak financial exposures for their software service, based on their financial forecasting. The availability target for the software service is then upgraded just before the peak business event, and downgraded just after the peak business event. 
 
-This is an effective cost optimisation, that doesn't affect operability incentives. It replaces the notion of [eyes on glass monitoring and peak support in Ops Run It](https://you-build-it-you-run-it.playbook.ee/what-is-ops-run-it/service-reliability#availability-protection-in-ops-run-it). It ensures a balance between service reliability and running costs for You Build It You Run It. 
+This is an effective cost optimisation, that doesn't affect operability incentives. It replaces the notion of [eyes on glass monitoring and peak support in Ops Run It](https://you-build-it-you-run-it.playbook.ee/what-is-ops-run-it/service-reliability#availability-protection-in-ops-run-it). It ensures a balance between service reliability and run cost for You Build It You Run It. 
 
 ## Select deployment target on feature demand
 

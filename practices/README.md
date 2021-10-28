@@ -8,6 +8,4 @@ Transitioning from Ops Run It to You Build It You Run It is a challenging proces
 
 **Figure 1: You Build It You Run It - practice groups**
 
-We're sometimes asked by our customers for ways to reduce You Build It You Run It costs. It happens when running costs increase, due to more product teams requiring more remuneration for more out of hours on-call for more digital services. This request is understandable when one of the few Ops Run It benefits is low running costs. However, it's worth remembering Ops Run It also creates weak operability incentives for product managers and developers. 
-
-Optimisations must protect operability incentives for product teams. The below practices achieve a delicate balance between incentives and running costs, such as downgrading availability targets in the months between peak business periods.  
+The below practices achieve a delicate balance between incentives and run cost, such as downgrading availability targets in the months between peak business periods.  
