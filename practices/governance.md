@@ -57,7 +57,7 @@ Changing remuneration means updating contracts with suppliers and employees, to 
 
 We've listened to senior managers in different organisations say that You Build It You Run It payment models are too expensive compared to Ops Run It, particularly if operations teams are [outsourced to a third party managed service for lower costs](https://you-build-it-you-run-it.playbook.ee/what-is-ops-run-it/benefits#service-reliability). It's a flawed comparison, because operating models are insurance for business outcomes. You Build It You Run It has a more cost effective premium than Ops Run It for digital services, where higher standards of deployment throughput and service reliability are required. Ops Run It remains the right choice for COTS applications. 
 
-Your product team developers already have intrinsic motivation to be on-call. It's vital they have an extrinsic motivation as well, that recognises their contribution to your organisation out of hours. This is hard to put into place, but if it doesn't happen people will decline to do on-call and you'll be in the [unsustainable on-call schedule pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls).
+Your product team developers already have intrinsic motivation to be on-call. It's vital they have an extrinsic motivation as well, that recognises their contribution to your organisation out of hours. This is hard to put into place, but if it doesn't happen people will decline to do on-call and you'll be in the [limited on-call schedule pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls).
 
 |Managing on-call at John Lewis & Partners|
 |---|

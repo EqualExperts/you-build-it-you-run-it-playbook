@@ -1,6 +1,6 @@
 # Incident response
 
-These practices relate to responding to incidents, and learning from incidents. One of the drawbacks of You Build It You Run It is its [high setup cost](https://you-build-it-you-run-it.playbook.ee/what-is-ops-run-it/drawbacks), and part of that is a steep learning curve for product teams. It's important they're prepared to identify, resolve, and learn from production incidents, before their first incident occurs. If these practices aren't implemented, you'll have unprepared incident responders and they'll fall into the [excessive BAU](https://you-build-it-you-run-it.playbook.ee/pitfalls#excessive-bau) and [unsustainable on-call schedule pitfalls](https://you-build-it-you-run-it.playbook.ee/pitfalls#unsustainable-on-call-schedule). 
+These practices relate to responding to incidents, and learning from incidents. One of the drawbacks of You Build It You Run It is its [high setup cost](https://you-build-it-you-run-it.playbook.ee/what-is-ops-run-it/drawbacks), and part of that is a steep learning curve for product teams. It's important they're prepared to identify, resolve, and learn from production incidents, before their first incident occurs. If these practices aren't implemented, you'll have unprepared incident responders and they'll fall into the [excessive BAU](https://you-build-it-you-run-it.playbook.ee/pitfalls#excessive-bau) and [limited on-call schedule pitfalls](https://you-build-it-you-run-it.playbook.ee/pitfalls#limited-on-call-schedule). 
 
 ![](../.gitbook/assets/practices/incident-response-practices.png)
 

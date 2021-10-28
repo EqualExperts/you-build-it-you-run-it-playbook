@@ -2,11 +2,11 @@
 
 Coming soon
 
-## Operations manager still accountable
+## Linear run costs
 
 Coming soon
 
-## Unsustainable on-call schedule
+## Operations manager still accountable
 
 Coming soon
 
@@ -15,6 +15,18 @@ Coming soon
 Coming soon
 
 ## Operations treacle
+
+Coming soon
+
+## No major incident management
+
+Coming soon
+
+## A specialist for every product team
+
+Coming soon
+
+## Limited on-call schedule
 
 Coming soon
 
