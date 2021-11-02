@@ -1,4 +1,4 @@
-# UK utility company resources
+# UK utility company
 
 Equal Experts has worked with this UK utility company for years, with multiple teams building multiple digital services using You Build It You Run It.
 

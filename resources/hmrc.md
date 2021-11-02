@@ -1,4 +1,4 @@
-# HMRC resources
+# HMRC
 
 Equal Experts has worked with HMRC on the Multichannel Digital Tax Platform \(MDTP\) for many years. Over the years, MDTP has had over 80 teams, 200 digital services, and 1000 microservices.
 

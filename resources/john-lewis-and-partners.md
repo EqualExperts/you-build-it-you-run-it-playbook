@@ -1,4 +1,4 @@
-# John Lewis & Partners resources
+# John Lewis & Partners
 
 Equal Experts has partnered with John Lewis & Partners on the John Lewis & Partners Digital Platform \(JLDP\) since 2017. As of September 2020, JLDP has surpassed 30 teams and 100 microservices. John Lewis & Partners have enthusiastically embraced You Build It You Run It at scale, as described in this playbook.
 
