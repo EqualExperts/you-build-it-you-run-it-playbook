@@ -12,7 +12,7 @@ There's no divide between Delivery and Operations functions in You Build It You 
 
 Operations teams are likely to exist alongside You Build It You Run It. They will manage self-hosted foundational systems, such as COTS applications and custom integrations. They also remain responsible for lower-level operational capabilities, such as on-premise Domain Name System (DNS) and firewall management.
 
-Every organisation is different, and every You Build It You Run It implementation is different. See our [operating model examples](https://you-build-it-you-run-it.playbooks.ee/examples) from our customers. 
+Every organisation is different, and every You Build It You Run It implementation is different. See our [operating model examples](https://you-build-it-you-run-it.playbooks.ee/from-our-customers) from our customers. 
 
 |Moving to You Build It You Run It on O2 Priority|
 |---|

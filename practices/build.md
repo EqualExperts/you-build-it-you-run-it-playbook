@@ -6,7 +6,7 @@ These practices design and build operability into digital services. Building a d
 
 **Figure 8 - build practices**
 
-These practices link back to our principle of [operating models are most effective when rapid restoration comes first](These practices link back to our principle of operating models are effective when rapid restoration comes first. ). You might not need to implement all of these, but without a majority of them you'll suffer from the [excessive BAU pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls#excessive-bau).  
+These practices link back to our principle of [operating models are most effective when rapid restoration comes first](https://you-build-it-you-run-it.playbook.ee/principles#operating-models-are-most-effective-when-rapid-restoration-comes-first). You might not need to implement all of these, but without a majority of them you'll suffer from the [excessive BAU pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls#excessive-bau).  
 
 ## Upskill application support analysts as product team developers
 
@@ -62,6 +62,10 @@ Encourage on-call product teams to fully automate a telemetry pipeline, and cont
 * *Incident collaboration*. Use a collaboration platform like [Slack](https://slack.com/intl/en-gb/) for product team members to effectively communicate during production incidents. 
 
 We recommend a telemetry pipeline is built just like any other automated deployment pipeline. The goal is for dashboard updates, out of hours callouts, and incident ticketing to happen automatically without any human intervention. 
+
+## Treat unplanned operational rework like planned work
+
+Coming soon
 
 ## Maximise discoverability of teams and services
 
