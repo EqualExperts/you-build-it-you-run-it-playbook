@@ -4,6 +4,8 @@ Equal Experts has worked with HMRC on the Multichannel Digital Tax Platform \(MD
 
 ![HMRC winning Digital Project of the Year at the 2015 UK IT Industry Awards](../.gitbook/assets/resources/hmrc.png)
 
+**Figure 1: HMRC and Equal Experts with the Digital Project Of The Year award at the UK IT Industry Awards**
+
 ## Case Studies
 
 {% embed url="https://www.equalexperts.com/case-study/supporting-hmrc-to-save-millions-in-operational-costs-in-minutes-not-months/" caption="Supporting HMRC to save millions in operational costs in minutes not months" %}

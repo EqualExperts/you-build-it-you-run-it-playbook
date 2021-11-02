@@ -4,6 +4,8 @@ Equal Experts has partnered with John Lewis & Partners on the John Lewis & Partn
 
 ![John Lewis &amp; Partners winning a 2019 DevOps Industry Award](../.gitbook/assets/resources/johnlewispartners.png)
 
+**Figure 1: John Lewis & Partners and Equal Experts with the Best DevOps Cloud Project award at the DevOps Industry Awards**
+
 ## Case Studies
 
 {% embed url="https://www.equalexperts.com/case-study/how-to-do-digital-transformation-like-john-lewis-partners/" caption="How to do digital transformation like John Lewis & Partners" %}
