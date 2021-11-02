@@ -21,7 +21,7 @@ On-call preparation includes:
 * *Escalation path*. Ensure product team members have clear communication pathways for major incidents. Make it easy to nominate an incident manager as incident commander for out of hours incidents. 
 * *Learning mindset*. Foster a no-blame culture of collaborative learning for production incidents. Promote an emphasis on creating new knowledge for the entire organisation.
 
-These changes can be difficult to implement when you have a tight launch deadline for a new digital service. It’s important to make them a bit at a time, starting from day one.
+These changes can be difficult to implement when you have a tight launch deadline for a new digital service. It's important to make them a bit at a time, starting from day one.
 
 ## Craft a sustainable on-call schedule
 
@@ -39,17 +39,17 @@ Some team members may be unable to do on-call for family or health reasons, and 
 
 Inject failures into digital services to validate they have been [architected for adaptability](https://you-build-it-you-run-it.playbook.ee/practices/build#architect-for-adaptability). Enable product teams to hone their incident response skills, prior to any actual production incidents. 
 
-Run day-long events that introduce failures into your digital services. Encourage your product teams to reduce the blast radius of latent faults, refine their mental models, and build up relationships with dependent teams. If your production environment can’t handle a controlled level of stress, run a Chaos Day in a test environment. 
+Run day-long events that introduce failures into your digital services. Encourage your product teams to reduce the blast radius of latent faults, refine their mental models, and build up relationships with dependent teams. If your production environment can't handle a controlled level of stress, run a Chaos Day in a test environment. 
 
 To find out more about running Chaos Days in large enterprise organisations, see our [Chaos Day playbook](https://chaos-day.playbook.ee/) by Lyndsay Prewer. 
 
 ## Calculate in-incident financial losses
 
-Estimate the costs incurred and revenue lost during a production incident, and prioritise incident response based on that financial loss. Ensure product teams understand what is, and isn’t, a major incident that requires swarming and an urgent resolution.
+Estimate the costs incurred and revenue lost during a production incident, and prioritise incident response based on that financial loss. Ensure product teams understand what is, and isn't, a major incident that requires swarming and an urgent resolution.
 
-You Build It You Run It is based on an understanding of the financial exposure attached to a digital service. We’ve worked with many customers where incident financial loss is only calculated for the post-incident review, if at all. As a result, an entirely subjective incident priority is used to guide the incident response process, and there’s a lot of uncertainty over what is and isn’t a major incident. 
+You Build It You Run It is based on an understanding of the financial exposure attached to a digital service. We've worked with many customers where incident financial loss is only calculated for the post-incident review, if at all. As a result, an entirely subjective incident priority is used to guide the incident response process, and there's a lot of uncertainty over what is and isn't a major incident. 
 
-Shifting that financial loss calculation left to the start of an incident clarifies how to approach incident response. It’s a simple categorisation method, which avoids people wasting incident response time debating if an incident is a P1, a P2, or a P3. 
+Shifting that financial loss calculation left to the start of an incident clarifies how to approach incident response. It's a simple categorisation method, which avoids people wasting incident response time debating if an incident is a P1, a P2, or a P3. 
 
 We recommend calculating incident loss at the start of an incident, when costs incurred and/or revenue loss are first understood. Revise the calculation as and when new information on losses is available. That financial loss estimate can then be used to select an incident response method:
 
@@ -67,7 +67,7 @@ This is always contextual, and dependent on examples. What constitutes a high fi
 
 Share incident insights and new discoveries with your entire organisation. Ensure on-call product teams respond to future incidents with the full knowledge of your organisation at their disposal. 
 
-You Build It You Run It encourages a growth mindset. Digital services are inherently imperfect, and a production failure implies a set of circumstances that were unanticipated or poorly understood. The only way for product teams to understand and improve what’s not understood and needs improvement is to create more learning experiences.
+You Build It You Run It encourages a growth mindset. Digital services are inherently imperfect, and a production failure implies a set of circumstances that were unanticipated or poorly understood. The only way for product teams to understand and improve what's not understood and needs improvement is to create more learning experiences.
 
 Distribute the insights from a post-incident review to your entire organisation, as follows:
 
@@ -76,7 +76,7 @@ Distribute the insights from a post-incident review to your entire organisation,
 * Host one or more internal brown bag sessions for product teams to walk through the incident as it unfolded, and discuss incident insights.
 * Ensure senior leaders encourage thorough post-incident reviews, and spread knowledge themselves throughout the organisation to benefit different product teams. 
 
-Broadcasting incident insights means scarce, proprietary knowledge can reach those who need it most. The more information you share between product teams, the more collaboration and trust you’ll foster.
+Broadcasting incident insights means scarce, proprietary knowledge can reach those who need it most. The more information you share between product teams, the more collaboration and trust you'll foster.
 
 |You Build It You Run It in PCI payments|
 |---|

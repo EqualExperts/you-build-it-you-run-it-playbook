@@ -1,8 +1,8 @@
 # Measurement 
 
-These practices measure an operating model to decide if it’s worthy of further investment. The cost effectiveness of business outcome protection is an informative, actionable measure of an operating model. 
+These practices measure an operating model to decide if it's worthy of further investment. The cost effectiveness of business outcome protection is an informative, actionable measure of an operating model. 
 
-Leading and trailing measures can be used to gauge progress in deployment throughput, service reliability, and learning culture. It’s important to select measures that are holistic, actionable, and do not create the wrong incentives. See [*Measuring Continuous Delivery*](https://www.amazon.co.uk/dp/B08LYZDPMK) by Steve Smith.
+Leading and trailing measures can be used to gauge progress in deployment throughput, service reliability, and learning culture. It's important to select measures that are holistic, actionable, and do not create the wrong incentives. See [*Measuring Continuous Delivery*](https://www.amazon.co.uk/dp/B08LYZDPMK) by Steve Smith.
 
 ![](../.gitbook/assets/practices/measurement-practices.png)
 
@@ -37,7 +37,7 @@ Measure the reliability of digital services as:
 
 **Table 13 - service reliability measures**
 
-Financial loss protection effectiveness is a measure we’ve used with customers to gauge the cost effectiveness of You Build It You Run It at scale. It’s a check of projected financial loss per incident that is unrealised, because the actual time to restore is faster than the projected time to restore. It’s a comparison that can be made between digital services, product teams, and even operating models.  
+Financial loss protection effectiveness is a measure we've used with customers to gauge the cost effectiveness of You Build It You Run It at scale. It's a check of projected financial loss per incident that is unrealised, because the actual time to restore is faster than the projected time to restore. It's a comparison that can be made between digital services, product teams, and even operating models.  
 
 In the [earlier furniture retailer example](https://you-build-it-you-run-it.playbook.ee/practices/selection), there was a furniture retailer example with a bedroom digital service. It had a maximum financial exposure of $200K per hour, and a [99.0% availability target](https://you-build-it-you-run-it.playbook.ee/practices/selection#select-an-availability-target-on-financial-exposure). 
 

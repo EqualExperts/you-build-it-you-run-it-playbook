@@ -50,7 +50,7 @@ We recommend paying for a SaaS incident response platform such as [PagerDuty](ht
 
 **Figure 10 - integrating into incident management as is**
 
-It takes time to integrate You Build It You Run It into the same incident management process as Ops Run It, and we've seen it pay off multiple times. We've witnessed dramatic reductions in time to acknowledge and time to resolve an incident, and improvements in ways of working between different teams. If you don’t do this, you’ll fall into the [No major incident management pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls#no-major-incident-management).
+It takes time to integrate You Build It You Run It into the same incident management process as Ops Run It, and we've seen it pay off multiple times. We've witnessed dramatic reductions in time to acknowledge and time to resolve an incident, and improvements in ways of working between different teams. If you don't do this, you'll fall into the [No major incident management pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls#no-major-incident-management).
 
 ## Automate change auditing
 
@@ -87,7 +87,7 @@ Offloading and automating database tasks frees up your database administrators t
 
 **Figure 11 - DBA specialists as a service**
 
-If you don’t implement specialists as a service, you’ll endure time-consuming interactions with operational teams, and eventually fall into the [specialist in every product team pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls#a-specialist-for-every-product-team).
+If you don't implement specialists as a service, you'll endure time-consuming interactions with operational teams, and eventually fall into the [specialist in every product team pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls#a-specialist-for-every-product-team).
 
 |The support toolchain for You Build It You Run It at a payments provider|
 |---|

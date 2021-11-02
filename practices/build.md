@@ -65,7 +65,16 @@ We recommend a telemetry pipeline is built just like any other automated deploym
 
 ## Treat unplanned operational rework like planned work
 
-Coming soon
+Manage unplanned operational tasks for live digital services in a similar way to planned product and operational features. This ensures urgent operational faults can be quickly rectified, without causing too many delays to planned work. 
+
+We've heard unplanned operational rework described as 'BAU work'. Essentially, it's any operational task that hasn't been planned for by the product manager. This might include investigating an intermittent alert, fixing a deployment failure, or adding more infrastructure capacity. Manage these tasks as follows:
+
+* *Visualise rework items*. Add a swimlane onto the team board for unplanned operational tasks, alongside swimlanes for planned product and operational features.
+* *Allocate a team member to handle rework items*. Ensure a product team member is available in working hours to:
+    * Add newly uncovered operational tasks to the product team board
+    * Complete urgent operational tasks as soon as possible
+    * Add non-urgent operational tasks to the backlog for prioritisation
+*  *Measure the impact of rework items*.  Track how much time per week is spent on unplanned operational tasks, and check for an upwards trend correlating with a decline in deployment throughput and/or service reliability. For more on this, see Rework Rate measurements in [Accelerate](https://www.amazon.co.uk/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339), by Nicole Forsgren *et al*. 
 
 ## Maximise discoverability of teams and services
 
