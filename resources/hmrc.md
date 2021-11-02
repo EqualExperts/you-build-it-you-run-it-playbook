@@ -2,7 +2,7 @@
 
 Equal Experts has worked with HMRC on the Multichannel Digital Tax Platform \(MDTP\) for many years. Over the years, MDTP has had over 80 teams, 200 digital services, and 1000 microservices.
 
-![HMRC winning Digital Project of the Year at the 2015 UK IT Industry Awards](../.gitbook/assets/by-our-customers/hmrc.png)
+![HMRC winning Digital Project of the Year at the 2015 UK IT Industry Awards](../.gitbook/assets/resources/hmrc.png)
 
 ## Case Studies
 
