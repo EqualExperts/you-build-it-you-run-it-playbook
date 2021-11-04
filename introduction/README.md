@@ -1,9 +1,5 @@
 # Introduction
 
-This playbook describes the You Build It You Run It operating model.
-
-> *You Build It You Run It is an operating model in which product teams build, deploy, operate, and support their own digital services* 
-
 At Equal Experts, we help organisations to achieve sustainable innovation. If your organisation has a similar ambition, you'll likely need improvements in:
 
 * *Deployment throughput*. Digital services need to constantly evolve, to meet your changing customer needs in a competitive landscape. [*Accelerate*](https://www.amazon.co.uk/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339) by Dr. Nicole Forsgren *et al* found organisations with a high deployment throughput were twice as likely to exceed profitability, market share, and productivity expectations.

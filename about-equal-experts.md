@@ -13,4 +13,4 @@ Our network is made up of permanent staff and independent contractors. Each sele
 
 Being low ego, grown-up experts with intrinsic motivation to learn and grow means we can minimise hierarchy. This frees consultants to focus on the needs of their customers. We harmoniously blend culture and capabilities from both organisations. This creates a flywheel effect that makes innovation easier over time.
 
-What sets us apart is our Expertise. It works because we treat each other and our customers as Equals. This is what makes us Equal Experts. This is how we bring the step change needed to sustain innovation.
+What sets us apart is our Expertise. It works because we treat each other and our customers as Equals. This is what makes us Equal Experts. This is how we bring the sstep change needed to sustain innovation.
