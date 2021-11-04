@@ -68,25 +68,59 @@ If a production incident happens during working hours, there is an immediate cal
  
  It’s important to protect operability incentives for product teams who are only on-call during working hours. If your organisation has Ops Run It for foundational systems, ensure that digital services cannot be covered out of hours by that operating model. 
 
-## Select group out of hours schedule for medium availability targets
+## Select domain out of hours schedule for medium availability targets
 
-Coming soon
+Share out of hours on-call schedules between sibling product teams for your digital services, when you have these desired outcomes:
+
+* Weekly, daily, or more frequent deployments.
+* 99.0% availability protection. 
+* 2 hours of tolerable unavailability per week.
+
+Reduce on-call standby costs while incentivising product teams to care about operability, even when they’re on-call infrequently. 
 
 ![](../.gitbook/assets/practices/operating-model-selector-at-scale-medium-availability-digital-services.png)
 
 **Figure 18 - Operating model selector for medium availability digital services It at scale**
 
-Coming soon
+A domain schedule is a logical grouping of digital services, with an established affinity. The owning product teams are considered to be siblings. The domain construct needs to minimise on-call cognitive load, simplify knowledge sharing between teams, and focus on business outcomes. We recommend either of the following:
+
+* Product domains grouped by customer journey
+* Architectural domains grouped by technology capabilities
+
+We don’t recommend geographic domains grouped by region, or technology domains grouped by tool choices. One out of hours schedule for all digital services in a country, or all digital services that use Kotlin produces a mishmash with cross-cutting product boundaries and a high cognitive load. This has a negative impact on the time to diagnose and resolve production incidents.
+
+For the furniture retailer, the bedroom frontend has a 99.0% availability target, which matches to domain out of hours on-call. The owning product team has to identify other digital services in the same product domain, and work with those product teams to establish a shared domain on-call schedule. 
+
+ |Software service|Maximum financial exposure in an hour|Availability level|On-call schedule in working hours|On-call schedule out of hours|
+ |---|---|---|---|---|
+ |bedroom|$200,000|99.0%|Team|Domain|
+ 
+ **Table 19: software service with medium on-call level** 
+ 
+ Domain schedules balance strong operability incentives with run costs. They aren’t perfect, and have their own complications: 
+ 
+ * **Domain on-call funding**. Budget holders for different product teams in the same domain need to choose one of them as the sole budget holder for on-call funding.  
+ * **Domain knowledge synchronisation costs**. The cost of sharing knowledge about multiple digital services between multiple product teams can be high, especially if technology choices have been radically different
+ * **Domain affinity**. Product teams may disagree on which digital services comprise a domain, or wish to run their own team schedules regardless of availability targets. 
+ 
+ These can be mitigated by ensuring product teams are aware of domains and on-call responsibilities from day one. The sooner a product team is aware they're due to share a domain schedule with another team, the easier that eventual process will be. 
+
 
 ## Select team out of hours on-call for higher availability targets
 
-Coming soon
+Do out of hours on-call at scale for your digital services, when you have these desired outcomes:
+
+* Weekly to daily deployments, or more.
+* 99.9% or more availability protection. 
+* 10 mins or less of tolerable unavailability per week.
+
+Maximise incentives for product teams to care about operability.
 
 ![](../.gitbook/assets/practices/operating-model-selector-at-scale-high-availability-digital-services.png)
 
 **Figure 19 - Operating model selector for high availability digital services It at scale**
 
-Coming soon
+This is no different from the standard You Build It You Run It. There should be a small number of digital services that require this on-call level. A high number of product teams with their own team schedules is a weak signal that something is wrong in availability target selection. 
 
 |Domain schedules at John Lewis & Partners|
 |---|
