@@ -16,6 +16,8 @@ As the number of your product teams and digital services scales up, there can be
 
 ![](../.gitbook/assets/practices/scale-practices.png)
 
+These practices are linked to our principles of [operating models are insurance for business outcomes](https://you-build-it-you-run-it.playbook.ee/principles#operating-models-are-insurance-for-business-outcomes), and [operating models are selected on financial exposure and product feature demand](https://you-build-it-you-run-it.playbook.ee/principles#operating-models-are-selected-on-financial-exposure-and-product-feature-demand).
+
 ## Select out of hours schedule on financial exposure
 
 Ensure that [availability targets are selected on financial exposure](https://you-build-it-you-run-it.playbook.ee/practices/selection#select-an-availability-target-on-financial-exposure), and match an on-call level to an availability target. This achieves a balance between financial exposure, run costs, and remuneration for on-call product teams developers that doesn’t weaken operability incentives. 
