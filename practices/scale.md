@@ -1,38 +1,74 @@
 # Scale
 
-Coming soon
+These practices explain how to scale You Build It You Run It across a large organisation with many product teams and many digital services. Without these practices, you’ll suffer from the [Linear run cost pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls#linear-run-costs).  
+
+At Equal Experts, we don’t believe in prescriptive scaling frameworks. We believe in applying the same holistic principles and practices for deployment throughput, service reliability, and learning culture to 1, 10, or 50 product teams, in a cost-effective way. 
+
+This means:
+
+1. Use the same You Build It You Run It [principles](https://you-build-it-you-run-it.playbook.ee/principles) and [practices](https://you-build-it-you-run-it.playbook.ee/practices) as before.
+1. Implement a [digital platform](https://digital-platform.playbook.ee/introduction/what-is-a-digital-platform) to flatten setup costs for product teams and digital services. See the _[Digital Platform Playbook](https://digital-platform.playbook.ee/)_ by Adam Hansrod _et al_. 
+1. Introduce additional selection practices for finer-grained operating model choices.
 
 ![](../.gitbook/assets/practices/operating-model-selector-at-scale.png)
 
 **Figure 14 - operating model selector at scale**
 
-Coming soon
+As the number of your product teams and digital services scales up, there can be a temptation to centralise some incident response in a new operations team. It’s important to resist this idea, because it’s just another form of Ops Run It that will damage delivery throughput, service reliability, and learning culture. We recommend the below practices instead.
 
 ![](../.gitbook/assets/practices/scale-practices.png)
 
 **Figure 15 - scale practices**
 
-## Select out of hours on-call on financial exposure
+## Select out of hours schedule on financial exposure
 
-Coming soon
+Ensure that [availability targets are selected on financial exposure](https://you-build-it-you-run-it.playbook.ee/practices/selection#select-an-availability-target-on-financial-exposure), and match an on-call level to an availability target. This achieves a balance between financial exposure, run costs, and remuneration for on-call product teams developers that doesn’t weaken operability incentives. 
+
+You Build It You Run It protects business outcomes. It doesn’t mean every digital service needs 24x7 on-call support. Not every digital service needs to be 99.99% available, and always on. Some digital services have a low level of financial exposure and don’t need out of hours support, some have a medium level of exposure warranting some out of hours support, and some have a high level of exposure that justifies dedicated out of hours support. 
 
 ![](../.gitbook/assets/practices/you-build-it-you-run-it-at-scale.png)
 
 **Figure 16 - You Build It You Run It at scale**
 
-Coming soon
+In our [Selection practices](https://you-build-it-you-run-it.playbook.ee/practices/selection), there’s a furniture retailer example with a third party COTS ecommerce platform, custom bedroom frontend, and a custom appointments frontend. The financial exposure bands linked to different availability targets can be updated to include levels of on-call:
 
-## Select no out of hours on-call for lower availability targets
+|Maximum financial exposure in an hour|Availability level|Tolerable unavailability in a week|On-call schedule in working hours|On-call schedule out of hours|
+|---|---|---|---|---|
+|$7,000|95.0%|8h 24m 0s|Team|None|
+|$250,000|99.0%|1h 40m 48s|Team|Domain|
+|$800,000|99.9%|0h 10m 5s|Team|Team|
 
-Coming soon
+**Table 17 - financial exposure bands with on-call levels**
+
+In working hours, a product team always has a team schedule, and is accountable for the reliability of its digital services. Out of hours there could be no schedule, a domain schedule shared between teams, or a team schedule again. 
+
+## Select no out of hours schedule for lower availability targets
+
+Don’t do out of hours on-call for your digital services, when you have these desired outcomes:
+
+* Weekly to daily deployments, or more.
+* 95.0% availability protection. 
+* 9 hours of tolerable unavailability per week.
+
+Reduce on-call standby costs while incentivising product teams to care about operability by promoting working hours ownership and on-call. 
 
 ![](../.gitbook/assets/practices/operating-model-selector-at-scale-low-availability-digital-services.png)
 
 **Figure 17 - Operating model selector for low availability digital services It at scale**
 
-Coming soon
+If a production incident happens during working hours, there is an immediate callout to the owning product team, and they respond to the incident based on their [in-incident calculation of financial loss](https://you-build-it-you-run-it.playbook.ee/practices/incident-response#calculate-in-incident-financial-losses). If an incident happens out of hours, the callout is suppressed until the start of the next working day. This incentivises a product team to build operability into a digital service without out of hours support, in order to avoid a production incident spilling over into the next working day.
+ 
+ For the furniture retailer, the appointments frontend has a 95.0% availability target, which matches to no out of hours schedule.
+ 
+ |Software service|Maximum financial exposure in an hour|Availability level|On-call schedule in working hours|On-call schedule out of hours|
+ |---|---|---|---|---|
+ |appointments|$6,000|95.0%|Team|None|
+ 
+ **Table 18: software service with low on-call level**
+ 
+ It’s important to protect operability incentives for product teams who are only on-call during working hours. If your organisation has Ops Run It for foundational systems, ensure that digital services cannot be covered out of hours by that operating model. 
 
-## Select group out of hours on-call for medium availability targets
+## Select group out of hours schedule for medium availability targets
 
 Coming soon
 

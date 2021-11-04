@@ -46,8 +46,8 @@ The furniture retailer examines its appetite for unavailability at its different
 |Maximum financial exposure in an hour|Availability level|Tolerable unavailability in a week|
 |---|---|---|
 |$7,000|95.0%|8h 24m 0s|
-|£250,000|99.0%|1h 40m 48s|
-|£800,000|99.9%|0h 10m 5s|
+|$250,000|99.0%|1h 40m 48s|
+|$800,000|99.9%|0h 10m 5s|
 
 **Table 2 - financial exposure bands with availability targets**
 

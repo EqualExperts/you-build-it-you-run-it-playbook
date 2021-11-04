@@ -51,7 +51,7 @@ Assume the bedroom service is unavailable for 30 mins, and the incident financia
 
 |Software Service|Incident Duration|Incident Financial Loss|Incident Financial Loss At Tolerable Unavailability Per Week|Incident Financial Loss Protection|Incident Financial Loss Protection Effectiveness %|
 |---|---|---|---|---|---|
-|bedroom|0:30:00|$100K|£336K|£236K|70%|
+|bedroom|0:30:00|$100K|$336K|$236K|70%|
 
 **Table 15: an actual availability loss with revenue protection**
 
