@@ -87,9 +87,9 @@ For the furniture retailer, the bedroom frontend has a 99.0% availability target
  
  Domain schedules balance strong operability incentives with run costs. They aren’t perfect, and have their own complications: 
  
- * **Domain on-call funding**. Budget holders for different product teams in the same domain need to choose one of them as the sole budget holder for on-call funding.  
- * **Domain knowledge synchronisation costs**. The cost of sharing knowledge about multiple digital services between multiple product teams can be high, especially if technology choices have been radically different
- * **Domain affinity**. Product teams may disagree on which digital services comprise a domain, or wish to run their own team schedules regardless of availability targets. 
+ * *Domain on-call funding*. Budget holders for different product teams in the same domain need to choose one of them as the sole budget holder for on-call funding.  
+ * *Domain knowledge synchronisation costs*. The cost of sharing knowledge about multiple digital services between multiple product teams can be high, especially if technology choices have been radically different
+ * *Domain affinity*. Product teams may disagree on which digital services comprise a domain, or wish to run their own team schedules regardless of availability targets. 
  
  These can be mitigated by ensuring product teams are aware of domains and on-call responsibilities from day one. The sooner a product team is aware they're due to share a domain schedule with another team, the easier that eventual process will be. 
 
