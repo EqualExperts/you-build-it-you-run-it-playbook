@@ -12,13 +12,9 @@ This means:
 
 ![](../.gitbook/assets/practices/operating-model-selector-at-scale.png)
 
-**Figure 14 - operating model selector at scale**
-
 As the number of your product teams and digital services scales up, there can be a temptation to centralise some incident response in a new operations team. It’s important to resist this idea, because it’s just another form of Ops Run It that will damage delivery throughput, service reliability, and learning culture. We recommend the below practices instead.
 
 ![](../.gitbook/assets/practices/scale-practices.png)
-
-**Figure 15 - scale practices**
 
 ## Select out of hours schedule on financial exposure
 
@@ -28,8 +24,6 @@ You Build It You Run It protects business outcomes. It doesn’t mean every digi
 
 ![](../.gitbook/assets/practices/you-build-it-you-run-it-at-scale.png)
 
-**Figure 16 - You Build It You Run It at scale**
-
 In our [Selection practices](https://you-build-it-you-run-it.playbook.ee/practices/selection), there’s a furniture retailer example with a third party COTS ecommerce platform, custom bedroom frontend, and a custom appointments frontend. The financial exposure bands linked to different availability targets can be updated to include levels of on-call:
 
 |Maximum financial exposure in an hour|Availability level|Tolerable unavailability in a week|On-call schedule in working hours|On-call schedule out of hours|
@@ -37,8 +31,6 @@ In our [Selection practices](https://you-build-it-you-run-it.playbook.ee/practic
 |$7,000|95.0%|8h 24m 0s|Team|None|
 |$250,000|99.0%|1h 40m 48s|Team|Domain|
 |$800,000|99.9%|0h 10m 5s|Team|Team|
-
-**Table 17 - financial exposure bands with on-call levels**
 
 In working hours, a product team always has a team schedule, and is accountable for the reliability of its digital services. Out of hours there could be no schedule, a domain schedule shared between teams, or a team schedule again. 
 
@@ -54,8 +46,6 @@ Reduce on-call standby costs while incentivising product teams to care about ope
 
 ![](../.gitbook/assets/practices/operating-model-selector-at-scale-low-availability-digital-services.png)
 
-**Figure 17 - Operating model selector for low availability digital services It at scale**
-
 If a production incident happens during working hours, there is an immediate callout to the owning product team, and they respond to the incident based on their [in-incident calculation of financial loss](https://you-build-it-you-run-it.playbook.ee/practices/incident-response#calculate-in-incident-financial-losses). If an incident happens out of hours, the callout is suppressed until the start of the next working day. This incentivises a product team to build operability into a digital service without out of hours support, in order to avoid a production incident spilling over into the next working day.
  
  For the furniture retailer, the appointments frontend has a 95.0% availability target, which matches to no out of hours schedule.
@@ -63,8 +53,6 @@ If a production incident happens during working hours, there is an immediate cal
  |Software service|Maximum financial exposure in an hour|Availability level|On-call schedule in working hours|On-call schedule out of hours|
  |---|---|---|---|---|
  |appointments|$6,000|95.0%|Team|None|
- 
- **Table 18: software service with low on-call level**
  
  It’s important to protect operability incentives for product teams who are only on-call during working hours. If your organisation has Ops Run It for foundational systems, ensure that digital services cannot be covered out of hours by that operating model. 
 
@@ -80,8 +68,6 @@ Reduce on-call standby costs while incentivising product teams to care about ope
 
 ![](../.gitbook/assets/practices/operating-model-selector-at-scale-medium-availability-digital-services.png)
 
-**Figure 18 - Operating model selector for medium availability digital services It at scale**
-
 A domain schedule is a logical grouping of digital services, with an established affinity. The owning product teams are considered to be siblings. The domain construct needs to minimise on-call cognitive load, simplify knowledge sharing between teams, and focus on business outcomes. We recommend either of the following:
 
 * Product domains grouped by customer journey
@@ -94,8 +80,6 @@ For the furniture retailer, the bedroom frontend has a 99.0% availability target
  |Software service|Maximum financial exposure in an hour|Availability level|On-call schedule in working hours|On-call schedule out of hours|
  |---|---|---|---|---|
  |bedroom|$200,000|99.0%|Team|Domain|
- 
- **Table 19: software service with medium on-call level** 
  
  Domain schedules balance strong operability incentives with run costs. They aren’t perfect, and have their own complications: 
  
@@ -117,8 +101,6 @@ Do out of hours on-call at scale for your digital services, when you have these 
 Maximise incentives for product teams to care about operability.
 
 ![](../.gitbook/assets/practices/operating-model-selector-at-scale-high-availability-digital-services.png)
-
-**Figure 19 - Operating model selector for high availability digital services It at scale**
 
 This is no different from the standard You Build It You Run It. There should be a small number of digital services that require this on-call level. A high number of product teams with their own team schedules is a weak signal that something is wrong in availability target selection. 
 

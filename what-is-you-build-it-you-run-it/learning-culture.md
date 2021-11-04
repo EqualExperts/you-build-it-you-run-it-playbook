@@ -2,8 +2,6 @@
 
 ![](../.gitbook/assets/what-is-you-build-it-you-run-it/you-build-it-you-run-it-learning-culture.png)
 
-**Figure 5: You Build It You Run It - learning culture**
-
 We describe the You Build It You Run It learning culture as predisposed to act on insights. When there is an incident of consequence, the priority for an on-call product team is to acquire a deep understanding of the problem and its resolution, and then broadcast the accumulated knowledge across the organisation.
 
 ## Generate insights
@@ -35,10 +33,6 @@ Culture costs for You Build It You Run It are below.
 |Opportunity cost|Ongoing|Can be measured jas the cost of delay between an improvement as an idea and in practice. Potential revenue lost, missed customer opportunities due to delays in improvements|Lost revenue and capex cost|Low|
 |Run cost|Ongoing|Costs incurred putting an improvement idea into practice|Low|
 
-**Table 3: You Build It You Run It - learning culture costs**
-
 Culture costs are capex, as they are incurred by on-call product teams themselves.
 
 ![](../.gitbook/assets/what-is-you-build-it-you-run-it/you-build-it-you-run-it-learning-culture-costs.png)
-
-**Figure 6: You Build It You Run It - learning culture costs**

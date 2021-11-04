@@ -4,8 +4,6 @@ You Build It You Run It governance is a radical departure from Ops Run It. These
 
 ![](../.gitbook/assets/practices/governance-practices.png)
 
-**Figure 7 - governance practices**
-
 These practices are linked to our principles of [operating models are insurance for business outcomes](https://you-build-it-you-run-it.playbook.ee/principles#operating-models-are-insurance-for-business-outcomes) and [operating models are powered by feedback](https://you-build-it-you-run-it.playbook.ee/principles#operating-models-are-powered-by-feedback). 
 
 ## Make product team budget holders accountable for business outcomes
@@ -48,8 +46,6 @@ Offer a level of pay to on-call developers for 24x7 support that recognises the 
 |---|---|---|
 |Standby payment only|Pay a flat rate per hour/day/week for a developer to be ready out of hours for an incident|This model is easy to communicate and implement for cost tracking. The flat rate can be calculated based on the product lifecycle and prior incidents, or simply chosen as an arbitrary amount. See [How we've evolved on-call at Monzo](https://monzo.com/blog/how-weve-evolved-on-call-at-monzo) by Shubheksha Jalan|
 |Standby and callout payment|Pay a flat rate per hour/day/week for a developer to be ready out of hours for an incident, and pay a flat rate per hour for incident response|This model has more complicated cost tracking. It needs callout payments to be carefully designed, in order to incentivise a rapid incident response|
-
-**Table 10 - recommended payment models**
 
 We don't recommend callout payments only, as it's unfair remuneration. It's important to compensate your L1 on-call developers for the disruption that on-call standby causes to their lives outside of work. Always being available via phone, pager, and/or laptop out of hours has an impact on people.
 

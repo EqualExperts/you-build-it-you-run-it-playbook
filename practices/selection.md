@@ -6,13 +6,9 @@ Our operating model selector is below. Once you understand your failure toleranc
 
 ![](../.gitbook/assets/practices/operating-model-selector.png)
 
-**Figure 2: operating model selector**
-
 To help understand which operating model is best for your software service, follow these selection practices. 
 
 ![](../.gitbook/assets/practices/selection-practices.png)
-
-**Figure 3: selection practices**
 
 These practices are linked to our principles of operating models are [insurance for business outcomes](https://you-build-it-you-run-it.playbook.ee/principles#operating-models-are-insurance-for-business-outcomes), and [operating models are selected on financial exposure and product feature demand](https://you-build-it-you-run-it.playbook.ee/principles#operating-models-are-selected-on-financial-exposure-and-product-feature-demand).
 
@@ -39,8 +35,6 @@ Assume a furniture retailer has a self-hosted COTS ecommerce platform, a custom 
 |$250,000|
 |$800,000|
 
-**Table 1 - financial exposure bands**
-
 The furniture retailer examines its appetite for unavailability at its different exposure bands, and commits to 95.0%, 99.0%, and 99.9% as its availability levels. For example, for the $800K exposure band 99.9% of a week is 167 hours 49 mins 55 secs, so the tolerable unavailability in one week of 0.01% is 10 mins 5 secs.
 
 |Maximum financial exposure in an hour|Availability level|Tolerable unavailability in a week|
@@ -48,8 +42,6 @@ The furniture retailer examines its appetite for unavailability at its different
 |$7,000|95.0%|8h 24m 0s|
 |$250,000|99.0%|1h 40m 48s|
 |$800,000|99.9%|0h 10m 5s|
-
-**Table 2 - financial exposure bands with availability targets**
 
 Product managers then use their service forecasts to estimate a maximum financial exposure of $810K in an hour for the ecommerce platform, plus $6K and $200K for appointments and bedroom frontends. 
 
@@ -60,8 +52,6 @@ Each software service is matched to an availability target via its service expos
 |ecommerce-platform|$810,000|99.9%|
 |appointments|$6,000|95.0%|
 |bedroom|$200,000|99.0%|
-
-**Table 3 - software services with availability targets**
 
 The furniture retailer values its financial exposure bands once a quarter. Financial losses from prior incidents are reviewed, and if necessary the financial exposure bands are recalculated. This ensures the risk of financial exposure is revalidated as the business changes.
 
@@ -99,8 +89,6 @@ The furniture retailer defines relative feature demand bands, from low to very h
 |High|
 |Very high|
 
-**Table 4 - feature bands**
-
 The furniture retailer identifies monthly, fortnightly, weekly, and daily deployments as its deployment frequency levels, and ties them to feature demand bands. 
 
 |Maximum feature demand in a month|Deployment frequency|
@@ -109,8 +97,6 @@ The furniture retailer identifies monthly, fortnightly, weekly, and daily deploy
 |Medium|Fortnightly|
 |High|Weekly|
 |Very high|Daily+|
-
-**Table 5 - feature bands with deployment frequency levels**
 
 Product managers estimate low demand for the ecommerce platform, high demand for the appointments frontend, and very high demand for the bedroom frontend. 
 
@@ -121,8 +107,6 @@ Each software service is matched to a deployment target by its service demand. F
 |ecommerce-platform|Low|Monthly|
 |appointments|High|Weekly|
 |bedroom|Very high|Daily+|
-
-**Table 6 - software services with deployment targets**
 
 ## Select You Build It You Run It for 99.99% availability
 
@@ -135,8 +119,6 @@ It's rare for our customers to truly require 99.99% availability. The engineerin
 
 ![](../.gitbook/assets/practices/operating-model-selector-9999.png)
 
-**Figure 4: operating model selector for 99.99% availability**
-
 ## Select You Build It You Run It for digital services
 
 Adopt You Build It You Run It for your digital services, when you have these desired outcomes:
@@ -147,16 +129,12 @@ Adopt You Build It You Run It for your digital services, when you have these des
 
 ![](../.gitbook/assets/practices/operating-model-selector-digital-services.png)
 
-**Figure 5: operating model selector for digital services**
-
 For the furniture retailer, the appointments and bedroom frontends match with You Build It You Run It.
 
 |Software service|Availability target|Deployment target|Operating model|
 |---|---|---|---|
 |appointments|95.0%|Weekly|You Build It You Run It|
 |bedroom|99.0%|Daily+|You Build It You Run It|
-
-**Table 8: digital services with You Build It You Run It**
 
 In the private sector, it's possible to have digital services with a low level of revenue exposure, and high feature demand. For example, a medical publishing company with a per-institution subscription model could have customers clamouring for new features, but a website failure would not incur direct revenue loss as customer dissatisfaction is not linked to subscription renewal. Operational costs and indirect revenue loss would need to be factored into the availability target calculation.
 
@@ -174,15 +152,11 @@ Foundational systems usually require infrequent code changes after launch.
 
 ![](../.gitbook/assets/practices/operating-model-selector-foundational-systems.png)
 
-**Figure 6: operating model selector for foundational systems**
-
 For the furniture retailer, the ecommerce-platform COTS application matches with Ops Run It at a higher availability target. 
 
 |Software service|Availability target|Deployment target|Operating model|
 |---|---|---|---|
 |ecommerce-platform|99.9%|Monthly|Ops Run It|
-
-**Table 9: foundational systems with Ops Run It**
 
 |Traffic lights You Build It You Run It in retail|
 |---|

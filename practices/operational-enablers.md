@@ -11,8 +11,6 @@ Product teams have the incentives and technical skills to automate integration t
 
 ![](../.gitbook/assets/practices/operational-enabler-practices.png)
 
-**Figure 9 - operational enabler practices**
-
 These practices are based on our principle of [operating models are selected on financial exposure and product feature demand](https://you-build-it-you-run-it.playbook.ee/principles#operating-models-are-selected-on-financial-exposure-and-product-feature-demand). 
 
 ## Pre-approve low risk, repeatable changes
@@ -48,8 +46,6 @@ We recommend paying for a SaaS incident response platform such as [PagerDuty](ht
 
 ![](../.gitbook/assets/practices/integrating-into-incident-management-as-is.png)
 
-**Figure 10 - integrating into incident management as is**
-
 It takes time to integrate You Build It You Run It into the same incident management process as Ops Run It, and we've seen it pay off multiple times. We've witnessed dramatic reductions in time to acknowledge and time to resolve an incident, and improvements in ways of working between different teams. If you don't do this, you'll fall into the [No major incident management pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls#no-major-incident-management).
 
 ## Automate change auditing
@@ -84,8 +80,6 @@ Some operations teams possess scarce and highly valued engineering capabilities.
 Offloading and automating database tasks frees up your database administrators to provide high value expertise on demand, such as troubleshooting live performance problems. For more on this, see [A guide to Specialists as a Service](https://www.equalexperts.com/blog/our-thinking/a-guide-to-specialists-as-a-service) by Bethan Timmins.
 
 ![](../.gitbook/assets/practices/dba-specialists-as-a-service.png)
-
-**Figure 11 - DBA specialists as a service**
 
 If you don't implement specialists as a service, you'll endure time-consuming interactions with operational teams, and eventually fall into the [specialist in every product team pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls#a-specialist-for-every-product-team).
 

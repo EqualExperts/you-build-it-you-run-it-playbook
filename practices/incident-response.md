@@ -4,8 +4,6 @@ These practices relate to responding to incidents, and learning from incidents. 
 
 ![](../.gitbook/assets/practices/incident-response-practices.png)
 
-**Figure 12 - incident response practices**
-
 These practices link back to our principle of [operating models are effective when rapid restoration comes first](https://you-build-it-you-run-it.playbook.ee/principles#operating-models-are-most-effective-when-rapid-restoration-comes-first).
 
 ## Prepare for on-call from day one
@@ -58,8 +56,6 @@ We recommend calculating incident loss at the start of an incident, when costs i
 |High|<ul><li>Users cannot complete a user journey</li><li>Users affected by a security incident</li></ul>|Major|Restore availability immediately|
 |Medium|<ul><li>Users can complete a degraded user journey</li><li>Users affected by degraded performance</li></ul>|Minor|Restore availability by next working day|
 |Low|<ul><li>Users can complete a user journey</li><li>Users partially affected by degraded performance</li></ul>|Minor|Restore availability when possible, add ticket to backlog|
-
-**Table 11: incident response methods**
 
 This is always contextual, and dependent on examples. What constitutes a high financial loss per incident varies from one organisation to another. 
 

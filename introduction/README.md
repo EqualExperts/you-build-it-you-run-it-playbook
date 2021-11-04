@@ -16,15 +16,9 @@ We recommend You Build It You Run It for higher demand digital services. Adoptin
 
 ![](../.gitbook/assets/what-is-you-build-it-you-run-it/you-build-it-you-run-it-deployment-throughput.png)
 
-**Figure 2: You Build It You Run It - deployment throughput**
-
 ![](../.gitbook/assets/what-is-you-build-it-you-run-it/you-build-it-you-run-it-service-reliability.png)
 
-**Figure 3: You Build It You Run It - service reliability**
-
 ![](../.gitbook/assets/what-is-you-build-it-you-run-it/you-build-it-you-run-it-learning-culture.png)
-
-**Figure 4: You Build It You Run It - learning culture**
 
 We still advise using Ops Run It for lower demand foundational systems, including self-hosted COTS applications and custom integrations. A central operations team remains a cost-effective option where product feature demand is lower.  
 
@@ -66,8 +60,6 @@ Table 1 summarises the characteristics of You Build It You Run It and Ops Run It
 Figure 5 shows relative cost estimates for deployment throughput, service reliability, and learning culture in Ops Run It and You Build It You Run It. These estimates are based on our shared experiences of working with on-call product teams and central operations teams, in many different organisations. Detailed analyses are available in [What is Ops Run It](https://you-build-it-you-run-it.playbook.ee/what-is-ops-run-it) and [What is You Build It You Run It](https://you-build-it-you-run-it.playbook.ee/what-is-you-build-it-you-run-it). We believe Ops Run It has much higher opportunity costs, whereas You Build It You Run It has higher setup costs, and the run costs are similar. 
 
 ![](../.gitbook/assets/introduction/operating-models-relative-costs-comparison.png)
-
-**Figure 5: Operating models - relative costs comparison**
 
 ## Who is this playbook for
 

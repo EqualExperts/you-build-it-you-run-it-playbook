@@ -4,7 +4,7 @@ Equal Experts has worked with HMRC on the Multichannel Digital Tax Platform \(MD
 
 ![HMRC winning Digital Project of the Year at the 2015 UK IT Industry Awards](../.gitbook/assets/resources/hmrc.png)
 
-**Figure 2: HMRC and Equal Experts with the Digital Project Of The Year award at the UK IT Industry Awards**
+**HMRC and Equal Experts with the Digital Project Of The Year award at the UK IT Industry Awards**
 
 ## Case Studies
 

@@ -4,8 +4,6 @@ These practices design and build operability into digital services. Building a d
 
 ![](../.gitbook/assets/practices/build-practices.png)
 
-**Figure 8 - build practices**
-
 These practices link back to our principle of [operating models are most effective when rapid restoration comes first](https://you-build-it-you-run-it.playbook.ee/principles#operating-models-are-most-effective-when-rapid-restoration-comes-first). You might not need to implement all of these, but without a majority of them you'll suffer from the [excessive BAU pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls#excessive-bau).  
 
 ## Upskill application support analysts as product team developers

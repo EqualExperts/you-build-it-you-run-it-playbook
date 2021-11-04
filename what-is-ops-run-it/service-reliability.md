@@ -2,8 +2,6 @@
 
 ![](../.gitbook/assets/what-is-ops-run-it/ops-run-it-deployment-throughput.png)
 
-**Figure 8: Ops Run It - Service reliability**
-
 Service reliability involves a multi-level hierarchy of teams - an L1 operations bridge team, an L2 application support team, L3 delivery teams. There are also operational enablers who can be called upon for assistance, such as incident management and DBAs. This setup varies between different organisations: 
 
 * Your customer self-service capabilities could be classified as L0. 
@@ -61,8 +59,6 @@ Ops Run It reliability costs are listed in the below table. We're assuming on-ca
 |Incident cost|Per incident|Incident response costs incurred in application support team time for<ul><li>Applying data fixes</li><li>Making configuration changes</li><li>Adding infrastructure capacity</li><li>Performing rollbacks</li><li>Updating telemetry tools</li><li>On-call callout out of hours</li></ul>|Opex cost|Medium to high|
 |Opportunity cost|Per incident|Can be measured as the cost of delay between incident start and finish. Caused by service unavailability, missed opportunities with customers, and delays in further feature development|Revenue loss and costs incurred|Medium to high|
 
-**Table 3: Ops Run It - service reliability costs**
-
 In Ops Run It, we often observe operations managers under pressure to reduce their opex spend. The common countermeasures are:
 
 * *Outsource L1 and L2 support*. Reduce on-call standby rates, on-call callout rates, and operations team payroll costs by outsourcing the service desk, operations bridge, and/or application support teams to a third party managed service. The contract is likely to be multi-year, and could include service credits linked to an incident count threshold.
@@ -71,7 +67,3 @@ In Ops Run It, we often observe operations managers under pressure to reduce the
 These countermeasures have trade-offs, and they contribute to [Ops Run It drawbacks](https://you-build-it-you-run-it-playbooks.ee/what-is-ops-run-it/drawbacks) as well.  
 
 ![](../.gitbook/assets/what-is-ops-run-it/ops-run-it-deployment-throughput-costs.png)
-
-**Figure 9: Ops Run It - service reliability costs**
-
-

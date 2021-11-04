@@ -6,8 +6,6 @@ Leading and trailing measures can be used to gauge progress in deployment throug
 
 ![](../.gitbook/assets/practices/measurement-practices.png)
 
-**Figure 13 - measurement practices**
-
 These practices are linked to our principles of [operating models are insurance for business outcomes](https://you-build-it-you-run-it.playbook.ee/principles#operating-models-are-insurance-for-business-outcomes) and [operating models are powered by feedback](https://you-build-it-you-run-it.playbook.ee/principles#operating-models-are-powered-by-feedback).
 
 ## Measure deployment throughput
@@ -21,8 +19,6 @@ Measure the deployment throughput of digital services as:
 |Deployment Lead Time|Trailing|How long does a release candidate for a digital service take to reach deployment|Instrument deployment pipeline. Calculate days from production deployment back to build date|
 |Deployment Frequency|Trailing|How often are digital services deployed to customers|Instrument deployment pipeline. Calculate rate of production deployments|
 
-**Table 12: deployment throughput measures**
-
 ### Measure service reliability
 
 Measure the reliability of digital services as:
@@ -35,8 +31,6 @@ Measure the reliability of digital services as:
 |Time To Restore Availability|Trailing|How long does it take to re-attain an availability target once it has been lost|Instrument digital services. Calculate minutes from loss of availability target to re-attainment of availability target|
 |Financial Loss Protection Effectiveness|Trailing|What amount of expected financial loss per incident is protected by a faster than expected Time To Restore Availability|Instrument digital services and incident financial losses. Calculate maximum incident financial loss, up to time to restore allotted by availability target. Calculate percentage of maximum incident financial loss protected by a time to restore faster than allotted by availability target|
 
-**Table 13 - service reliability measures**
-
 Financial loss protection effectiveness is a measure we've used with customers to gauge the cost effectiveness of You Build It You Run It at scale. It's a check of projected financial loss per incident that is unrealised, because the actual time to restore is faster than the projected time to restore. It's a comparison that can be made between digital services, product teams, and even operating models.  
 
 In the [earlier furniture retailer example](https://you-build-it-you-run-it.playbook.ee/practices/selection), there was a furniture retailer example with a bedroom digital service. It had a maximum financial exposure of $200K per hour, and a [99.0% availability target](https://you-build-it-you-run-it.playbook.ee/practices/selection#select-an-availability-target-on-financial-exposure). 
@@ -45,15 +39,11 @@ In the [earlier furniture retailer example](https://you-build-it-you-run-it.play
 |---|---|---|---|
 |bedroom|$200K|99.0%|1:40:48|
 
-**Table 14: tolerable availability loss**
-
 Assume the bedroom service is unavailable for 30 mins, and the incident financial loss is calculated as $100K. The tolerable unavailability per week for 99.0% is 1 hour 41 mins, which would have produced a $336K incident financial loss. Financial loss protection can therefore be calculated as 70% of a projected incident financial loss was unrealised, as $236K of a theoretical $336K was protected by a faster than expected time to restore.
 
 |Software Service|Incident Duration|Incident Financial Loss|Incident Financial Loss At Tolerable Unavailability Per Week|Incident Financial Loss Protection|Incident Financial Loss Protection Effectiveness %|
 |---|---|---|---|---|---|
 |bedroom|0:30:00|$100K|$336K|$236K|70%|
-
-**Table 15: an actual availability loss with revenue protection**
 
 For more on measuring financial loss protection effectiveness, see our case study on [How to do digital transformation at John Lewis & Partners](https://www.equalexperts.com/case-study/how-to-do-digital-transformation-like-john-lewis-partners/#section-05).
 
@@ -67,8 +57,6 @@ Measure the progress of a learning culture as:
 |Chaos Days Frequency|Leading|How often are Chaos Days run for a digital service|Instrument Chaos Day reviews. Calculate rate of review publication|
 |Improvement Action Lead Time|Trailing|How long does an improvement action from a post-incident review for a digital service take to be implemented|Instrument post-incident reviews. Calculate days from improvement action definition to completion|
 |Improvement Action Frequency|Trailing|How often are improvement actions implemented for a digital service|Instrument post-incident reviews. Calculate days between implementation of improvement actions|
-
-**Table 16: learning culture measures**
 
 Trends in post-incident reviews are of particular interest. Usage in training materials and citations in internal company documents could also be included. See [Markers of progress in incident analysis](https://www.adaptivecapacitylabs.com/blog/2019/11/20/markers-of-progress-incident-analysis/) by John Allspaw.
 
