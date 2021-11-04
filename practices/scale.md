@@ -26,6 +26,8 @@ You Build It You Run It protects business outcomes. It doesn’t mean every digi
 
 ![](../.gitbook/assets/practices/you-build-it-you-run-it-at-scale.png)
 
+When an availability target is selected for a digital service based on its financial exposure, it is assigned a level of on-call support in addition to its tolerable downtime per week. 
+
 In our [Selection practices](https://you-build-it-you-run-it.playbook.ee/practices/selection), there’s a furniture retailer example with a third party COTS ecommerce platform, custom bedroom frontend, and a custom appointments frontend. The financial exposure bands linked to different availability targets can be updated to include levels of on-call:
 
 |Maximum financial exposure in an hour|Availability level|Tolerable unavailability in a week|On-call schedule in working hours|On-call schedule out of hours|
