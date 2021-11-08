@@ -22,7 +22,7 @@ Coming soon
 
 Coming soon
 
-## A specialist for every product team
+## Not enough specialists for every product team
 
 Coming soon
 

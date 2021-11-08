@@ -81,7 +81,7 @@ Offloading and automating database tasks frees up your database administrators t
 
 ![](../.gitbook/assets/practices/dba-specialists-as-a-service.png)
 
-If you don't implement specialists as a service, you'll endure time-consuming interactions with operational teams, and eventually fall into the [specialist in every product team pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls#a-specialist-for-every-product-team).
+If you don't implement specialists as a service, you'll endure time-consuming interactions with operational teams, and eventually fall into the [not enough embedded specialists pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls#not-enough-embedded-specialists).
 
 |The support toolchain for You Build It You Run It at a payments provider|
 |---|
