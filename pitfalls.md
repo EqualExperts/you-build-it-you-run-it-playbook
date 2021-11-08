@@ -22,7 +22,7 @@ Coming soon
 
 Coming soon
 
-## Not enough specialists for every product team
+## Not enough embedded specialists
 
 Coming soon
 
