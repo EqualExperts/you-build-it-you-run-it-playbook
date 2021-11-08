@@ -50,7 +50,7 @@ This looks like:
 * *Slow delivery of planned work*. Your product teams don't deliver in a timely fashion the product and operational features prioritised by product managers.
 * *High number of callouts*. Your product teams spend most of their time fighting operational problems e.g. intermittent alerts, deployment failures, infrastructure errors.
 
-Unplanned operational work doesn't count towards planned product or operational features. We've heard this expressed as "BAU work”. Day to day operational tasks simply need to be completed by a product team, and they constitute rework. If the amount of BAU work is excessive, a product team cannot complete planned work when expected by the product manager.
+Unplanned operational work doesn't count towards planned product or operational features. We've heard this expressed as "BAU work". Day to day operational tasks simply need to be completed by a product team, and they constitute rework. If the amount of BAU work is excessive, a product team cannot complete planned work when expected by the product manager.
 
 This pitfall happens when digital services cannot gracefully degrade on failure, when production deployments aren't consistently applied in all environments, and when the telemetry toolchain isn't fully automated. Excessive BAU can be hard to detect, because product teams don't always track operational rework in a ticketing system like Jira. Product team members might fix intermittent alerts, deployment failures, infrastructure errors etc. without a ticket. It can be spotted by measuring the percentage of time product team members spend on planned work, each week.
 
@@ -65,19 +65,78 @@ We don't see this pitfall in practice as often as it's feared. We believe the fe
 
 ## Change management treacle
 
-Coming soon
+This looks like:
+
+* *Insufficient deployment frequency*. Your product teams can't achieve weekly deployments or more.
+* *Prolonged change management process*. Your change management team insists each deployment completes a time-consuming change management process.
+
+We refer to slow, prolonged change management processes as treacle, and they have a significant impact on deployment lead times. It naturally encourages fewer, larger deployments, which makes it harder to understand the changeset and diagnose any production problems. 
+
+This pitfall happens when your change management process is entirely reactive, a single change category is applied to all production deployments, and each deployment requires a change approval. It creates a fraught relationship between your change management team and your product teams. 
+
+At the same time, it's important that product teams comply with internal requirements on change management, particularly if your organisation follows IT standards such as ITIL v3. A discussion  with a change management team to streamline change approvals needs to be accompanied by a commitment to preserve change auditing.  
+
+To avoid this pitfall:
+
+* [Pre-approve low risk, repeatable changes](https://you-build-it-you-run-it.playbook.ee/practices/operational-enablers#pre-approve-low-risk-repeatable-changes) to accelerate a majority of deployments. 
+* [Automate change auditing](https://you-build-it-you-run-it.playbook.ee/practices/operational-enablers#automate-change-auditing) for compliance with change management processes.
 
 ## No major incident management
 
-Coming soon
+This looks like:
+
+* *Lack of incident response collaboration*. Your product teams don't know how to involve other product teams and/or operational enabler teams in major incidents
+* *Major incident ignorance*. Your incident management team don't know when digital services are experiencing major incidents
+* *No crisis communications*. Your senior leadership don't know when major incidents are creating significant financial losses/
+
+A lack of incident management creates inconsistent behaviours and communication pathways during major incidents. It has a negative impact on resolution times and financial losses incurred, when an incident requires more than one product team to be resolved.
+
+This pitfall happens when your incident management team is excluded from the incident response process for digital services. It means different product teams will have distinct behaviours and communication methods during production incidents. It creates an impression that product teams aren't rigorous during incident response. 
+
+Crisis communications are particularly important during a major incident, and product teams won't know who to contact or how often to contact them with incident updates. A lack of clear, timely information to senior leadership during a major incident is an easy way to create doubts about an entire operating model. 
+
+To avoid this pitfall:
+
+* [Integrate into incident management as is](https://you-build-it-you-run-it.playbook.ee/practices/operational-enablers#integrate-into-incident-management-as-is), to ensure incident managers can be incident commanders for digital services as well as foundational systems.
 
 ## Not enough embedded specialists
 
-Coming soon
+This looks like:
+
+* *More product teams than embedded specialists*. You want an embedded specialist in each of your *n* product teams, but you have fewer than *n* embedded specialists in place.
+* *Unpredictable availability of embedded specialists*. Your product teams sometimes have to wait hours or days for specialist expertise.
+* *Slow recruitment of embedded specialists. *You are always trying to hire more specialists, who are either too few or too expensive to meet your needs.  
+* *Heavy workload for embedded specialists*. Your embedded specialists are each assigned to multiple product teams, and constantly endure a multi-service workload.
+* *Loneliness for embedded specialists*. Your embedded specialists don't spend time working together, or learning from one another, or even talking to one another.* *
+
+This applies to any technology specialty tied to operational work - DBAs, InfoSec analysts, network admins, operability engineers, and more. Balancing breadth of cross-functional product teams and depth of specialist expertise is hard. Developers lack the expertise to complete specialist tasks themselves. We've heard this described as “we don't want developers debugging Postgres in production", and “we don't want developers learning Terraform scripting on the job". 
+
+This pitfall happens when you have a small, central team of specialists that can't handle demand from your growing number of product teams. The common countermeasure is to embed a specialist in each product team. However, it's hard to find multiple, affordable specialists in the marketplace, and as a result your embedded specialists each have to cover multiple product teams. The result is a large expertise bottleneck is split into multiple expertise bottlenecks. Instead of spending hours or days waiting on a central specialist team, a product team waits for hours or days for its own embedded specialist to be available. 
+
+To avoid this pitfall:
+
+* [Establish specialists as a service](https://you-build-it-you-run-it.playbook.ee/practices/operational-enablers#establish-specialists-as-a-service), so repeatable tasks are automated as self-service functions and specialists are freed up to offer ad hoc expertise on demand
 
 ## Limited on-call schedule
 
-Coming soon
+This looks like:
+
+
+
+* Product teams have a minority of team members in out of hours on-call schedules
+* Product team members participating in on-call have significant disruption to their personal lives, and are on the verge of burnout
+
+Each product team with a limited on-call schedule has digital services at risk of lengthy incident resolution times out of hours. If product team members need time off work to cope with burnout, team morale will suffer and planned product features will take longer to complete than expected.
+
+This pitfall happens when product team members feel unprepared for on-call support, are unhappy with their remuneration, or burn out from too much time on-call over a period of time. It's important to respect the circumstances and decisions of different product team members.
+
+To avoid this pitfall:
+
+1. [Prepare for on-call from day one](https://you-build-it-you-run-it.playbook.ee/practices/incident-response#prepare-for-on-call-from-day-one), so product team members are well equipped to handle out of hours production alerts.
+2. [Ensure fair remuneration for on-call developers](https://you-build-it-you-run-it.playbook.ee/practices/governance#ensure-fair-remuneration-for-on-call-developers), so product team members feel compensated for the disruption to their personal lives. 
+3. [Craft a sustainable on-call schedule](https://you-build-it-you-run-it.playbook.ee/practices/incident-response#craft-a-sustainable-on-call-schedule), so no one product team member spends too much time on-call out of hours.  
+
+This pitfall affects operations teams as well. Your app support team may have some useful organisational context and experiences to contribute.
 
 |Lost sponsor in retail|
 |---|
