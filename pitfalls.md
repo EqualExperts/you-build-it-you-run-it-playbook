@@ -138,6 +138,7 @@ To avoid this pitfall:
 
 This pitfall affects operations teams as well. Your app support team may have some useful organisational context and experiences to contribute.
 
-|Lost sponsor in retail|
+|Lost accountability in retail|
 |---|
-|Coming soon<br><br>![Julia Wilson](../.gitbook/assets/practices/julia-wilson.jpg)<br><br>[Julia Wilson](https://www.linkedin.com/in/julia-l-wilson/)<br>Developer<br>EE UK|
+|I worked on a team at a retail customer, building a shifts app for staff mobile devices in bricks and mortar stores. We built a cloud-based platform in Azure and the mobile app with You Build It You Run It, and the benefits were clear to our customer sponsor. We achieved a time to repair of less than 10 minutes, and we deployed on average twice a day for over six months.<br><br>Unfortunately, once the shifts app became a live service and its user base hit a critical mass, its ownership changed to a different business function within the customer organisation. Some people in this new business function was unwilling to embrace our ways of working.<br><br>An [operations manager became accountable](https://you-build-it-you-run-it.playbook.ee/pitfalls#operations-manager-still-accountable) for the reliability of our shifts app. We remained responsible for supporting the app, but we were no longer permitted to perform deployments without Change Advisory Board approval. As a result, our time to repair non-critical issues increased from 10 minutes to 1 week, of which 5 days was the governance process.<br><br>By the time I left the engagement, we were down to deploying once a fortnight. It was strange, because people celebrated how quickly we could resolve live issues, and yet they didn’t quite make the connection to how important You Build It You Run It had been.
+<br><br>![Julia Wilson](../.gitbook/assets/practices/julia-wilson.jpg)<br><br>[Julia Wilson](https://www.linkedin.com/in/julia-l-wilson/)<br>Developer<br>EE UK|
