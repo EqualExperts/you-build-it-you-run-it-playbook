@@ -4,6 +4,8 @@ Below are the pitfalls we've encountered when implementing [You Build It You Run
 
 It's particularly important to guard against these pitfalls if your organisation previously migrated away from [Ops Run It](https://you-build-it-you-run-it.playbook.ee/what-is-ops-run-it). A predisposition to central operations teams may still exist in your organisation. If one or more pitfalls have a negative impact, your senior leadership may see a return to Ops Run It as a quick, cost efficient way to safeguard the reliability of digital services.
 
+These pitfalls aren't in any particular order.
+
 ## Linear run costs
 
 This looks like: 
