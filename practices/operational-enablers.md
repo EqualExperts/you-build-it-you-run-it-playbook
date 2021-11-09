@@ -77,7 +77,7 @@ Turn the skill sets of specialised operations teams into consumable services. Th
 
 Some operations teams possess scarce and highly valued engineering capabilities. The usual example we see is a few database administrators managing an on-premise relational database, for multiple product teams operating digital services in a cloud provider. The answer isn't to cross-train developers, or hire more database administrators. It's to eliminate repeatable work by migrating databases into your cloud provider, and by creating self-service deployment pipelines for your product teams. 
 
-Offloading and automating database tasks frees up your database administrators to provide high value expertise on demand, such as troubleshooting live performance problems. For more on this, see [A guide to Specialists as a Service](https://www.equalexperts.com/blog/our-thinking/a-guide-to-specialists-as-a-service) by Bethan Timmins.
+Offloading and automating database tasks frees up your database administrators to provide high value expertise on demand, such as troubleshooting live performance problems. For more on this, see [Stop trying to embed specialists in every product team](https://www.equalexperts.com/blog/our-thinking/stop-trying-to-embed-specialists-in-every-product-team/) by Bethan Timmins.
 
 ![](../.gitbook/assets/practices/dba-specialists-as-a-service.png)
 
