@@ -121,8 +121,6 @@ To avoid this pitfall:
 
 This looks like:
 
-
-
 * Product teams have a minority of team members in out of hours on-call schedules
 * Product team members participating in on-call have significant disruption to their personal lives, and are on the verge of burnout
 
@@ -133,8 +131,9 @@ This pitfall happens when product team members feel unprepared for on-call suppo
 To avoid this pitfall:
 
 1. [Prepare for on-call from day one](https://you-build-it-you-run-it.playbook.ee/practices/incident-response#prepare-for-on-call-from-day-one), so product team members are well equipped to handle out of hours production alerts.
-2. [Ensure fair remuneration for on-call developers](https://you-build-it-you-run-it.playbook.ee/practices/governance#ensure-fair-remuneration-for-on-call-developers), so product team members feel compensated for the disruption to their personal lives. 
-3. [Craft a sustainable on-call schedule](https://you-build-it-you-run-it.playbook.ee/practices/incident-response#craft-a-sustainable-on-call-schedule), so no one product team member spends too much time on-call out of hours.  
+1. [Re-architect digital services for adaptability](https://trello.com/c/nIsTYeDg/121-charles-betz-preview), so digital services don’t require substantial human intervention, and are fast to fix on failure
+1. [Ensure fair remuneration for on-call developers](https://you-build-it-you-run-it.playbook.ee/practices/governance#ensure-fair-remuneration-for-on-call-developers), so product team members feel compensated for the disruption to their personal lives. 
+1. [Craft a sustainable on-call schedule](https://you-build-it-you-run-it.playbook.ee/practices/incident-response#craft-a-sustainable-on-call-schedule), so no one product team member spends too much time on-call out of hours.  
 
 This pitfall affects operations teams as well. Your app support team may have some useful organisational context and experiences to contribute.
 
