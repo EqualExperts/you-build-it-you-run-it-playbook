@@ -1,6 +1,6 @@
 # Drawbacks of Ops Run It
 
-Ops Run It has a lot of drawbacks for digital services. They're systemic, and not the fault of any delivery or operations team. They're generally related to the [hard divide between siloed delivery and operations teams](https://you-build-it-you-run-it.playbooks.ee/what-is-ops-run-it). Countermeasures are sometimes available, albeit with their own costs and complexity.
+Ops Run It has a lot of drawbacks for digital services. They're systemic, and not the fault of any delivery or operations team. They're generally related to the [hard divide between siloed delivery and operations teams](https://you-build-it-you-run-it.playbook.ee/what-is-ops-run-it). Countermeasures are sometimes available, albeit with their own costs and complexity.
 
 Ops Run It creates a [diffusion of responsibility](https://en.wikipedia.org/wiki/Diffusion_of_responsibility). Product managers are responsible for launching products they don't support, and are incentivised to prioritise product features over operational features. Delivery teams are responsible for building services they don't support, and are incentivised to maximise deployments. Operations teams are responsible for supporting services they don't build, and are incentivised to minimise deployments. This results in a slow time to market, reliability problems, and/or limited learning opportunities.  
 
@@ -53,7 +53,7 @@ We usually see an overwhelmed application support team. They have to support com
 
 We've seen these reliability drawbacks add up to substantial financial losses incurred during production incidents, particularly during key trading periods. The most common countermeasures are: 
 
-* *L1 delivery team for key periods*. Delivery teams can provide [hypercare and peak support](https://you-build-it-you-run-it.playbooks.ee/what-is-ops-run-it/service-reliability) during service launch and/or busy trading periods, to flatten the time to resolve any incidents. This incurs additional run costs if the delivery teams are compensated, plus opportunity costs due to the lack of feature development.
+* *L1 delivery team for key periods*. Delivery teams can provide [hypercare and peak support](https://you-build-it-you-run-it.playbook.ee/what-is-ops-run-it/service-reliability) during service launch and/or busy trading periods, to flatten the time to resolve any incidents. This incurs additional run costs if the delivery teams are compensated, plus opportunity costs due to the lack of feature development.
 * *L1.5 application support team*. Digital service alerts can be routed to the application support team as well as the operations bridge team. This speeds up alert acknowledgement and incident resolution. It inevitably increases the workload on the application support team, and calls into question the purpose of the operations bridge team for digital services.
 
 ## Learning culture

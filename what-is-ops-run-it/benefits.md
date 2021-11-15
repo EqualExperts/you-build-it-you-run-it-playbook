@@ -8,18 +8,18 @@ These are the few benefits for digital services we expect to actually see in pra
 
 ### Deployment throughput
 
-We don't usually see any deployment throughput benefits. For a majority of organisations, [Ops Run It can't achieve weekly or daily deployments](https://you-build-it-you-run-it.playbooks.ee/what-is-ops-run-it/drawbacks). Some small or medium-sized organisations may overcome this, if they implement the [Ops Run It deployment throughput variant](https://you-build-it-you-run-it.playbooks.ee/what-is-ops-run-it/deployment-throughput) and delivery teams self-service some deployments. However, it's unusual to see that work well. 
+We don't usually see any deployment throughput benefits. For a majority of organisations, [Ops Run It can't achieve weekly or daily deployments](https://you-build-it-you-run-it.playbook.ee/what-is-ops-run-it/drawbacks). Some small or medium-sized organisations may overcome this, if they implement the [Ops Run It deployment throughput variant](https://you-build-it-you-run-it.playbook.ee/what-is-ops-run-it/deployment-throughput) and delivery teams self-service some deployments. However, it's unusual to see that work well.
 
 ### Service reliability
 
 We see some benefits, related to cost management and governance: 
 
-* *Low setup costs*. Ops Run It has a [low implementation cost](https://you-build-it-you-run-it.playbooks.ee/what-is-ops-run-it/service-reliability), as it's so well-established in the IT industry. There's plenty of training courses, online reading materials, and vendor tools that are compatible with multi-level production support. 
-* *Low run cost*. Ops Run It has a [low run cost](https://you-build-it-you-run-it.playbooks.ee/what-is-ops-run-it/service-reliability). The help desk, operations bridge, and application teams can centrally manage the availability of tens of digital services, plus self-hosted COTS applications and custom integrations.
-* *Run cost reduction options*. Run cost can be [lowered by outsourcing](https://you-build-it-you-run-it.playbooks.ee/what-is-ops-run-it/service-reliability), as the general skills and technical expertise for help desk, operations bridge, and application support teams are in a worldwide abundance. 
-* *Straightforward governance*. Accountability, responsibilities, and visibility are all easy to understand. The senior manager in the Operations function is accountable for all aspects of reliability. 
+* *Low setup costs*. Ops Run It has a [low implementation cost](https://you-build-it-you-run-it.playbook.ee/what-is-ops-run-it/service-reliability), as it's so well-established in the IT industry. There's plenty of training courses, online reading materials, and vendor tools that are compatible with multi-level production support.
+* *Low run cost*. Ops Run It has a [low run cost](https://you-build-it-you-run-it.playbook.ee/what-is-ops-run-it/service-reliability). The help desk, operations bridge, and application teams can centrally manage the availability of tens of digital services, plus self-hosted COTS applications and custom integrations.
+* *Run cost reduction options*. Run cost can be [lowered by outsourcing](https://you-build-it-you-run-it.playbook.ee/what-is-ops-run-it/service-reliability), as the general skills and technical expertise for help desk, operations bridge, and application support teams are in a worldwide abundance.
+* *Straightforward governance*. Accountability, responsibilities, and visibility are all easy to understand. The senior manager in the Operations function is accountable for all aspects of reliability.
 
-For foundational systems, these benefits can outweigh the [unrealised benefits](https://you-build-it-you-run-it.playbooks.ee/what-is-ops-run-it/benefits#unrealised) and many [drawbacks of Ops Run It](https://you-build-it-you-run-it.playbooks.ee/what-is-ops-run-it/drawbacks). We've seen plenty of organisations outsource one or more operations teams to a third party managed service, to minimise run costs. However, if an application support team has built up substantial domain expertise with a proven impact on incident resolution times, the case for outsourcing is not as clear cut.  
+For foundational systems, these benefits can outweigh the [unrealised benefits](https://you-build-it-you-run-it.playbook.ee/what-is-ops-run-it/benefits#unrealised) and many [drawbacks of Ops Run It](https://you-build-it-you-run-it.playbook.ee/what-is-ops-run-it/drawbacks). We've seen plenty of organisations outsource one or more operations teams to a third party managed service, to minimise run costs. However, if an application support team has built up substantial domain expertise with a proven impact on incident resolution times, the case for outsourcing is not as clear cut.
 
 ### Learning culture
 
@@ -27,7 +27,7 @@ We seek a weak learning culture in Ops Run It, without many benefits. People can
 
 ## Unrealised
 
-These are Ops Run It benefits for digital services that are often described in theory, yet we rarely see in practice. 
+These are Ops Run It benefits for digital services that are often described in theory, yet we rarely see in practice.
 
 ### Deployment throughput
 
@@ -43,12 +43,12 @@ These are Ops Run It benefits for digital services that are often described in t
 
 #### Availability restoration
 
-* *Fast alert acknowledgement*. Having operations bridge and application support teams always on-call is meant to minimise the time between alert and acknowledgement. We've seen organisations where it takes up to twenty minutes for an application support analyst to become aware of an alert. 
+* *Fast alert acknowledgement*. Having operations bridge and application support teams always on-call is meant to minimise the time between alert and acknowledgement. We've seen organisations where it takes up to twenty minutes for an application support analyst to become aware of an alert.
 * *Fast incident resolution*. Routing an operations bridge team to most incidents and a skilled application support team to the remainder is supposed to minimise the time between alert and acknowledgement. We usually see a time to resolution greater than one hour.
-* *Few L2 callouts*. Using an L1 operations bridge team to restart services and follow runbooks is intended to minimise L2 callouts. We nearly always see a high percentage of alerts escalated to L2 callouts, for diagnosis and availability restoration. 
+* *Few L2 callouts*. Using an L1 operations bridge team to restart services and follow runbooks is intended to minimise L2 callouts. We nearly always see a high percentage of alerts escalated to L2 callouts, for diagnosis and availability restoration.
 * *Low incident costs*. Expecting an operations bridge team to handle most alerts creates an expectation that incident costs will be flattened. We often observe a majority of alerts escalated to the application support team, a slow time to resolve incidents, and much higher incident costs than anticipated.
 
-We suspect these unrealised benefits are based on assumptions such as service unavailability is rare, incident count is controllable, and most issues are easily resolved. Those assumptions are entirely wrong, and it's unlikely these benefits can be achieved. See [*How complex systems fail*](https://how.complexsystems.fail/) by Dr. Richard Cook. 
+We suspect these unrealised benefits are based on assumptions such as service unavailability is rare, incident count is controllable, and most issues are easily resolved. Those assumptions are entirely wrong, and it's unlikely these benefits can be achieved. See [*How complex systems fail*](https://how.complexsystems.fail/) by Dr. Richard Cook.
 
 ### Learning culture
 
