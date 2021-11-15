@@ -51,7 +51,7 @@ Each software service is matched to an availability target via its service expos
 |---|---|---|
 |ecommerce-platform|$810,000|99.9%|
 |appointments|$6,000|95.0%|
-|bedroom|$200,000|99.0%|
+|bedroom|$200,000|99.5%|
 
 The furniture retailer values its financial exposure bands once a quarter. Financial losses from prior incidents are reviewed, and if necessary the financial exposure bands are recalculated. This ensures the risk of financial exposure is revalidated as the business changes.
 
