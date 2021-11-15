@@ -31,6 +31,6 @@ After the post-incident review, a team member records any improvement actions in
 |Opportunity cost|Ongoing|Can be measured jas the cost of delay between an improvement as an idea and in practice. Potential revenue lost, missed customer opportunities due to delays in improvements|Lost revenue and capex cost|Low|
 |Run cost|Ongoing|Costs incurred putting an improvement idea into practice|Low|
 
-Culture costs are capex, as they are incurred by on-call product teams themselves.
-
 ![](../.gitbook/assets/what-is-you-build-it-you-run-it/you-build-it-you-run-it-learning-culture-costs.png)
+
+Culture costs are capex, as they are incurred by on-call product teams themselves.
