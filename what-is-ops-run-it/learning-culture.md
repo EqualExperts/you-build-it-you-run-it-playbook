@@ -1,8 +1,8 @@
-# Reactive culture in Ops Run It
+# Learning culture in Ops Run It
 
-![](../.gitbook/assets/what-is-ops-run-it/ops-run-it-reactive-culture.png)
+![](../.gitbook/assets/what-is-ops-run-it/ops-run-it-learning-culture.png)
 
-We refer to the Ops Run It reactive culture as predisposed to rush to fix. When there is an incident of consequence, such as a failed deployment or a loss of service availability, the priority is to fix the underlying problem and return to the prior state. In ITIL v3, this is considered part of problem management, and overseen by a problem manager. 
+We refer to the Ops Run It learning culture as predisposed to 'rush to fix'. When there is an incident of consequence, such as a failed deployment or a loss of service availability, the priority is to fix the underlying problem and return to the prior state. In ITIL v3, this is considered part of problem management, and overseen by a problem manager. 
 
 ## Find the root cause
 
@@ -24,9 +24,9 @@ The problem manager summarises the session in a root cause analysis document. Th
 
 After the session, the problem manager records the root cause as a problem in the company workflow system, and the recommended fix actions. Documentation fixes are handed over to the application support team, such as amending training procedures or updating a service runbook with a workaround for the problem. Code and configuration fixes are handed over to the delivery team(s). 
  
-## Reactive culture costs in Ops Run It
+## Learning culture costs in Ops Run It
 
-Ops Run It reactive culture costs are listed in the table below. They're incurred each time someone has an idea on how to improve a digital service.
+Ops Run It learning culture costs are incurred each time someone has an idea on how to improve a digital service.
 
 |Cost Type|Frequency|Description|Impact|TCO %|
 |---|---|---|---|---|

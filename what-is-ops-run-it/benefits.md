@@ -21,9 +21,9 @@ We see some benefits, related to cost management and governance:
 
 For foundational systems, these benefits can outweigh the [unrealised benefits](https://you-build-it-you-run-it.playbooks.ee/what-is-ops-run-it/benefits#unrealised) and many [drawbacks of Ops Run It](https://you-build-it-you-run-it.playbooks.ee/what-is-ops-run-it/drawbacks). We've seen plenty of organisations outsource one or more operations teams to a third party managed service, to minimise run costs. However, if an application support team has built up substantial domain expertise with a proven impact on incident resolution times, the case for outsourcing is not as clear cut.  
 
-### Reactive culture
+### Learning culture
 
-We don't see many benefits to a reactive culture. People can learn individually from incidents, but the opportunities for entire teams to glean new knowledge are limited. There's limited new knowledge, and people are stuck in firefighting.  
+We seek a weak learning culture in Ops Run It, without many benefits. People can learn individually from incidents, but the opportunities for entire teams to glean new knowledge are limited. There's limited new knowledge, and people are stuck in firefighting.  
 
 ## Unrealised
 
@@ -50,7 +50,7 @@ These are Ops Run It benefits for digital services that are often described in t
 
 We suspect these unrealised benefits are based on assumptions such as service unavailability is rare, incident count is controllable, and most issues are easily resolved. Those assumptions are entirely wrong, and it's unlikely these benefits can be achieved. See [*How complex systems fail*](https://how.complexsystems.fail/) by Dr. Richard Cook. 
 
-### Reactive culture
+### Learning culture
 
 * *Informative insights*. A root cause analysis session concentrates on a single human or technical error. We regularly observe multiple contributing factors to a production incident being silently ignored.
 * *Broad insight dissemination*. A root cause analysis document is supposed to be shared throughout an organisation, so anyone can benefit from the new knowledge. We rarely see document sharing with operations teams, let alone delivery teams.  

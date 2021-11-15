@@ -56,7 +56,7 @@ We've seen these reliability drawbacks add up to substantial financial losses in
 * *L1 delivery team for key periods*. Delivery teams can provide [hypercare and peak support](https://you-build-it-you-run-it.playbooks.ee/what-is-ops-run-it/service-reliability) during service launch and/or busy trading periods, to flatten the time to resolve any incidents. This incurs additional run costs if the delivery teams are compensated, plus opportunity costs due to the lack of feature development.
 * *L1.5 application support team*. Digital service alerts can be routed to the application support team as well as the operations bridge team. This speeds up alert acknowledgement and incident resolution. It inevitably increases the workload on the application support team, and calls into question the purpose of the operations bridge team for digital services.
 
-## Reactive culture
+## Learning culture
 
 These drawbacks are specific to root cause analysis, as it is the most common means of collaborative learning in Ops Run It. 
 

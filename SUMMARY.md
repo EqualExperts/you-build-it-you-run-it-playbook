@@ -6,7 +6,7 @@
 * [What is Ops Run It](what-is-ops-run-it/README.md)
   * [Deployment throughput in Ops Run It](what-is-ops-run-it/deployment-throughput.md)
   * [Service reliability in Ops Run It](what-is-ops-run-it/service-reliability.md)
-  * [Reactive culture in Ops Run It](what-is-ops-run-it/reactive-culture.md)
+  * [Learning culture in Ops Run It](what-is-ops-run-it/learning-culture.md)
   * [Benefits of Ops Run It](what-is-ops-run-it/benefits.md)
   * [Drawbacks of Ops Run It](what-is-ops-run-it/drawbacks.md)
 * [What is You Build It You Run It](what-is-you-build-it-you-run-it/README.md)
