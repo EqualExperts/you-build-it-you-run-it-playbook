@@ -57,7 +57,7 @@ Table 1 summarises the characteristics of You Build It You Run It and Ops Run It
 
 **Table 1- Operating model comparison table**
 
-Figure 5 shows relative cost estimates for deployment throughput, service reliability, and learning culture in Ops Run It and You Build It You Run It. These estimates are based on our shared experiences of working with on-call product teams and central operations teams, in many different organisations. Detailed analyses are available in [What is Ops Run It](https://you-build-it-you-run-it.playbook.ee/what-is-ops-run-it) and [What is You Build It You Run It](https://you-build-it-you-run-it.playbook.ee/what-is-you-build-it-you-run-it). We believe Ops Run It has much higher opportunity costs, whereas You Build It You Run It has higher setup costs, and the run costs are similar. 
+We've established relative cost estimates for deployment throughput, service reliability, and learning culture in Ops Run It and You Build It You Run It. These estimates are based on our shared experiences of working with on-call product teams and central operations teams, in many different organisations. Detailed analyses are available in [What is Ops Run It](https://you-build-it-you-run-it.playbook.ee/what-is-ops-run-it) and [What is You Build It You Run It](https://you-build-it-you-run-it.playbook.ee/what-is-you-build-it-you-run-it). We believe Ops Run It has much higher opportunity costs, whereas You Build It You Run It has higher setup costs, and the run costs are similar. 
 
 ![](../.gitbook/assets/introduction/operating-models-relative-costs-comparison.png)
 

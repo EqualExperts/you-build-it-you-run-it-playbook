@@ -12,7 +12,7 @@ This means:
 
 ![](../.gitbook/assets/practices/operating-model-selector-at-scale.png)
 
-As the number of your product teams and digital services scales up, there can be a temptation to centralise some incident response in a new operations team. It’s important to resist this idea, because it’s just another form of Ops Run It that will damage delivery throughput, service reliability, and learning culture. We recommend the below practices instead.
+As the number of your product teams and digital services scales up, there can be a temptation to centralise some incident response in a new operations team. It’s important to resist this idea, because it’s just another form of Ops Run It that will damage delivery throughput, service reliability, and learning culture. 
 
 ![](../.gitbook/assets/practices/scale-practices.png)
 

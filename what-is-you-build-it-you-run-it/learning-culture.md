@@ -25,8 +25,6 @@ After the post-incident review, a team member records any improvement actions in
 
 ## Learning culture costs in You Build It You Run It
 
-Culture costs for You Build It You Run It are below. 
-
 |Cost Type|Frequency|Description|Impact|TCO %|
 |---|---|---|---|---|
 |Setup cost|One-off|Launch costs incurred in<ul><li>Product team time for incident analysis training</li><li>Product team time for incident review training</li><li>Product team time to setup cross-team playbacks, walkthroughs, knowledge sharing</li></ul>|Capex cost|High|

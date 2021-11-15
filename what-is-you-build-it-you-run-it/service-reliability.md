@@ -35,8 +35,6 @@ For a high priority incident, the entire team may swarm on incident response, to
 
 ## Service reliability costs in You Build It You Run It
 
-Reliability costs are below.
-
 |Cost Type|Frequency|Description|Impact|TCO %|
 |---|---|---|---|---|
 |Setup cost|One-off|Launch costs incurred in<ul><li>License purchases</li><li>Product team time for telemetry install</li><li>Product team time for on-call schedule agreement</li><li>Product team time to setup live access<br>Product team time for any operational training necessary</li></ul>|Capex cost|Medium|

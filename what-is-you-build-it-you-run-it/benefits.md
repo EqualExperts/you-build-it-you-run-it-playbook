@@ -43,7 +43,7 @@ These restoration benefits produce a low opportunity cost per incident. Potentia
 * *Nurture a learning organisation*. Encouraging a growth mindset allows a learning organisation to slowly develop. Leaders who understand what it means to create a learning organisation are in a strong position to foster strong collaboration in turbulent markets and future crises. 
 * *Low run costs*. The time taken to implement improvement actions is low. It's possible for a good idea in a post-incident review to be implemented that very same day, without any time-consuming handoffs to other teams. 
 
-We see these benefits as outcomes from the You Build It You Run It predisposition of acting on insights. On-call product teams have a growth mindset, in which flaws and mistakes are learning opportunities to be publicly shared across the organisation. This creates a virtuous circle, as shown below.
+We see these benefits as outcomes from the You Build It You Run It predisposition of acting on insights. On-call product teams have a growth mindset, in which flaws and mistakes are learning opportunities to be publicly shared across the organisation. This creates a virtuous circle.
 
 ![](../.gitbook/assets/what-is-you-build-it-you-run-it/you-build-it-you-run-it-learning-culture-cycle.png)
 

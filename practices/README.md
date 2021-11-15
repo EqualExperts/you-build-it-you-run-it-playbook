@@ -6,4 +6,4 @@ Transitioning from Ops Run It to You Build It You Run It is a challenging proces
 
 ![](../.gitbook/assets/practices/practices.png)
 
-The below practices achieve a delicate balance between incentives and run cost, such as downgrading availability targets in the months between peak business periods.  
+These practices achieve a delicate balance between incentives and run cost, such as downgrading availability targets in the months between peak business periods.  

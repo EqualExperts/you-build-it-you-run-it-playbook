@@ -15,7 +15,7 @@ The L1 help desk team receives customer complaints about service availability. T
 
 The operations bridge and application support teams offer 24/7 production support. They are responsible for day-to-day work in availability protection and availability restoration. They track their costs centrally, and make them visible to senior leaders. They report into the senior manager in the Operations function, who is accountable for all aspects of reliability.
 
-Application support analysts can modify the below facets of a digital service: 
+Application support analysts can modify these facets of a digital service: 
 
 * Alert definitions
 * Configuration
@@ -49,7 +49,7 @@ Delivery teams receive notifications of service unavailability from the applicat
 
 ## Service reliability costs in Ops Run It
 
-Ops Run It reliability costs are listed in the below table. We're assuming on-call standby costs and on-call callout are both present, although organisations can have very different remuneration models.
+For Ops Run It reliability costs, we're assuming on-call standby costs and on-call callout are both present, although organisations can have very different remuneration models.
 
 |Cost Type|Frequency|Description|Impact|TCO %|
 |---|---|---|---|---|

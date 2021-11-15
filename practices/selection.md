@@ -2,7 +2,7 @@
 
 These practices refer to the initial selection of an operating model. We believe a hybrid operating model is essential, because we agree with Martin Fowler's statement that a software service is either a [strategic differentiator or a utility](https://martinfowler.com/bliki/UtilityVsStrategicDichotomy.html). We consider a digital service to be a strategic differentiator, and a foundational system to be a utility. 
 
-Our operating model selector is below. Once you understand your failure tolerances and different levels of feature demand, you can map out which operating model is right for you. 
+We've created an operating model selector. Once you understand your failure tolerances and different levels of feature demand, you can map out which operating model is right for you. 
 
 ![](../.gitbook/assets/practices/operating-model-selector.png)
 
