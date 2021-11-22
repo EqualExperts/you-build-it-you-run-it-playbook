@@ -101,7 +101,7 @@ To avoid this pitfall:
 
 * [Integrate into incident management as is](https://you-build-it-you-run-it.playbook.ee/practices/operational-enablers#integrate-into-incident-management-as-is), to ensure incident managers can be incident commanders for digital services as well as foundational systems.
 
-## Not enough embedded specialists
+## Embedded specialists
 
 This looks like:
 
