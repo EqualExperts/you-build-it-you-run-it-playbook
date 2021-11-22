@@ -1,8 +1,8 @@
 # Scale
 
-These practices explain how to scale You Build It You Run It across a large organisation with many product teams and many digital services. Without these practices, you’ll suffer from the [Linear run cost pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls#linear-run-costs).  
+These practices explain how to scale You Build It You Run It across a large organisation with many product teams and many digital services. Without these practices, you'll suffer from the [Linear run cost pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls#linear-run-costs).  
 
-At Equal Experts, we don’t believe in prescriptive scaling frameworks. We believe in applying the same holistic principles and practices for deployment throughput, service reliability, and learning culture to 1, 10, or 50 product teams, in a cost-effective way. 
+At Equal Experts, we don't believe in prescriptive scaling frameworks. We believe in applying the same holistic principles and practices for deployment throughput, service reliability, and learning culture to 1, 10, or 50 product teams, in a cost-effective way. 
 
 This means:
 
@@ -12,7 +12,7 @@ This means:
 
 ![](../.gitbook/assets/practices/operating-model-selector-at-scale.png)
 
-As the number of your product teams and digital services scales up, there can be a temptation to centralise some incident response in a new operations team. It’s important to resist this idea, because it’s just another form of Ops Run It that will damage delivery throughput, service reliability, and learning culture. 
+As the number of your product teams and digital services scales up, there can be a temptation to centralise some incident response in a new operations team. It's important to resist this idea, because it's just another form of Ops Run It that will damage delivery throughput, service reliability, and learning culture. 
 
 ![](../.gitbook/assets/practices/scale-practices.png)
 
@@ -20,15 +20,15 @@ These practices are linked to our principles of [operating models are insurance 
 
 ## Select out of hours schedule on financial exposure
 
-Ensure that [availability targets are selected on financial exposure](https://you-build-it-you-run-it.playbook.ee/practices/selection#select-an-availability-target-on-financial-exposure), and match an on-call level to an availability target. This achieves a balance between financial exposure, run costs, and remuneration for on-call product teams developers that doesn’t weaken operability incentives. 
+Ensure that [availability targets are selected on financial exposure](https://you-build-it-you-run-it.playbook.ee/practices/selection#select-an-availability-target-on-financial-exposure), and match an on-call level to an availability target. This achieves a balance between financial exposure, run costs, and remuneration for on-call product teams developers that doesn't weaken operability incentives. 
 
-You Build It You Run It protects business outcomes. It doesn’t mean every digital service needs 24x7 on-call support. Not every digital service needs to be 99.99% available, and always on. Some digital services have a low level of financial exposure and don’t need out of hours support, some have a medium level of exposure warranting some out of hours support, and some have a high level of exposure that justifies dedicated out of hours support. 
+You Build It You Run It protects business outcomes. It doesn't mean every digital service needs 24x7 on-call support. Not every digital service needs to be 99.99% available, and always on. Some digital services have a low level of financial exposure and don't need out of hours support, some have a medium level of exposure warranting some out of hours support, and some have a high level of exposure that justifies dedicated out of hours support. 
 
 ![](../.gitbook/assets/practices/you-build-it-you-run-it-at-scale.png)
 
 When an availability target is selected for a digital service based on its financial exposure, it is assigned a level of on-call support in addition to its tolerable downtime per week. 
 
-In our [Selection practices](https://you-build-it-you-run-it.playbook.ee/practices/selection), there’s a furniture retailer example with a third party COTS ecommerce platform, custom bedroom frontend, and a custom appointments frontend. The financial exposure bands linked to different availability targets can be updated to include levels of on-call:
+In our [Selection practices](https://you-build-it-you-run-it.playbook.ee/practices/selection), there's a furniture retailer example with a third party COTS ecommerce platform, custom bedroom frontend, and a custom appointments frontend. The financial exposure bands linked to different availability targets can be updated to include levels of on-call:
 
 |Maximum financial exposure in an hour|Availability level|Tolerable unavailability in a week|On-call schedule in working hours|On-call schedule out of hours|
 |---|---|---|---|---|
@@ -40,7 +40,7 @@ In working hours, a product team always has a team schedule, and is accountable 
 
 ## Select no out of hours schedule for lower availability targets
 
-Don’t do out of hours on-call for your digital services, when you have these desired outcomes:
+Don't do out of hours on-call for your digital services, when you have these desired outcomes:
 
 * Weekly to daily deployments, or more.
 * 95.0% availability protection. 
@@ -58,7 +58,7 @@ If a production incident happens during working hours, there is an immediate cal
  |---|---|---|---|---|
  |appointments|$6,000|95.0%|Team|None|
  
- It’s important to protect operability incentives for product teams who are only on-call during working hours. If your organisation has Ops Run It for foundational systems, ensure that digital services cannot be covered out of hours by that operating model. 
+ It's important to protect operability incentives for product teams who are only on-call during working hours. If your organisation has Ops Run It for foundational systems, ensure that digital services cannot be covered out of hours by that operating model. 
 
 ## Select domain out of hours schedule for medium availability targets
 
@@ -68,7 +68,7 @@ Share out of hours on-call schedules between sibling product teams for your digi
 * 99.0% availability protection. 
 * 2 hours of tolerable unavailability per week.
 
-Reduce on-call standby costs while incentivising product teams to care about operability, even when they’re on-call infrequently. 
+Reduce on-call standby costs while incentivising product teams to care about operability, even when they're on-call infrequently. 
 
 ![](../.gitbook/assets/practices/operating-model-selector-at-scale-medium-availability-digital-services.png)
 
@@ -77,7 +77,7 @@ A domain schedule is a logical grouping of digital services, with an established
 * Product domains grouped by customer journey
 * Architectural domains grouped by technology capabilities
 
-We don’t recommend geographic domains grouped by region, or technology domains grouped by tool choices. One out of hours schedule for all digital services in a country, or all digital services that use Kotlin produces a mishmash with cross-cutting product boundaries and a high cognitive load. This has a negative impact on the time to diagnose and resolve production incidents.
+We don't recommend geographic domains grouped by region, or technology domains grouped by tool choices. One out of hours schedule for all digital services in a country, or all digital services that use Kotlin produces a mishmash with cross-cutting product boundaries and a high cognitive load. This has a negative impact on the time to diagnose and resolve production incidents.
 
 For the furniture retailer, the bedroom frontend has a 99.0% availability target, which matches to domain out of hours on-call. The owning product team has to identify other digital services in the same product domain, and work with those product teams to establish a shared domain on-call schedule. 
 
@@ -85,7 +85,7 @@ For the furniture retailer, the bedroom frontend has a 99.0% availability target
  |---|---|---|---|---|
  |bedroom|$200,000|99.0%|Team|Domain|
  
- Domain schedules balance strong operability incentives with run costs. They aren’t perfect, and have their own complications: 
+ Domain schedules balance strong operability incentives with run costs. They aren't perfect, and have their own complications: 
  
  * *Domain on-call funding*. Budget holders for different product teams in the same domain need to choose one of them as the sole budget holder for on-call funding.  
  * *Domain knowledge synchronisation costs*. The cost of sharing knowledge about multiple digital services between multiple product teams can be high, especially if technology choices have been radically different
