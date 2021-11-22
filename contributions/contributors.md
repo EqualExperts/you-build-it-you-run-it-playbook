@@ -76,4 +76,6 @@ We'd like to call out some colleagues who've contributed a lot of their time, wh
 
 ## Community
 
-Coming soon!
+Thanks also to these people, who've contributed to the playbook from beyond Equal Experts.
+
+[Rob Hornby](https://www.linkedin.com/in/robhornby/)
