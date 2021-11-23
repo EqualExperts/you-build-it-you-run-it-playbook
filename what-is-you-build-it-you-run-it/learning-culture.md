@@ -28,7 +28,7 @@ After the post-incident review, a team member records any improvement actions in
 |Cost Type|Frequency|Description|Impact|TCO %|
 |---|---|---|---|---|
 |Setup cost|One-off|Launch costs incurred in<ul><li>Product team time for incident analysis training</li><li>Product team time for incident review training</li><li>Product team time to setup cross-team playbacks, walkthroughs, knowledge sharing</li></ul>|Capex cost|High|
-|Opportunity cost|Ongoing|Can be measured has the cost of delay between an improvement as an idea and in practice. Potential revenue lost, missed customer opportunities due to delays in improvements|Lost revenue and capex cost|Low|
+|Opportunity cost|Ongoing|Can be measured as the cost of delay between an improvement as an idea and in practice. Potential revenue lost, missed customer opportunities due to delays in improvements|Lost revenue and capex cost|Low|
 |Run cost|Ongoing|Costs incurred putting an improvement idea into practice|Low|
 
 ![](../.gitbook/assets/what-is-you-build-it-you-run-it/you-build-it-you-run-it-learning-culture-costs.png)

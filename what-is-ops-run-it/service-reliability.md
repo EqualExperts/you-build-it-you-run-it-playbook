@@ -66,4 +66,4 @@ In Ops Run It, we often observe operations managers under pressure to reduce the
 * *Outsource L1 and L2 support*. Reduce on-call standby rates, on-call callout rates, and operations team payroll costs by outsourcing the service desk, operations bridge, and/or application support teams to a third party managed service. The contract is likely to be multi-year, and could include service credits linked to an incident count threshold.
 * *Do not pay for L3 support*. Avoid on-call standby rates and on-call callout rates by ensuring delivery team developers are not paid for L3 best efforts on-call. There can be unofficial compensation as informal time off in lieu.
 
-These countermeasures have trade-offs, and they contribute to [Ops Run It drawbacks](https://you-build-it-you-run-it-playbooks.ee/what-is-ops-run-it/drawbacks) as well.  
+These countermeasures have trade-offs, and they contribute to [Ops Run It drawbacks](https://you-build-it-you-run-it-playbook.ee/what-is-ops-run-it/drawbacks) as well.  
