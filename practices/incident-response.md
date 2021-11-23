@@ -13,6 +13,7 @@ Set on-call expectations in product teams from the moment they start to build di
 On-call preparation includes:
 
 * *Inception*. Work with the product manager and intended users to understand the required availability level, and how best to gracefully degrade upon unavailability. See our [Inception Playbook](https://inception.playbook.ee/) by Neha Datt *et al*.	
+* *Team skills*. Balance the skillsets of different product team members - frontend developers, backend developers, testers, and more - to create enough capacity for on-call incident response later on.
 * *Runbook*. Start a runbook on day one, and update it weekly with anticipated failure scenarios, failure mitigations, alert thresholds, and step by step guides.
 * *Telemetry*. Update logging dashboards, monitoring dashboards, and alert definitions for every product feature. Encourage product team members to check dashboards daily.
 * *Onboarding*. Set on-call expectations with prospective team members before they join. Assign telemetry and incident response permissions to new product team members as soon as they join. 
@@ -31,7 +32,7 @@ We recommend:
 * All product team members are encouraged to participate in the on-call schedule, regardless of role
 * A default on-call rotation of one week for each on-call participant
 
-Some team members may be unable to do on-call for family or health reasons, and their decisions need to be respected. Some team members may be reluctant due to a lack of preparation, and any such problems need to be solved.
+How product team members help each other to manage the on-call schedule is vital to success. Some team members may be unable to do on-call for family or health reasons, and their decisions need to be respected. Some team members may be reluctant due to a lack of preparation, and any such problems need to be solved.
 
 ## Run regular Chaos Days
 
