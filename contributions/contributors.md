@@ -1,6 +1,6 @@
 # Contributors
 
-We would like to thank our customers, and our colleagues in the [Equal Experts network](https://www.equalexperts.com/our-people/our-network/), whose wisdom and experiences have made this playbook possible.
+We’d like to thank everyone who has shared their wisdom and experiences with us, and have made this playbook possible.
 
 ## Equal Experts network
 
