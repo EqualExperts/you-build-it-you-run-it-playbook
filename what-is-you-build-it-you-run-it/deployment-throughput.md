@@ -14,7 +14,7 @@ An on-call product team performs a production deployment when they have successf
 |---|---|---|---|---|
 |Setup cost|One-off|Launch costs incurred in<ul><li>Deployment pipeline setup</li><li>Change management team time for setup</li></ul>|Capex cost|High|
 |Opportunity cost|Per feature|Can be measured as the cost of delay between product feature readiness and launch. Potential revenue lost, missed customer opportunities due to<ul><li>Delay waiting for a CAB meeting (irregular, high risk deployments only)</li></ul>|Lost revenue|Low|
-|Run cost|Per deployment|Deployment costs incurred in completing a deployment<ul><li>Time for performing deployments, and rolling back deployments minimised due to no handovers</li></ul>|Low|
+|Run cost|Per deployment|Deployment costs incurred in completing a deployment<ul><li>Time for performing deployments, and rolling back deployments minimised due to no handovers</li></ul>|Low|Low|
 
 ![](../.gitbook/assets/what-is-you-build-it-you-run-it/you-build-it-you-run-it-deployment-throughput-costs.png)
 
