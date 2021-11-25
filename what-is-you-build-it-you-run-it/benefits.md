@@ -4,7 +4,7 @@ You Build It You Run It benefits come from team empowerment, and clear operabili
 
 ## Deployment throughput
 
-* *Fast change approvals*. Frequent, low risk deployments have pre-approved standard change requests, which involve no change management team time. Infrequent, high risk deployments may still require a CAB meeting, and incur the same [change approval delays as Ops Run It](https://you-build-it-you-run-it.playbook.ee/what-is-ops-run-it/drawbacks).
+* *Fast change approvals*. Frequent, low risk deployments have pre-approved standard change requests, which involve no change management team time. Infrequent, high risk deployments may still require a CAB meeting, and incur similar [change approval delays as Ops Run It](https://you-build-it-you-run-it.playbook.ee/what-is-ops-run-it/drawbacks).
 * *Fast deployments*. Deployments take minutes to complete successfully. An on-call product team can perform a deployment in working hours with no handoffs, and they can fully automate their own deployment pipeline to minimise deployment failures.  
 * *Focus on outcomes*. Digital services are created to deliver customer outcomes. Live traffic data is used to create product hypotheses, which are tested against customer feedback.
 * *Low knowledge synchronisation costs*. An on-call product team can store most of its service documentation within the code itself, and use its own runbooks to store acquired operational knowledge. Knowledge synchronisation takes minutes between team members, as they already work within the digital service on a daily basis.
