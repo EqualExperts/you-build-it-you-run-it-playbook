@@ -1,6 +1,6 @@
 # Benefits of Ops Run It
 
-We've split Ops Run It benefits into realised versus unrealised benefits, i.e. actual versus on paper benefits. In our experience, many of the theoretical benefits of a central operations team simply don't happen for digital services. 
+We've split Ops Run It benefits into realised versus unrealised benefits, i.e. actual versus on paper. In our experience, many of the theoretical benefits of a central operations team simply don't happen for digital services. 
 
 ## Realised
 
@@ -23,7 +23,7 @@ For foundational systems, these benefits can outweigh the [unrealised benefits](
 
 ### Learning culture
 
-We seek a weak learning culture in Ops Run It, without many benefits. People can learn individually from incidents, but the opportunities for entire teams to glean new knowledge are limited. There's limited new knowledge, and people are stuck in firefighting.  
+We see a weak learning culture in Ops Run It, without many benefits. People can learn individually from incidents, but the opportunities for entire teams to glean new knowledge are limited. There's limited new knowledge, and people are stuck in firefighting.  
 
 ## Unrealised
 
