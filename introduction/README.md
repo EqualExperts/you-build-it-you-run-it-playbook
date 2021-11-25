@@ -20,7 +20,7 @@ We recommend You Build It You Run It for higher demand digital services. Adoptin
 
 ![](../.gitbook/assets/what-is-you-build-it-you-run-it/you-build-it-you-run-it-learning-culture.png)
 
-We still advise using Ops Run It for lower demand foundational systems, including self-hosted COTS applications and custom integrations. A central operations team remains a cost-effective option where product feature demand is lower.  
+We still advise using Ops Run It for lower demand foundational systems, including self-hosted COTS applications and custom integrations. A central operations team remains a cost-effective option where demand for product features is low.  
 
 This means that modern technology operations equates to a hybrid operating model - You Build It You Run It for higher demand digital services, and Ops Run It for everything else.
 
