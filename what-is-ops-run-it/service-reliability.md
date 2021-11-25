@@ -32,7 +32,7 @@ The operations bridge team proactively monitors service telemetry for abnormalit
 
 The application support team proactively updates digital services and their runtime environments, using tools like [Red Hat Satellite](https://www.redhat.com/en/technologies/management/satellite). They add infrastructure capacity, make configuration changes, apply data fixes, and update dashboards, to reduce drift and prevent abnormal conditions. This is labour intensive toil, and the workload can increase dramatically for a peak business event. 
 
-Delivery teams are usually oblivious to the heroics performed by operations teams in availability protection. There are some scenarios in which they can be temporarily promoted to L1 availability protection, alongside operations teams:
+Delivery teams are usually unaware of the heroics performed by operations teams in availability protection. There are some scenarios in which they can be temporarily promoted to L1 availability protection, alongside operations teams:
 
 * *Hypercare*. Support for a few weeks after service launch. Also known as a warranty period.
 * *Peak support*. Support for a peak business event, such as Black Friday. Also known as enhanced support. 
