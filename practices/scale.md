@@ -77,7 +77,7 @@ A domain schedule is a logical grouping of digital services, with an established
 * Product domains grouped by customer journey
 * Architectural domains grouped by technology capabilities
 
-We don't recommend geographic domains grouped by region, or technology domains grouped by tool choices. One out of hours schedule for all digital services in a country, or all digital services that use Kotlin produces a mishmash with cross-cutting product boundaries and a high cognitive load. This has a negative impact on the time to diagnose and resolve production incidents.
+We don't recommend geographic domains grouped by region, or technology domains grouped by tool choices. Either approach produces a confusing jumble of digital services, with cross-cutting product boundaries and a high cognitive load. This has a negative impact on the time to diagnose and resolve production incidents.
 
 For the furniture retailer, the bedroom frontend has a 99.0% availability target, which matches to domain out of hours on-call. The owning product team has to identify other digital services in the same product domain, and work with those product teams to establish a shared domain on-call schedule. 
 
@@ -87,12 +87,12 @@ For the furniture retailer, the bedroom frontend has a 99.0% availability target
  
  Domain schedules balance strong operability incentives with run costs. They aren't perfect, and have their own complications: 
  
- * *Domain on-call funding*. Budget holders for different product teams in the same domain need to choose one of them as the sole budget holder for on-call funding.  
- * *Domain knowledge synchronisation costs*. The cost of sharing knowledge about multiple digital services between multiple product teams can be high. Knowledge sharing across a business context can be difficult. Knowledge sharing across technology choices can be reduced, if teams are encouraged to use the same tools for their digital services wherever possible. 
+ * *Domain ambiguity*. Product teams may disagree on what a domain is, if there isn't a consistent, rich language in a particular organisational context.
  * *Domain affinity*. Product teams may disagree on which digital services comprise a domain, or wish to run their own team schedules regardless of availability targets. 
+ * *Domain knowledge synchronisation costs*. The cost of sharing knowledge about multiple digital services between multiple product teams can be high. Knowledge sharing across a business context can be difficult. Knowledge sharing across technology choices can be reduced, if teams are encouraged to use the same tools for their digital services wherever possible. 
+ * *Domain on-call funding*. Budget holders for different product teams in the same domain need to choose one of them as the sole budget holder for on-call funding.  
  
  These can be mitigated by ensuring product teams are aware of domains and on-call responsibilities from day one. The sooner a product team is aware they're due to share a domain schedule with another team, the easier that eventual process will be. 
-
 
 ## Select team out of hours on-call for higher availability targets
 
