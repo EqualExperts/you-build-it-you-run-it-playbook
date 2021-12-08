@@ -53,7 +53,7 @@ We usually see an overwhelmed application support team. They have to support com
 
 We've seen these reliability drawbacks add up to substantial financial losses incurred during production incidents, particularly during key trading periods. The most common countermeasures are: 
 
-* *L1 delivery team for key periods*. Delivery teams can provide [hypercare and peak support](https://you-build-it-you-run-it.playbook.ee/what-is-ops-run-it/service-reliability) during service launch and/or busy trading periods, to flatten the time to resolve any incidents. This incurs additional run costs if the delivery teams are compensated, plus opportunity costs due to the lack of feature development.
+* *L1 delivery team for key periods*. Delivery teams can provide [hypercare and peak support](https://you-build-it-you-run-it.playbook.ee/what-is-ops-run-it/service-reliability) during service launch and/or busy trading periods, to flatten the time to resolve any incidents. This incurs a capex run cost. It requires negotiation between delivery teams and operations teams in advance, and it can be abruptly cancelled if funding runs out. 
 * *L1.5 application support team*. Digital service alerts can be routed to the application support team as well as the operations bridge team. This speeds up alert acknowledgement and incident resolution. It inevitably increases the workload on the application support team, and calls into question the purpose of the operations bridge team for digital services.
 
 ## Learning culture
