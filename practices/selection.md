@@ -124,7 +124,7 @@ It's rare for our customers to truly require 99.99% availability. The engineerin
 Adopt You Build It You Run It for your digital services, when you have these desired outcomes:
 
 * Weekly, daily, or more frequent deployments.
-* 95.0% to 99.9% availability protection. 
+* 95.0% to 99.99% availability protection. 
 * 9 hours to 10 minutes of tolerable unavailability per week.
 
 ![](../.gitbook/assets/practices/operating-model-selector-digital-services.png)
@@ -145,7 +145,7 @@ We'd urge caution if you believe a low availability target and a low deployment 
 Select Ops Run It for your self-hosted COTS applications and custom integrations, when your desired outcomes are:
 
 * Monthly to fortnightly deployments.
-* 95.0% to 99.0% availability protection.
+* 95.0% to 99.9% availability protection.
 * 9 hours to 10 minutes of tolerable unavailability per week.
 
 Foundational systems usually require infrequent code changes after launch. 
