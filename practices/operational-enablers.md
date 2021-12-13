@@ -46,6 +46,16 @@ We recommend paying for a SaaS incident response platform such as [PagerDuty](ht
 
 ![](../.gitbook/assets/practices/integrating-into-incident-management-as-is.png)
 
+An incident manager could declare a major incident in the event of:
+
+* A period of extreme unavailability e.g. the loss of [AWS US East 1](https://aws.amazon.com/message/12721/)
+* A zero day security vulnerability e.g. the [Log4Shell](https://www.kaspersky.com/blog/log4shell-critical-vulnerability-in-apache-log4j/43124/) vulnerability
+
+The incident manager creates a major incident via the incident response toolchain, which automatically contacts all on-call product teams. If the incident starts outside working hours, the incident manager uses the [information portal](https://you-build-it-you-run-it.playbook.ee/practices/build#maximise-discoverability-of-teams-and-services) and [service runbooks](https://you-build-it-you-run-it.playbook.ee/practices/incident-response#prepare-for-on-call-from-day-one) to phone any teams who lack an out of hours on-call schedule in the incident response platform. The incident manager announces themselves as incident commander, and uses an incident channel in the collaboration to work effectively with all affected product teams on the incident response.
+
+It takes time to integrate You Build It You Run It into the same incident management process as Ops Run It, and we’ve seen it pay off multiple times. We’ve witnessed dramatic reductions in time to acknowledge and time to resolve an incident, and improvements in ways of working between different teams. If you don’t do this, you’ll fall into the [No major incident management pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls#no-major-incident-management).
+
+
 It takes time to integrate You Build It You Run It into the same incident management process as Ops Run It, and we've seen it pay off multiple times. We've witnessed dramatic reductions in time to acknowledge and time to resolve an incident, and improvements in ways of working between different teams. If you don't do this, you'll fall into the [No major incident management pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls#no-major-incident-management).
 
 ## Automate change auditing
