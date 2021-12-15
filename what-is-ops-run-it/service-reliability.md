@@ -1,6 +1,6 @@
 # Service reliability in Ops Run It
 
-![](../.gitbook/assets/what-is-ops-run-it/ops-run-it-deployment-throughput.png)
+![](../.gitbook/assets/what-is-ops-run-it/ops-run-it-service-reliability.png)
 
 Service reliability involves a multi-level hierarchy of teams - an L1 operations bridge team, an L2 application support team, L3 delivery teams. There are also operational enablers who can be called upon for assistance, such as incident management and DBAs. This setup varies between different organisations: 
 
