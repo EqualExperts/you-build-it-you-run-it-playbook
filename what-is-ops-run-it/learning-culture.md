@@ -30,9 +30,9 @@ Ops Run It learning culture costs are incurred each time someone has an idea on 
 
 |Cost Type|Frequency|Description|Impact|TCO %|
 |---|---|---|---|---|
-|Setup cost|One-off|Launch costs incurred in<ul><li>Application support team training for root cause analysis</li></ul>|Opex cost|Low to medium|
-|Insight opportunity cost|Per insight|Can be measured as the cost of delay between generating an insight and implementing the related actions. Potential revenue lost and/or costs incurred due to service unavailability, missed opportunities with customers, and delays in feature development|Lost revenue, capex or reactive cost|High|
-|Insight implementation cost|Per insight|Costs incurred in implementing an action linked to an insight. Could include adding infrastructure capacity, code fixes, documentation, etc.|Capex or opex cost|Low to medium|
+|Setup cost|One-off|Launch costs incurred in<ul><li>Application support team training for root cause analysis</li></ul>|Opex cost|Low|
+|Opportunity cost|Per insight|Can be measured as the cost of delay between generating an insight and implementing the related actions. Potential revenue lost and/or costs incurred due to service unavailability, missed opportunities with customers, and delays in feature development|Lost revenue, capex or reactive cost|High|
+|Run cost|Per insight|Costs incurred in implementing an action linked to an insight. Could include adding infrastructure capacity, code fixes, documentation, etc.|Capex or opex cost|Low to medium|
 
 ![](../.gitbook/assets/what-is-ops-run-it/ops-run-it-reactive-culture-costs.png)
 

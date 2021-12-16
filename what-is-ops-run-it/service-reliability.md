@@ -53,7 +53,7 @@ For Ops Run It reliability costs, we're assuming on-call standby costs and on-ca
 
 |Cost Type|Frequency|Description|Impact|TCO %|
 |---|---|---|---|---|
-|Setup cost|One-off|Launch costs incurred in<ul><li>License purchases</li><li>Application support team time for telemetry install</li><li>Application support team time for schedule agreement</li></ul>|Capex cost|Low to medium|
+|Setup cost|One-off|Launch costs incurred in<ul><li>License purchases</li><li>Application support team time for telemetry install</li><li>Application support team time for schedule agreement</li></ul>|Capex cost|Low|
 |Transition cost|One-off|Launch costs incurred in<ul><li>Application support team time for handover plan agreement</li><li>Delivery team time for implementation operational acceptance criteria</li></ul>|Capex cost|High|
 |Run cost|Ongoing|Regular costs incurred in application support team time for<ul><li>Applying data fixes</li><li>Making configuration changes</li><li>Adding infrastructure capacity</li><li>Performing rollbacks</li><li>Updating telemetry tools</li><li>On-call standby out of hours</li></ul>|Opex cost|Low to medium|
 |Incident cost|Per incident|Incident response costs incurred in application support team time for<ul><li>Applying data fixes</li><li>Making configuration changes</li><li>Adding infrastructure capacity</li><li>Performing rollbacks</li><li>Updating telemetry tools</li><li>On-call callout out of hours</li></ul>|Opex cost|Medium to high|

@@ -41,7 +41,7 @@ Table 1 summarises the characteristics of You Build It You Run It and Ops Run It
 |**Deployment throughput**| | |
 |Deployment frequency|Daily+ to weekly|Fortnightly to monthly|
 |Deployment lead time|Minutes to days|Days to months|
-|Total cost of ownership %|Low|High|
+|Total cost of ownership %|Low to medium|Medium to high|
 |**Service reliability**| | |
 |Developer operability incentives|Strong|Weak|
 |Availability level|95.0% to 99.99%|95.0% to 99.99%|
@@ -51,7 +51,7 @@ Table 1 summarises the characteristics of You Build It You Run It and Ops Run It
 |Learning predisposition|Act on insights|Rush to fix|
 |Time to generate insights|Hours to days|Hours to days|
 |Time to implement actions|Hours to days|Weeks to months|
-|Total cost of ownership %|Low|Medium|
+|Total cost of ownership %|Low to medium|Medium to high|
 |**Standards**| | |
 |Supported standards|ITIL v3<br>ITIL v4<br>PCI-DSS<br>SOX|COBIT<br>ITIL v3<br>ITIL v4<br>PCI-DSS<br>SOX|
 
