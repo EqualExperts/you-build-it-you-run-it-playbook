@@ -25,7 +25,7 @@ To avoid this pitfall:
 1. [Select availability targets on financial exposure](https://you-build-it-you-run-it.playbook.ee/practices/selection#select-an-availability-target-on-financial-exposure), so each product team balances availability with engineering effort
 1. [Select out of hours schedules on financial exposure](https://you-build-it-you-run-it.playbook.ee/practices/scale#select-out-of-hours-on-call-on-financial-exposure), so product teams at scale do not produce linear run costs
 
-## Operations manager still accountable
+## Responsible but unaccountable
 
 This looks like:
 
