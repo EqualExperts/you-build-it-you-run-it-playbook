@@ -32,11 +32,11 @@ This looks like:
 * *Inflated availability targets*. Your product managers are tempted to select the maximum availability target and highest on-call level. 
 * *Low priority operational features*. Your product managers have little reason to prioritise operational features alongside product features.
 * *Weak operability incentives*. Your product teams have low motivation to constantly build operability into digital services.
-* *On-call funding pressure*. Your operations manager comes under pressure to cut corners on on-call spend, whenever their opex funding is scrutinised.
+* *On-call funding pressure*. Your product teams come under pressure to cut corners on on-call spend, whenever opex funding is scrutinised.
 
-This pitfall happens because your senior operations manager is still accountable for the reliability of digital services. Your product teams may feel some responsibility for their digital services, but they are not held accountable by senior leadership for production incidents. In addition, their on-call funding comes from an opex budget owned by the operations manager. 
+This pitfall happens when you’ve adopted You Build It You Run It and your Head of Operations is still accountable for the reliability of digital services. Your product teams may feel some responsibility for their digital services, but they are not held accountable for production incidents. In addition, their on-call funding comes from an opex budget owned by the Head of Operations. 
 
-Keeping accountability away from product teams dilutes operability incentives all round. Product managers select whatever availability target they want, because someone else is paying their on-call costs. Product teams cut corners on designing for adaptive capacity, because they won't be questioned about inoperability later on.
+Keeping accountability away from product teams dilutes operability incentives all round. Product managers select whatever availability target they want, because someone else is paying their on-call costs. Product teams cut corners on designing for adaptive capacity, because they won’t be questioned about inoperability later on.
 
 To avoid this pitfall:
 
