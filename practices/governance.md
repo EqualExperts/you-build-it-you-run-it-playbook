@@ -8,16 +8,21 @@ These practices are linked to our principles of [operating models are insurance 
 
 ## Make product team budget holders accountable for business outcomes
 
-Empower the budget holder for a product team to be accountable for deployment throughput, service reliability, and the learning culture for their digital service. The budget holder will be one of:
+Empower the budget holders for product teams to be accountable for deployment throughput, service reliability, and the learning culture for their digital services. The budget holder for a product team will be one of:
 
-The product manager, if team funding comes from a product budget.
-The delivery lead, if your organisation has entirely separate Product and IT departments and team funding comes from an IT budget. 
+* Your Head of Product, if team funding comes from a product budget
+* Your Head of IT, if your organisation has separate Product and IT departments and team funding comes from an IT budget
 
-This encourages the budget holder to translate business goals into operational objectives, incorporate customer feedback into development activities, and strike a balance between delivering product features and operational features. They devolve responsibilities such as availability target selection and 24x7 support to product team members, while remaining the figurehead for the digital service. 
+Making this change encourages the budget holders to translate business goals into operational objectives, incorporate customer feedback into development activities, and strike a balance between delivering product features and operational features. They devolve responsibilities such as availability target selection and on-call support to their product teams. 
 
-This is a radical departure from Ops Run It, in which a senior operations manager is accountable for the reliability of all digital services and COTS applications. It starts with the operations manager shifting accountability for digital service reliability to product team budget holders. The operations manager retains accountability for COTS applications.
+This is a radical departure from Ops Run It, in which the Head of Operations is accountable for the reliability of all software services. The Head of Operations retains accountability for foundational systems in You Build It You Run It. We recommend this [RACI model](https://racichart.org/the-raci-model/):
 
-Operability incentives are maximised when a budget holder for a product team is accountable 24x7 for the support of their own digital service. If this isn't implemented, you'll suffer from the [operations manager still accountable pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls).
+|Category|Head of Operations|App Support team|Head of Product|Head of Delivery|Product teams|
+|---|---|---|---|---|---|
+|Digital services reliability<ul><li>Availability</li><li>Support</li><li>Telemetry</li><li>Reporting</li></ul>|I|I|A for product funded services|A for IT funded services|R|
+|Foundational systems reliability<ul><li>Availability</li><li>Support</li><li>Telemetry</li><li>Reporting</li></ul>|A|R|I|I|I|
+
+Operability incentives are maximised for product teams when their budget holders are accountable for live support. If this practice isn’t implemented, you’ll suffer from the [responsible but unaccountable pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls#responsible-but-unaccountable).
 
 ## Fund on-call costs from product team budgets
 
