@@ -26,22 +26,20 @@ Operability incentives are maximised for product teams when their budget holders
 
 ## Fund on-call costs from product team budgets
 
-Pay for 24x7 support for a digital service from the product team budget. This means the product manager or delivery lead acting as the product team budget holder pays for:
+Pay for on-call support for a digital service from the product team budget. This means the product team budget holder pays for:
 
-* On-call standby costs. Compensation for one or more product team members making themselves available in case of an out of hours incident. This is part of the ongoing run cost.
-* On-call callout costs. Compensation for one or more product team members responding to an out of hours incident. This is a per-incident cost.
+* *On-call standby costs*. Compensation for one or more product team members making themselves available in case of an out of hours incident. This is part of the ongoing run cost.
+* *On-call callout costs*. Compensation for one or more product team members responding to an out of hours incident. This is a per-incident cost.
 
-If the on-call opex budget is owned by a senior operations manager, transfer their budget line item for digital services into an on-call capex budget allocated to the senior manager for the product teams.  
-
-The senior manager for the product teams splits the on-call capex budget into a line item per digital service, and then transfers each line item into the corresponding product team budget. This maximises incentives for each product team budget holder to:
+If the on-call opex budget is owned by a senior operations manager, transfer their budget line item for digital services into an on-call capex budget allocated to the product team budget holders. Split the on-call capex budget into a line item per digital service, and allocate each line item to the corresponding product team. This maximises incentives for each product team budget holder to:
 
 * Establish desired business outcomes prior to any development efforts.
-* Choose an appropriate availability target that balances business outcomes insurance with a run cost estimates.
+* Choose an appropriate availability target that balances business outcomes insurance with a run cost estimate.
 * Prioritise the protection of live product functionality alongside the delivery of new product features.
 * Lend their credibility to organisational changes that improve on-call experience, such as product teams automating their own telemetry toolchains. 
 * Incorporate graceful degradation and adaptability into the customer experience.
 
-If on-call funding for digital services stays with a senior operations manager, you'll suffer from he [operations manager still accountable pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls).
+If on-call funding for digital services stays with your Head of Operations, you’ll suffer from the [responsible but unaccountable pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls#responsible-but-unaccountable).
 
 ## Ensure fair remuneration for on-call developers
 
