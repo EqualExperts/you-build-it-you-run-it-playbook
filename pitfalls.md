@@ -16,7 +16,7 @@ This pitfall happens when you have an on-call standby cost model of $*R*(*n*), w
 
 A linear run cost can't happen with Ops Run It. One app support analyst on-call for all your foundational systems produces a cost model is $*R*(*1*). In addition, the remuneration rate per person *R* can be lower, if your app support team is outsourced. 
 
-On-call standby costs are a key operating model cost, and a linear run cost creates a perception that You Build It You Run It is too expensive. If you also suffer from the [Operations manager still accountable pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls#operations-manager-still-accountable), on-call funding is a line item in a strained opex budget and it shows linear growth.
+On-call standby costs are a key operating model cost, and a linear run cost creates a perception that You Build It You Run It is too expensive. If you also suffer from the [responsible but unaccountable pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls#operations-manager-still-accountable), on-call funding is a line item in a strained opex budget and it shows linear growth.
 
 You Build It You Run It has a [risk of high run costs](https://you-build-it-you-run-it.playbook.ee/what-is-you-build-it-you-run-it/drawbacks#service-reliability), but it's not inevitable. Furthermore, run cost alone is a flawed comparison of You Build It You Run It and Ops Run It. Operating models are [different insurance policies for different business outcomes](https://you-build-it-you-run-it.playbook.ee/principles#operating-models-are-insurance-for-business-outcomes), and their costs are multi-faceted. The [high opportunity costs](https://you-build-it-you-run-it.playbook.ee/introduction#what-is-in-this-playbook) of Ops Run It are unacceptable for digital services.
 
@@ -43,7 +43,7 @@ To avoid this pitfall:
 1. [Make product team budget holders accountable for business outcomes](https://you-build-it-you-run-it.playbook.ee/practices/governance#make-product-team-budget-holders-accountable-for-business-outcomes), so product teams have sole accountability for their digital services
 2. [Fund on-call costs from product team budgets](https://you-build-it-you-run-it.playbook.ee/practices/governance#fund-on-call-costs-from-product-team-budgets), so product teams have to fund on-call themselves
 
-The impact of this pitfall can be lessened if the operations manager is supportive of You Build It You Run It, and seeks to empower on-call product teams at every opportunity. 
+The impact of this pitfall can be lessened if your Head of Operations is supportive of You Build It You Run It, and seeks to empower on-call product teams at every opportunity. 
 
 ## Excessive BAU
 

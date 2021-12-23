@@ -24,7 +24,7 @@ Application support analysts can modify these facets of a digital service:
 * Infrastructure definitions 
 * Monitoring dashboards
 
-For governance, the senior operations manager is accountable for all aspects of digital service reliability. The operations bridge and application support teams share responsibility for availability protection, and availability restoration.
+For governance, the Head of Operations is accountable for all aspects of digital service reliability. The operations bridge and application support teams share responsibility for availability protection, and availability restoration.
 
 ## Availability protection in Ops Run It
 

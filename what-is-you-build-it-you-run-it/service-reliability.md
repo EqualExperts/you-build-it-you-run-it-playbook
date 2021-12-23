@@ -15,7 +15,7 @@ An on-call product team offers 24/7 production support, and they can modify all 
 
 You Build It You Run It co-exists in a hybrid operating model with [Ops Run It](https://you-build-it-you-run-it.playbook.ee/what-is-ops-run-it), and it's important to have specialist operational teams as well as generalist, cross-functional product teams. The same operational enablers offer their scarce, deep expertise to on-call product teams for digital services, and to the application support team for foundational systems. For example, a shared DBA team can assist with database provisioning, performance, and operations. 
 
-For governance, the senior manager for the on-call product teams is accountable for all aspects of digital service reliability. The product teams are responsible for day-to-day work in availability protection and availability restoration. They track their costs on a team-by-team basis, and make them visible for senior leaders. 
+For governance, the product teams are responsible for day-to-day work in availability protection and availability restoration. They track their costs on a team-by-team basis, and make them visible for senior leaders. 
 
 ## Availability protection in You Build It You Run It
 
@@ -44,5 +44,3 @@ For a high priority incident, the entire team may swarm on incident response, to
 |Opportunity cost|Per incident|Can be measured as the cost of delay between incident start and incident finish. Caused by service unavailability, missed opportunities with customers, and delays in further feature development|Revenue loss and costs incurred|Low|
 
 ![](../.gitbook/assets/what-is-you-build-it-you-run-it/you-build-it-you-run-it-service-reliability-costs.png)
-
-If an IT department has segregated Delivery and Operations functions, on-call funding can be either capex or opex. You Build It You Run It is most effective when [Delivery owns the on-call budget](https://you-build-it-you-run-it.playbook.ee/practices/governance), with the senior manager accountable for on-call funding as capex spend. However, a frequent pitfall in large organisations is [on-call budget stuck in Operations](https://you-build-it-you-run-it.playbook.ee/pitfalls), leaving the senior Operations manager accountable for on-call funding as opex spend. 
