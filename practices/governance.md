@@ -11,7 +11,7 @@ These practices are linked to our principles of [operating models are insurance 
 Empower the budget holders for product teams to be accountable for deployment throughput, service reliability, and the learning culture for their digital services. The budget holder for a product team will be one of:
 
 * Your Head of Product, if team funding comes from a product budget
-* Your Head of IT, if your organisation has separate Product and IT departments and team funding comes from an IT budget
+* Your Head of Delivery, if your organisation has separate Product and IT departments and team funding comes from an IT budget
 
 Making this change encourages the budget holders to translate business goals into operational objectives, incorporate customer feedback into development activities, and strike a balance between delivering product features and operational features. They devolve responsibilities such as availability target selection and on-call support to their product teams. 
 
