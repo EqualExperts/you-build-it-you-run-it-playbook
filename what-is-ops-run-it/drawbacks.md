@@ -28,7 +28,7 @@ We usually see an overwhelmed application support team. They have to support com
 
 ### Availability protection
 
-* *Uninformative telemetry*. Alerts, logs, metrics, dashboards, and alerts are based on low-level events, which cannot illuminate operating conditions. An operations team can't change monitorable events without digital service changes prioritised by a product manager.
+* *Uninformative telemetry*. Alerts, logs, metrics, and dashboards are based on low-level events, which cannot illuminate operating conditions. An operations team can't change monitorable events without digital service changes prioritised by a product manager.
 * *Poor documentation*. Architecture diagrams, alert threshold guides, configuration settings, and runbooks sourced from delivery teams are either outdated or do not exist. 
 * *On-call dissatisfaction*. Delivery team developers on best efforts on-call out of hours are not compensated for the inconvenience, and disruption to their lives outside of work.
 * *Fragile architecture*. Services have a large blast radius, an inability to gracefully degrade on failure, and an exposure to severe outages. An operations team can't limit blast radius without digital service changes prioritised by a product manager.
@@ -46,7 +46,7 @@ We usually see an overwhelmed application support team. They have to support com
   * A delivery team developer can be slow to pick up an L3 incident out of hours, if their on-call is best efforts and there is no compensation for on-call inconveniences.
   * A delivery team developer can bounce an L3 incident back to the application support team, if they need more details or don't believe they are the best-placed responder.
   * A delivery team developer can be slow to understand an L3 incident, if they lack prior knowledge of abnormal operating conditions for their digital services.
-  * A delivery team developer and application support analyst can find it hard to collaborate on an L3 incident, if their ways of working and tools are different
+  * A delivery team developer and application support analyst can find it hard to collaborate on an L3 incident, if their ways of working and tools are different.
   * A delivery team developer can be unable to access telemetry data for an L3 incident, if they lack the permissions to use live telemetry tools.
   * An incident manager, DBA, or network admin can be slow to pick up an L2 or L3 incident, if they are dealing with planned work or another incident. 
 * *High volume of L2 callouts*. Incidents can require more L2 escalations than expected. Failure modes are rarely straightforward or repeatable. They may require diagnosis by the application support team, to confirm if a resolution by the operations bridge team is possible. The operations bridge team can only have scripts and runbooks for anticipated failure scenarios.
