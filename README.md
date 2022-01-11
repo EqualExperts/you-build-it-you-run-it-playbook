@@ -1,8 +1,8 @@
 # Overview
 
-{% hint style="info" %} Our [You Build It You Run It playbook](https://www.equalexperts.com/wp-content/uploads/2022/01/YBIYRI_Playbook-2.pdf) can also be downloaded in PDF format {% endhint %}
-
 Welcome to the Equal Experts You Build It You Run It playbook. This summarises our thinking on when, why, and how to implement the [You Build It You Run It](https://www.equalexperts.com/our-services/deliver/you-build-it-you-run-it) operating model. 
+
+You can download this [playbook in PDF format](https://www.equalexperts.com/wp-content/uploads/2022/01/YBIYRI_Playbook-2.pdf), if you prefer.
 
 > *You Build It You Run It is an operating model in which product teams build, deploy, operate, and support their own digital services*
 
