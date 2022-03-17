@@ -59,7 +59,7 @@ For Ops Run It reliability costs, we're assuming on-call standby costs and on-ca
 |Incident cost|Per incident|Incident response costs incurred in application support team time for<ul><li>Applying data fixes</li><li>Making configuration changes</li><li>Adding infrastructure capacity</li><li>Performing rollbacks</li><li>Updating telemetry tools</li><li>On-call callout out of hours</li></ul>|Opex cost|Medium to high|
 |Opportunity cost|Per incident|Can be measured as the cost of delay between incident start and finish. Caused by service unavailability, missed opportunities with customers, and delays in further feature development|Revenue loss and costs incurred|Medium to high|
 
-![](../.gitbook/assets/what-is-ops-run-it/ops-run-it-deployment-throughput-costs.png)
+![](../.gitbook/assets/what-is-ops-run-it/ops-run-it-service-reliability-costs.png)
 
 In Ops Run It, we often observe operations managers under pressure to reduce their opex spend. The common countermeasures are:
 
