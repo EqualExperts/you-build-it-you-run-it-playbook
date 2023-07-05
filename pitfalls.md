@@ -29,7 +29,7 @@ To avoid this pitfall:
 
 This looks like:
 
-* *Inflated availability targets*. Your product managers are tempted to select the maximum availability target and highest on-call level. 
+* *Inflated availability targets*. Your product managers are incentivised to select the maximum availability target and highest on-call level. 
 * *Low priority operational features*. Your product managers have little reason to prioritise operational features alongside product features.
 * *Weak operability incentives*. Your product teams have low motivation to constantly build operability into digital services.
 * *On-call funding pressure*. Your product teams come under pressure to cut corners on on-call spend, whenever opex funding is scrutinised.
