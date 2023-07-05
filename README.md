@@ -20,4 +20,4 @@ This playbook contains the principles, practices, and pitfalls we associate with
 
 We advocate for You Build It You Run It and Ops Run It co-existence in a hybrid operating model, which can be framed in terms of deployment throughput, service reliability, and learning culture.
 
-We've open-sourced this playbook under a [Creative Commons license](https://creativecommons.org/licenses/by-nc/4.0/), and we'd welcome [contributions](https://you-build-it-you-run-it.playbook.ee/contribute) to improve it.
+We've open-sourced this playbook under a [Creative Commons license](https://creativecommons.org/licenses/by-nc/4.0/), and we'd welcome [contributions](https://you-build-it-you-run-it.playbook.ee/contributions) to improve it.
