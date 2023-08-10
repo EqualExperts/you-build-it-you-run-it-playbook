@@ -1,6 +1,6 @@
 # Pitfalls
 
-These are the pitfalls we've encountered when implementing [You Build It You Run It](https://you-build-it-you-run-it.playbook.ee/what-is-you-build-it-you-run-it). Each pitfall drains confidence in the operating model, and ultimately puts it in jeopardy. 
+These are the pitfalls we've encountered when implementing [You Build It You Run It](https://you-build-it-you-run-it.playbook.ee/what-is-you-build-it-you-run-it). Each pitfall drains confidence in the operating model, and ultimately puts it in jeopardy.
 
 It's particularly important to guard against these pitfalls if your organisation previously migrated away from [Ops Run It](https://you-build-it-you-run-it.playbook.ee/what-is-ops-run-it). A predisposition to central operations teams may still exist in your organisation. If one or more pitfalls have a negative impact, your senior leadership may see a return to Ops Run It as a quick, cost efficient way to safeguard the reliability of digital services.
 
@@ -8,13 +8,13 @@ These pitfalls aren't in any particular order.
 
 ## Linear run costs
 
-This looks like: 
+This looks like:
 
-* *Run cost directly linked to product team count*. Your product teams each have a product team member on-call out of hours, and each one impacts on-call funding.
+* _Run cost directly linked to product team count_. Your product teams each have a product team member on-call out of hours, and each one impacts on-call funding.
 
-This pitfall happens when you have an on-call standby cost model of $*R*(*n*), where *R* is the remuneration rate per person and *n* is the number of teams on-call. As you increase your number of product teams, your on-call standby costs increase in kind. 1 team costs $*R*(*1*), 10 teams costs $*R*(*10*), and 20 teams costs $*R*(*20*).
+This pitfall happens when you have an on-call standby cost model of $_R_(_n_), where _R_ is the remuneration rate per person and _n_ is the number of teams on-call. As you increase your number of product teams, your on-call standby costs increase in kind. 1 team costs $_R_(_1_), 10 teams costs $_R_(_10_), and 20 teams costs $_R_(_20_).
 
-A linear run cost can't happen with Ops Run It. One app support analyst on-call for all your foundational systems produces a cost model is $*R*(*1*). In addition, the remuneration rate per person *R* can be lower, if your app support team is outsourced. 
+A linear run cost can't happen with Ops Run It. One app support analyst on-call for all your foundational systems produces a cost model is $_R_(_1_). In addition, the remuneration rate per person _R_ can be lower, if your app support team is outsourced.
 
 On-call standby costs are a key operating model cost, and a linear run cost creates a perception that You Build It You Run It is too expensive. If you also suffer from the [responsible but unaccountable pitfall](https://you-build-it-you-run-it.playbook.ee/pitfalls#operations-manager-still-accountable), on-call funding is a line item in a strained opex budget and it shows linear growth.
 
@@ -23,18 +23,18 @@ You Build It You Run It has a [risk of high run costs](https://you-build-it-you-
 To avoid this pitfall:
 
 1. [Select availability targets on financial exposure](https://you-build-it-you-run-it.playbook.ee/practices/selection#select-an-availability-target-on-financial-exposure), so each product team balances availability with engineering effort
-1. [Select out of hours schedules on financial exposure](https://you-build-it-you-run-it.playbook.ee/practices/scale#select-out-of-hours-on-call-on-financial-exposure), so product teams at scale do not produce linear run costs
+2. [Select out of hours schedules on financial exposure](https://you-build-it-you-run-it.playbook.ee/practices/scale#select-out-of-hours-on-call-on-financial-exposure), so product teams at scale do not produce linear run costs
 
 ## Responsible but unaccountable
 
 This looks like:
 
-* *Inflated availability targets*. Your product managers are tempted to select the maximum availability target and highest on-call level. 
-* *Low priority operational features*. Your product managers have little reason to prioritise operational features alongside product features.
-* *Weak operability incentives*. Your product teams have low motivation to constantly build operability into digital services.
-* *On-call funding pressure*. Your product teams come under pressure to cut corners on on-call spend, whenever opex funding is scrutinised.
+* _Inflated availability targets_. Your product managers are tempted to select the maximum availability target and highest on-call level.
+* _Low priority operational features_. Your product managers have little reason to prioritise operational features alongside product features.
+* _Weak operability incentives_. Your product teams have low motivation to constantly build operability into digital services.
+* _On-call funding pressure_. Your product teams come under pressure to cut corners on on-call spend, whenever opex funding is scrutinised.
 
-This pitfall happens when you’ve adopted You Build It You Run It and your Head of Operations is still accountable for the reliability of digital services. Your product teams may feel some responsibility for their digital services, but they are not held accountable for production incidents. In addition, their on-call funding comes from an opex budget owned by the Head of Operations. 
+This pitfall happens when you’ve adopted You Build It You Run It and your Head of Operations is still accountable for the reliability of digital services. Your product teams may feel some responsibility for their digital services, but they are not held accountable for production incidents. In addition, their on-call funding comes from an opex budget owned by the Head of Operations.
 
 Keeping accountability away from product teams dilutes operability incentives all round. Product managers select whatever availability target they want, because someone else is paying their on-call costs. Product teams cut corners on designing for adaptive capacity, because they won’t be questioned about inoperability later on.
 
@@ -43,14 +43,14 @@ To avoid this pitfall:
 1. [Make product team budget holders accountable for business outcomes](https://you-build-it-you-run-it.playbook.ee/practices/governance#make-product-team-budget-holders-accountable-for-business-outcomes), so product teams have sole accountability for their digital services
 2. [Fund on-call costs from product team budgets](https://you-build-it-you-run-it.playbook.ee/practices/governance#fund-on-call-costs-from-product-team-budgets), so product teams have to fund on-call themselves
 
-The impact of this pitfall can be lessened if your Head of Operations is supportive of You Build It You Run It, and seeks to empower on-call product teams at every opportunity. 
+The impact of this pitfall can be lessened if your Head of Operations is supportive of You Build It You Run It, and seeks to empower on-call product teams at every opportunity.
 
 ## Excessive BAU
 
 This looks like:
 
-* *Slow delivery of planned work*. Your product teams don't deliver in a timely fashion the product and operational features prioritised by product managers.
-* *High number of callouts*. Your product teams spend most of their time fighting operational problems e.g. intermittent alerts, deployment failures, infrastructure errors.
+* _Slow delivery of planned work_. Your product teams don't deliver in a timely fashion the product and operational features prioritised by product managers.
+* _High number of callouts_. Your product teams spend most of their time fighting operational problems e.g. intermittent alerts, deployment failures, infrastructure errors.
 
 Unplanned operational work doesn't count towards planned product or operational features. We've heard this expressed as "BAU work". Day to day operational tasks simply need to be completed by a product team, and they constitute rework. If the amount of BAU work is excessive, a product team cannot complete planned work when expected by the product manager.
 
@@ -69,33 +69,33 @@ We don't see this pitfall in practice as often as it's feared. We believe the fe
 
 This looks like:
 
-* *Insufficient deployment frequency*. Your product teams can't achieve weekly deployments or more.
-* *Prolonged change management process*. Your change management team insists each deployment completes a time-consuming change management process.
+* _Insufficient deployment frequency_. Your product teams can't achieve weekly deployments or more.
+* _Prolonged change management process_. Your change management team insists each deployment completes a time-consuming change management process.
 
-We refer to slow, prolonged change management processes as treacle, and they have a significant impact on deployment lead times. It naturally encourages fewer, larger deployments, which makes it harder to understand the changeset and diagnose any production problems. 
+We refer to slow, prolonged change management processes as treacle, and they have a significant impact on deployment lead times. It naturally encourages fewer, larger deployments, which makes it harder to understand the changeset and diagnose any production problems.
 
-This pitfall happens when your change management process is entirely reactive, a single change category is applied to all production deployments, and each deployment requires a change approval. It creates a fraught relationship between your change management team and your product teams. 
+This pitfall happens when your change management process is entirely reactive, a single change category is applied to all production deployments, and each deployment requires a change approval. It creates a fraught relationship between your change management team and your product teams.
 
-At the same time, it's important that product teams comply with internal requirements on change management, particularly if your organisation follows IT standards such as ITIL v3. A discussion  with a change management team to streamline change approvals needs to be accompanied by a commitment to preserve change auditing.  
+At the same time, it's important that product teams comply with internal requirements on change management, particularly if your organisation follows IT standards such as ITIL v3. A discussion with a change management team to streamline change approvals needs to be accompanied by a commitment to preserve change auditing.
 
 To avoid this pitfall:
 
-* [Pre-approve low risk, repeatable changes](https://you-build-it-you-run-it.playbook.ee/practices/operational-enablers#pre-approve-low-risk-repeatable-changes) to accelerate a majority of deployments. 
+* [Pre-approve low risk, repeatable changes](https://you-build-it-you-run-it.playbook.ee/practices/operational-enablers#pre-approve-low-risk-repeatable-changes) to accelerate a majority of deployments.
 * [Automate change auditing](https://you-build-it-you-run-it.playbook.ee/practices/operational-enablers#automate-change-auditing) for compliance with change management processes.
 
 ## No major incident management
 
 This looks like:
 
-* *Lack of incident response collaboration*. Your product teams don't know how to involve other product teams and/or operational enabler teams in major incidents
-* *Major incident ignorance*. Your incident management team don't know when digital services are experiencing major incidents
-* *No crisis communications*. Your senior leadership don't know when major incidents are creating significant financial losses/
+* _Lack of incident response collaboration_. Your product teams don't know how to involve other product teams and/or operational enabler teams in major incidents
+* _Major incident ignorance_. Your incident management team don't know when digital services are experiencing major incidents
+* _No crisis communications_. Your senior leadership don't know when major incidents are creating significant financial losses/
 
 A lack of incident management creates inconsistent behaviours and communication pathways during major incidents. It has a negative impact on resolution times and financial losses incurred, when an incident requires more than one product team to be resolved.
 
-This pitfall happens when your incident management team is excluded from the incident response process for digital services. It means different product teams will have distinct behaviours and communication methods during production incidents. It creates an impression that product teams aren't rigorous during incident response. 
+This pitfall happens when your incident management team is excluded from the incident response process for digital services. It means different product teams will have distinct behaviours and communication methods during production incidents. It creates an impression that product teams aren't rigorous during incident response.
 
-Crisis communications are particularly important during a major incident, and product teams won't know who to contact or how often to contact them with incident updates. A lack of clear, timely information to senior leadership during a major incident is an easy way to create doubts about an entire operating model. 
+Crisis communications are particularly important during a major incident, and product teams won't know who to contact or how often to contact them with incident updates. A lack of clear, timely information to senior leadership during a major incident is an easy way to create doubts about an entire operating model.
 
 To avoid this pitfall:
 
@@ -105,13 +105,13 @@ To avoid this pitfall:
 
 This looks like:
 
-* *Embedded specialists shared between product teams*. Your organisational model calls for *N* embedded specialists, each dedicated to one of your *N *product teams, but you've got less than *N *specialists and they're assigned to multiple teams. 
-* *Unpredictable workload for embedded specialists*. Your embedded specialists are either bored from a lack of work, or burned out from too much work across multiple teams. 
-* *Loneliness for embedded specialists*. Your embedded specialists don't have opportunities to work together, learn from one another, or even talk to one another.* *
+* _Embedded specialists shared between product teams_. Your organisational model calls for _N_ embedded specialists, each dedicated to one of your _N_ product teams, but you've got less than _N_ specialists and they're assigned to multiple teams.
+* _Unpredictable workload for embedded specialists_. Your embedded specialists are either bored from a lack of work, or burned out from too much work across multiple teams.
+* _Loneliness for embedded specialists_. Your embedded specialists don't have opportunities to work together, learn from one another, or even talk to one another.
 
-This applies to any technology specialty tied to operational work - DBAs, InfoSec analysts, network admins, operability engineers, and more. Balancing breadth of cross-functional product teams and depth of specialist expertise is hard. 
+This applies to any technology specialty tied to operational work - DBAs, InfoSec analysts, network admins, operability engineers, and more. Balancing breadth of cross-functional product teams and depth of specialist expertise is hard.
 
-This pitfall happens as a countermeasure, after a small, central team of specialists can't handle demand from your growing number of product teams. There's little desire for developers to debug Postgres in production or learn Terraform on the job, so the answer is to embed a specialist in each product team. However, there's a scarcity of affordable specialists in the marketplace, and the need for expertise in product teams fluctuates. The result is a large expertise bottleneck is split into multiple expertise bottlenecks. Instead of spending hours or days waiting on a central specialist team, a product team waits for hours or days for its own embedded specialist to be available. 
+This pitfall happens as a countermeasure, after a small, central team of specialists can't handle demand from your growing number of product teams. There's little desire for developers to debug Postgres in production or learn Terraform on the job, so the answer is to embed a specialist in each product team. However, there's a scarcity of affordable specialists in the marketplace, and the need for expertise in product teams fluctuates. The result is a large expertise bottleneck is split into multiple expertise bottlenecks. Instead of spending hours or days waiting on a central specialist team, a product team waits for hours or days for its own embedded specialist to be available.
 
 To avoid this pitfall:
 
@@ -131,12 +131,12 @@ This pitfall happens when product team members feel unprepared for on-call suppo
 To avoid this pitfall:
 
 1. [Prepare for on-call from day one](https://you-build-it-you-run-it.playbook.ee/practices/incident-response#prepare-for-on-call-from-day-one), so product team members are well equipped to handle out of hours production alerts.
-1. [Re-architect digital services for adaptability](https://you-build-it-you-run-it.playbook.ee/practices/build#architect-for-adaptability), so digital services don't require substantial human intervention, and are fast to fix on failure
-1. [Ensure fair remuneration for on-call developers](https://you-build-it-you-run-it.playbook.ee/practices/governance#ensure-fair-remuneration-for-on-call-developers), so product team members feel compensated for the disruption to their personal lives. 
-1. [Craft a sustainable on-call schedule](https://you-build-it-you-run-it.playbook.ee/practices/incident-response#craft-a-sustainable-on-call-schedule), so no one product team member spends too much time on-call out of hours.  
+2. [Re-architect digital services for adaptability](https://you-build-it-you-run-it.playbook.ee/practices/build#architect-for-adaptability), so digital services don't require substantial human intervention, and are fast to fix on failure
+3. [Ensure fair remuneration for on-call developers](https://you-build-it-you-run-it.playbook.ee/practices/governance#ensure-fair-remuneration-for-on-call-developers), so product team members feel compensated for the disruption to their personal lives.
+4. [Craft a sustainable on-call schedule](https://you-build-it-you-run-it.playbook.ee/practices/incident-response#craft-a-sustainable-on-call-schedule), so no one product team member spends too much time on-call out of hours.
 
 This pitfall affects operations teams as well. Your app support team may have some useful organisational context and experiences to contribute.
 
-|Lost accountability in retail|
-|---|
-|I worked on a team at a retail customer, building a shifts app for staff mobile devices in bricks and mortar stores. We built a cloud-based platform in Azure and the mobile app with You Build It You Run It, and the benefits were clear to our customer sponsor. We achieved a time to repair of less than 10 minutes, and we deployed on average twice a day for over six months.<br><br>Unfortunately, once the shifts app became a live service and its user base hit a critical mass, its ownership changed to a different business function within the customer organisation. Some people in this new business function were unwilling to embrace our ways of working.<br><br>An [operations manager became accountable](https://you-build-it-you-run-it.playbook.ee/pitfalls#operations-manager-still-accountable) for the reliability of our shifts app. We remained responsible for supporting the app, but we were no longer permitted to perform deployments without Change Advisory Board approval. As a result, our time to repair non-critical issues increased from 10 minutes to 1 week, of which 5 days was the governance process.<br><br>By the time I left the engagement, we were down to deploying once a fortnight. It was strange, because people celebrated how quickly we could resolve live issues, and yet they didn't quite make the connection to how important You Build It You Run It had been.<br><br>![Julia Wilson](../.gitbook/assets/practices/julia-wilson.jpg)<br><br>[Julia Wilson](https://www.linkedin.com/in/julia-l-wilson/)<br>Developer<br>EE UK|
+| Lost accountability in retail                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p>I worked on a team at a retail customer, building a shifts app for staff mobile devices in bricks and mortar stores. We built a cloud-based platform in Azure and the mobile app with You Build It You Run It, and the benefits were clear to our customer sponsor. We achieved a time to repair of less than 10 minutes, and we deployed on average twice a day for over six months.<br><br>Unfortunately, once the shifts app became a live service and its user base hit a critical mass, its ownership changed to a different business function within the customer organisation. Some people in this new business function were unwilling to embrace our ways of working.<br><br>An <a href="https://you-build-it-you-run-it.playbook.ee/pitfalls#operations-manager-still-accountable">operations manager became accountable</a> for the reliability of our shifts app. We remained responsible for supporting the app, but we were no longer permitted to perform deployments without Change Advisory Board approval. As a result, our time to repair non-critical issues increased from 10 minutes to 1 week, of which 5 days was the governance process.<br><br>By the time I left the engagement, we were down to deploying once a fortnight. It was strange, because people celebrated how quickly we could resolve live issues, and yet they didn't quite make the connection to how important You Build It You Run It had been.<br><br><img src=".gitbook/assets/practices/julia-wilson.jpg" alt="Julia Wilson"><br><br><a href="https://www.linkedin.com/in/julia-l-wilson/">Julia Wilson</a><br>Developer<br>EE UK</p> |
